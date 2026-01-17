@@ -127,5 +127,13 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GiantEagle_Fly" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d264b1b2-d56f-4c6e-9c43-d3cff0d39d9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponBond" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="112f8006-da78-4df6-9ef2-02d54332d250" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand,BOUNDWEAPON,100, -1);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

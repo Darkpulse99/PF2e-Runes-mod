@@ -6,17 +6,17 @@ end
 
 function RunesApplicableWeapon()
 	local weapon = GetActiveWeapon()
-	return (~Tagged('NORUNES',weapon) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY_2',0))))
+	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},weapon) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY_2',0))))
 end
 
 function RunesApplicableHandwraps()
 	local handwraps = GetItemInEquipmentSlot(EquipmentSlot.Gloves)
-	return (~Tagged('NORUNES',handwraps) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY_2',0))))
+	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},handwraps) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY_2',0))))
 end
 
 function RunesApplicableArmor()
 	local armor = GetActiveArmor()
-	return (~Tagged('NORUNES',armor) & ((HasAnyStatus({}, {'ARMOR_POTENCY','PROPERTY_RUNES_0'}, {},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY',0)) | (HasAnyStatus({'ARMOR_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY_2',0))))
+	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},armor) & ((HasAnyStatus({}, {'ARMOR_POTENCY','PROPERTY_RUNES_0'}, {},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY',0)) | (HasAnyStatus({'ARMOR_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY_2',0))))
 end
 
 function IsWeaponDamageDieD4(weapon)

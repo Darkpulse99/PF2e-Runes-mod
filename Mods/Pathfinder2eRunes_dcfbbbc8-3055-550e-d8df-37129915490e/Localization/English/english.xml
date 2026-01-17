@@ -816,8 +816,8 @@
   <content contentuid="h3c02cb7ag594eg4ef8gbda7gb1e4fa8015d0" version="3">The thick leather straps wrapped around the base of the blade creak under a solid grip.</content>
   <content contentuid="h87657ec3g8226g4b54ga02bg0dbc467c9f95" version="4">Halberd</content>
   <content contentuid="hb166d38bge841g4518g8627gab21f077973c" version="4">This halberd's spike is black with ash that cannot be washed away.</content>
-  <content contentuid="h11daa018g3756g4172g8691g9d3d3f15703f" version="4">Handaxe</content>
-  <content contentuid="hb65f4a52gcf1ag43ecgb8a5g50d51431e973" version="3">This axe's hooked blade is crafted to cleave flesh and bone.</content>
+  <content contentuid="h11daa018g3756g4172g8691g9d3d3f15703f" version="7">Handaxe</content>
+  <content contentuid="hb65f4a52gcf1ag43ecgb8a5g50d51431e973" version="6">This axe's hooked blade is crafted to cleave flesh and bone.</content>
   <content contentuid="ha4a4498eg2981g4711g94cegd9060420f6fc" version="4">Hand Crossbow</content>
   <content contentuid="ha076bfb7g162eg4064gbcdeg66aa7335dfc9" version="3">A subtle magic runs through both strings of this crossbow, keeping the bows even once the lock is released.</content>
   <content contentuid="hf51694aega5f3g4e16g9b98gdc8fe9eb4a55" version="4">Heavy Crossbow</content>
@@ -1187,8 +1187,8 @@
   <content contentuid="hc88885e1gbf42g41d7g8f63gefc27b251571" version="2">A blade of flawless craft. As it parts the air, you fancy you can hear a faint, whispering shriek...</content>
   <content contentuid="hf92ea138g2cc8g475fga85agcee53d4545a0" version="3">Cruel Sting </content>
   <content contentuid="h118a5781g4e26g4c14g8eb8g70b20c249f22" version="2">The trauma of becoming a drider is quickly set aside with a cold arachnid dispassion. This sword follows that disturbing trend - a replenishing poison gland is built within, deployed only against trapped opponents. </content>
-  <content contentuid="hc0f1b48dgf3dag436bgbbd2gdfdf8ce98979" version="5">Nine-Fingers Keene</content>
-  <content contentuid="he90560a2g106fg4daeg825cg8480fb6f52a4" version="5">Guildmaster</content>
+  <content contentuid="hc0f1b48dgf3dag436bgbbd2gdfdf8ce98979" version="6">Nine-Fingers Keene</content>
+  <content contentuid="he90560a2g106fg4daeg825cg8480fb6f52a4" version="6">Guildmaster</content>
   <content contentuid="h089d4af8g387ag4f57g8aceg312b5f7c0595" version="1">Clear property runes</content>
   <content contentuid="hbf913637gefc5g9986gc8c9g19b9d275c486" version="1">Strips all property runes from a weapon or set of armor.</content>
   <content contentuid="h3dec5712gc759g311fg2fa5gbfcef2472f8a" version="1">Property runes: 2</content>
@@ -1394,4 +1394,13 @@
   <content contentuid="h51353a9ag75d1g08edgc6b6gf07afba99495" version="1">Blessed Armament: Fearsome</content>
   <content contentuid="h9de270f7g206cg9ebcg26a1gbde8877c46f5" version="1">Blessed Armament: Returning</content>
   <content contentuid="h76aa32bbgb686g0019gb241g54b00f65e3ec" version="1">Blessed Armament: Vitalizing</content>
+  <content contentuid="h119af8a8g079cg1065g25a5gc88b65617e4e" version="1">This item can not be etched with property runes.</content>
+  <content contentuid="h74532b2eg92d0gc446gd33cg124c66959f57" version="1">This item can not be etched with runes.</content>
+  <content contentuid="h6cc44dc5g6f92ga368g084ageff9e6e9ffa0" version="1">This item can not be etched with any more runes.</content>
+  <content contentuid="hce4258c0g7358g359fg60f7g436148dab4d8" version="1">This rune is already etched onto the item.</content>
+  <content contentuid="h618b4d9dga57dg001bgb458gd8bfb11b1af1" version="1">Bound Weapon</content>
+  <content contentuid="h60ab64b8ge79bgdeb1gaf22g65b4625c7467" version="1">Ritually bound to its wielder. &lt;br&gt;&lt;br&gt;The weapon can't be knocked out of the wielder's hand, and automatically returns to the wielder when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.</content>
+  <content contentuid="h4b33c014g2696gdf3bgf2b8gb76cbc4e1fd4" version="1">Bound Weapon</content>
+  <content contentuid="h88c130f7g3bc8g7677g71f2g081d3e3cc8c2" version="1">Ritually bound to its wielder. &lt;br&gt;&lt;br&gt;The weapon can't be knocked out of the wielder's hand, and automatically returns to the wielder when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.</content>
+  <content contentuid="hb1a1600cgbd9fg4378g8389g6993c964b378" version="2">The Blood of Lathander</content>
 </contentList>

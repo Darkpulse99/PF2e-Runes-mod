@@ -112,3 +112,9 @@ data "PrepareEffect" "e8109f4b-2439-4424-9bc8-743270220f47"
 data "CastEffect" "6fa15e05-79a0-466e-adbb-6d3ad9c3e6fc"
 data "TargetEffect" "b01d8d96-abb3-4e88-8e41-ce12c7dbf30a"
 
+new entry "Shout_WeaponBond"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_WeaponBond"
+data "SpellProperties" "ApplyEquipmentStatus(MainHand,BOUNDWEAPON,100, -1);"
+

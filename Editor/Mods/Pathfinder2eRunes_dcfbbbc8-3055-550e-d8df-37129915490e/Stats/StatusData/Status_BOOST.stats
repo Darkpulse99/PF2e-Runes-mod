@@ -65,6 +65,7 @@
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RUNE_CRUSHING);RemoveStatus(RUNE_CRUSHING_GREATER);RemoveStatus(RUNE_RETURNING);RemoveStatus(RUNE_BANE_ABERRATION);RemoveStatus(RUNE_BANE_BEAST);RemoveStatus(RUNE_BANE_CONSTRUCT);RemoveStatus(RUNE_BANE_DRAGON);RemoveStatus(RUNE_BANE_ELEMENTAL);RemoveStatus(RUNE_BANE_FIEND);RemoveStatus(RUNE_BANE_MONSTROSITY);RemoveStatus(RUNE_FEARSOME);RemoveStatus(RUNE_FEARSOME_GREATER);RemoveStatus(RUNE_VITALIZING);RemoveStatus(RUNE_WOUNDING);RemoveStatus(RUNE_CORROSIVE);RemoveStatus(RUNE_FLAMING);RemoveStatus(RUNE_FROST);RemoveStatus(RUNE_SHOCK);RemoveStatus(RUNE_THUNDERING);RemoveStatus(RUNE_EXTENDING);RemoveStatus(RUNE_IMPACTFUL);RemoveStatus(RUNE_SERRATING);RemoveStatus(RUNE_HOLY);RemoveStatus(RUNE_HOPEFUL)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PROPERTY_RUNES_0,100,-1)" />
       </fields>
     </stat_object>
     <stat_object color="#FF00BFFF" is_substat="false">
@@ -139,8 +140,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponDamageDieD4()):WeaponDamageDieOverride(2d4);IF(IsWeaponDamageDieD6()):WeaponDamageDieOverride(2d6);IF(IsWeaponDamageDieD8()):WeaponDamageDieOverride(2d8);IF(IsWeaponDamageDieD10()):WeaponDamageDieOverride(2d10);IF(IsWeaponDamageDieD12()):WeaponDamageDieOverride(2d12);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not (HasStatus('STRIKING') or HasStatus('MAGIC_WEAPON'))" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('STRIKING')):ApplyStatus(STRIKING_TECHNICAL,100,-1)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="OnApplyConditions" type="StringTableFieldDefinition" value="HasStatus('STRIKING',context.Source) or HasStatus('MAGIC_WEAPON',context.Source)" />
       </fields>
     </stat_object>
@@ -153,7 +153,7 @@
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponDamageDieD4()):WeaponDamageDieOverride(3d4);IF(IsWeaponDamageDieD6()):WeaponDamageDieOverride(3d6);IF(IsWeaponDamageDieD8()):WeaponDamageDieOverride(3d8);IF(IsWeaponDamageDieD10()):WeaponDamageDieOverride(3d10);IF(IsWeaponDamageDieD12()):WeaponDamageDieOverride(3d12);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not (HasStatus('STRIKING_GREATER') or HasStatus('MAGIC_WEAPON_6'))" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('STRIKING')):ApplyStatus(STRIKING_TECHNICAL,100,-1);IF(HasStatus('STRIKING_GREATER')):ApplyStatus(STRIKING_GREATER_TECHNICAL,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('STRIKING')):ApplyStatus(STRIKING_TECHNICAL,100,-1)" />
         <field name="OnApplyConditions" type="StringTableFieldDefinition" value="HasStatus('STRIKING_GREATER',context.Source) or HasStatus('MAGIC_WEAPON_6',context.Source)" />
       </fields>
     </stat_object>
@@ -427,6 +427,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7a85c4c7-09e4-4bc3-b688-69f1f0e73ec3" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0a836475g8681g8060g5632gd628a459369e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b14ee79g2de3ge7a0g1102gf583b38c55aa" version="3" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RUNE_VITALIZING" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -475,7 +476,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8fa6d8d9-95d0-42b9-a606-2fbf05bf2c8a" />
-        <field name="Name" type="NameTableFieldDefinition" value="BLEEDINGD6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WOUNDING_STATUS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3afd546c-6695-483f-9a61-f4feb91e64a8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f0df1f9ge835g06f7g6504g18421c9b2c0d" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9177bdb8g9cf8gf2d6gd4b1gb370a2991f0a" version="1" />
@@ -490,7 +491,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d01286ef-4f59-4106-b921-215861d2b717" />
-        <field name="Name" type="NameTableFieldDefinition" value="BLEEDINGD6_CRIT" />
+        <field name="Name" type="NameTableFieldDefinition" value="WOUNDING_STATUS_CRIT" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8fa6d8d9-95d0-42b9-a606-2fbf05bf2c8a" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68e673b5g5c1dgc30bgaf62gf00b290ca49b" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8a2accbgd664g4bb5ga3b6gc59401a173f9" version="1" />
@@ -809,7 +810,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAGIC_WEAPON" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0dfaec7d-fb0e-4bd6-82cc-2d713e3169a2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IF(HasAnyStatus({},{},{'WEAPON_POTENCY','WEAPON_POTENCY_2'}, context.Source)):WeaponAttackRollBonus(1);" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(STRIKING_TECHNICAL,100,10);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_TECHNICAL')):ApplyStatus(STRIKING_TECHNICAL,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -818,7 +819,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAGIC_WEAPON_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fbbcbaad-c93a-463e-84ab-9dd562ea124a" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IF(HasAnyStatus({},{},{'WEAPON_POTENCY','WEAPON_POTENCY_2'}, context.Source)):WeaponAttackRollBonus(2);IF(HasAnyStatus({'WEAPON_POTENCY'},{},{'WEAPON_POTENCY_2'}, context.Source)):WeaponAttackRollBonus(1);" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(STRIKING_GREATER_TECHNICAL,100,10);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER_TECHNICAL')):ApplyStatus(STRIKING_GREATER_TECHNICAL,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

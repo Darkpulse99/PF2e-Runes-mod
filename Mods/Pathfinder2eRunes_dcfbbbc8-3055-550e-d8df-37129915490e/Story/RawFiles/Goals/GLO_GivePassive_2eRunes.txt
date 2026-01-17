@@ -1,0 +1,40 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_2eRunes_Initialized(0);
+KBSECTION
+IF
+LevelLoaded(_)
+AND
+DB_2eRunes_Initialized(0)
+THEN
+TimerLaunch("2eRunes_InitDelay", 0);
+
+IF
+TimerFinished("2eRunes_InitDelay")
+THEN
+NOT DB_2eRunes_Initialized(0);
+DB_2eRunes_Initialized(1);
+
+IF
+DB_Players(_Player)
+AND
+DB_2eRunes_Initialized(1)
+AND
+HasPassive(_Player, "RuneRules", 0)
+THEN
+AddPassive(_Player, "RuneRules");
+
+IF
+CombatStarted(_CombatGuid)
+AND
+DB_Is_InCombat(_Character, _CombatGuid)
+AND
+NOT DB_Players((CHARACTER)_Character)
+AND
+HasPassive(_Character, "RuneRules", 0)
+THEN
+AddPassive(_Character, "RuneRules");
+EXITSECTION
+
+ENDEXITSECTION
