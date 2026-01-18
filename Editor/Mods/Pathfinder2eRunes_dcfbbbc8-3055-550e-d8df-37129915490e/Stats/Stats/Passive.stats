@@ -45,7 +45,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0e8f869a-f818-4947-adf0-033f7a75e17e" />
-        <field name="Name" type="NameTableFieldDefinition" value="Armor_Potency" />
+        <field name="Name" type="NameTableFieldDefinition" value="Armor_Potency_WIP" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf5a3dd5g850eg0060g97cdg8e78e81bbfd1" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnInventoryChanged" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('ARMOR_POTENCY',GetActiveArmor(context.Source))):ApplyStatus(ARMOR_POTENCY_ACBONUS,100,-1)" />
@@ -55,7 +55,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1bced16c-10a8-4038-bdfa-e6fc7bb67042" />
-        <field name="Name" type="NameTableFieldDefinition" value="Armor_Potency_2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Armor_Potency_2_WIP" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="had9270eega75dgadebg3869ga53523cb19ee" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnInventoryChanged" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('ARMOR_POTENCY_2',GetActiveArmor(context.Source))):ApplyStatus(SELF,ARMOR_POTENCY_2,100,-1);IF(not HasStatus('ARMOR_POTENCY_2_ACBONUS',GetActiveArmor(context.Source))):RemoveStatus(SELF,ARMOR_POTENCY_2_ACBONUS)" />

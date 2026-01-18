@@ -152,10 +152,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="da4ecb15-464d-4ec0-a2a3-f547a9b4e901" />
         <field name="Name" type="NameTableFieldDefinition" value="RuneArmorPotency" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6106e0c0-498e-4245-a8fa-3be8eb7f25f2" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(Breast,ARMOR_POTENCY,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not HasStatus('ARMOR_POTENCY',GetActiveArmor(context.Target));" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(Breast,ARMOR_POTENCY_WIP,100,-1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not HasStatus('ARMOR_POTENCY_WIP',GetActiveArmor(context.Target));" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfb1d88eag1d95g038cg4c52g1df231315868" version="1" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_POTENCY,100,-1)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_POTENCY_WIP,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -163,10 +163,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e7d319e0-d8da-4769-85d0-150ecde327b9" />
         <field name="Name" type="NameTableFieldDefinition" value="RuneArmorPotency_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6106e0c0-498e-4245-a8fa-3be8eb7f25f2" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(Breast,ARMOR_POTENCY_2,100,-1)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not HasStatus('ARMOR_POTENCY_2',GetActiveArmor(context.Target));" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(Breast,ARMOR_POTENCY_2_WIP,100,-1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and not HasStatus('ARMOR_POTENCY_2_WIP',GetActiveArmor(context.Target));" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd8a6f332g96e2g932dgd892g041c30e2bcc9" version="1" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_POTENCY_2,100,-1)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_POTENCY_2_WIP,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
