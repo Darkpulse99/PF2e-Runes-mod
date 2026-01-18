@@ -8,7 +8,7 @@ data "StatusType" "BOOST"
 data "DisplayName" "hc4b66807g9c7fg75a2g271dgda00665cad75;1"
 data "StackId" "RUNE_ALL_UNLOCK"
 data "StackType" "Overwrite"
-data "Passives" "Weapon_Potency;Weapon_Potency_2;Striking;Striking_Greater;Crushing_Rune;Crushing_Greater_Rune;Bane_Aberration_Rune;Bane_Beast_Rune;Bane_Construct_Rune;Bane_Dragon_Rune;Bane_Elemental_Rune;Bane_Fiend_Rune;Bane_Monstrosity_Rune;Fearsome_Rune;Fearsome_Greater_Rune;Vitalizing_Rune;Wounding_Rune;Corrosive_Rune;Flaming_Rune;Frost_Rune;Shock_Rune;Thundering_Rune;Extending_Rune;Impactful_Rune;Serrating_Rune;Holy_Rune;Hopeful_Rune;Armor_Potency;Armor_Potency_2;"
+data "Passives" "Weapon_Potency;Weapon_Potency_2;Striking;Striking_Greater;Crushing_Rune;Crushing_Greater_Rune;Bane_Aberration_Rune;Bane_Beast_Rune;Bane_Construct_Rune;Bane_Dragon_Rune;Bane_Elemental_Rune;Bane_Fiend_Rune;Bane_Monstrosity_Rune;Fearsome_Rune;Fearsome_Greater_Rune;Vitalizing_Rune;Wounding_Rune;Corrosive_Rune;Flaming_Rune;Frost_Rune;Shock_Rune;Thundering_Rune;Extending_Rune;Impactful_Rune;Serrating_Rune;Holy_Rune;Hopeful_Rune;"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 
 new entry "PROPERTY_RUNES_0"

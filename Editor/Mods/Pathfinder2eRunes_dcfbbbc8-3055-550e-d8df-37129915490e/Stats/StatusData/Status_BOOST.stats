@@ -14,7 +14,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc4b66807g9c7fg75a2g271dgda00665cad75" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="RUNE_ALL_UNLOCK" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="Passives" type="StringTableFieldDefinition" value="Weapon_Potency;Weapon_Potency_2;Striking;Striking_Greater;Crushing_Rune;Crushing_Greater_Rune;Bane_Aberration_Rune;Bane_Beast_Rune;Bane_Construct_Rune;Bane_Dragon_Rune;Bane_Elemental_Rune;Bane_Fiend_Rune;Bane_Monstrosity_Rune;Fearsome_Rune;Fearsome_Greater_Rune;Vitalizing_Rune;Wounding_Rune;Corrosive_Rune;Flaming_Rune;Frost_Rune;Shock_Rune;Thundering_Rune;Extending_Rune;Impactful_Rune;Serrating_Rune;Holy_Rune;Hopeful_Rune;Armor_Potency;Armor_Potency_2;" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Weapon_Potency;Weapon_Potency_2;Striking;Striking_Greater;Crushing_Rune;Crushing_Greater_Rune;Bane_Aberration_Rune;Bane_Beast_Rune;Bane_Construct_Rune;Bane_Dragon_Rune;Bane_Elemental_Rune;Bane_Fiend_Rune;Bane_Monstrosity_Rune;Fearsome_Rune;Fearsome_Greater_Rune;Vitalizing_Rune;Wounding_Rune;Corrosive_Rune;Flaming_Rune;Frost_Rune;Shock_Rune;Thundering_Rune;Extending_Rune;Impactful_Rune;Serrating_Rune;Holy_Rune;Hopeful_Rune;" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
