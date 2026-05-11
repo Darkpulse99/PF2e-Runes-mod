@@ -10,6 +10,7 @@
         <field name="ItemUseType" type="EnumerationTableFieldDefinition" value="Consumable" enumeration_type_name="ItemUseTypes" version="1" />
         <field name="UseConditions" type="StringTableFieldDefinition" value="not IsSummon() and not Combat();" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -70,11 +71,11 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f3e63604-e68c-4a58-a3f3-b1917a91e767" />
-        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Reinforcing" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Reinforcing_Minor" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_4" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0c42fdd7-816d-42a2-9124-86b2fde3f948" />
-        <field name="Value" type="IntegerTableFieldDefinition" value="75" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="50" />
         <field name="Level" type="IntegerTableFieldDefinition" value="4" />
       </fields>
     </stat_object>
@@ -84,8 +85,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Reinforcing_Lesser" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="604d318d-a737-41c6-b347-2e590e5f633e" />
-        <field name="Value" type="IntegerTableFieldDefinition" value="300" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="150" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_7" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="7" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -94,8 +96,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="OBJ_Runestone_Reinforcing_Moderate" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="40ae8894-ea96-4453-9274-dde133ae202d" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b47a8bae-50a2-40b9-871b-3cf5dbdd941d" />
-        <field name="Value" type="IntegerTableFieldDefinition" value="900" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="300" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="Runestone;Runestone_10" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -355,7 +358,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9593c4c6-4c90-4141-817a-024cf2cb6655" />
-        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Tool_Whetstone" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Tool_RunesmithingTools" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c9bf8072-577e-44d8-8ce8-3a8f1e8c76d4" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="14053a44-611e-4b7d-a853-9beac0aa6c1a" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="aba2b73e-a68a-4c0a-a76b-f7d56aecdde6" />
@@ -369,7 +372,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="702d20a8-573a-4749-be49-684c2b623bca" />
-        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Backpack_RunestonePouch" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Backpack_RunestoneSack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5d40bede-ca1a-469a-aa47-05d4319d8fc7" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e1bf81c4-0c2a-417f-9196-ff6dea67dcf7" />
         <field name="Weight" type="FloatTableFieldDefinition" value="0.2" />

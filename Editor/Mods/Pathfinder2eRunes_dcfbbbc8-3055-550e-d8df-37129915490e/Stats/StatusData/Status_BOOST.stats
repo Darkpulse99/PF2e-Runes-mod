@@ -39,7 +39,6 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h447ae8d8g854bgd938ga8ddgaeb578b6df43" version="2" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9731a544-8843-4da2-8b8f-20720243fa0d" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PROPERTY_RUNES_0,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -50,7 +49,6 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha9e44644g8ea5g74f9gb54cgc2509cb7f59d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd7fb5161gc587g641dga2e7g3886d30ec470" version="2" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PROPERTY_RUNES_1,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -87,7 +85,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponAttackRollBonus(1);WeaponProperty(Magical);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="6994e8dc-14ac-48a5-9c8e-c1925031e852" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PROPERTY_RUNES_0,100,-1)" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="not Tagged('NORUNES', context.Source) and (IsWeapon(context.Source) or Tagged('HANDWRAPS', context.Source)) and not HasStatus('WEAPON_POTENCY_2', context.Source)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -99,6 +97,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h68a6a834g849fg3a8cgaa32gdac11358ed36" version="2" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponAttackRollBonus(2);WeaponProperty(Magical);" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="not Tagged('NORUNES', context.Source) and (IsWeapon(context.Source) or Tagged('HANDWRAPS', context.Source))" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -114,7 +113,8 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="6994e8dc-14ac-48a5-9c8e-c1925031e852" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(STRIKING_TECHNICAL,100,-1)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponDamageDieD4()):WeaponDamageDieOverride(2d4);IF(IsWeaponDamageDieD6()):WeaponDamageDieOverride(2d6);IF(IsWeaponDamageDieD8()):WeaponDamageDieOverride(2d8);IF(IsWeaponDamageDieD10()):WeaponDamageDieOverride(2d10);IF(IsWeaponDamageDieD12()):WeaponDamageDieOverride(2d12);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponDamageDieD4()):WeaponDamageDieOverride(2d4);IF(IsWeaponDamageDieD6()):WeaponDamageDieOverride(2d6);IF(IsWeaponDamageDieD8()):WeaponDamageDieOverride(2d8);IF(IsWeaponDamageDieD10()):WeaponDamageDieOverride(2d10);IF(IsWeaponDamageDieD12()):WeaponDamageDieOverride(2d12);WeaponProperty(Magical);" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="not Tagged('NORUNES', context.Source) and (IsWeapon(context.Source) or Tagged('HANDWRAPS', context.Source)) and not HasStatus('STRIKING_GREATER', context.Source)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -126,7 +126,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e0ddf95gbf4eg7d56g8023ga84c2ef19339" version="2" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(STRIKING_GREATER_TECHNICAL,100,-1)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponDamageDieD4()):WeaponDamageDieOverride(3d4);IF(IsWeaponDamageDieD6()):WeaponDamageDieOverride(3d6);IF(IsWeaponDamageDieD8()):WeaponDamageDieOverride(3d8);IF(IsWeaponDamageDieD10()):WeaponDamageDieOverride(3d10);IF(IsWeaponDamageDieD12()):WeaponDamageDieOverride(3d12);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponDamageDieD4()):WeaponDamageDieOverride(3d4);IF(IsWeaponDamageDieD6()):WeaponDamageDieOverride(3d6);IF(IsWeaponDamageDieD8()):WeaponDamageDieOverride(3d8);IF(IsWeaponDamageDieD10()):WeaponDamageDieOverride(3d10);IF(IsWeaponDamageDieD12()):WeaponDamageDieOverride(3d12);WeaponProperty(Magical);" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="not Tagged('NORUNES', context.Source) and (IsWeapon(context.Source) or Tagged('HANDWRAPS', context.Source))" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -232,35 +233,39 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="993f22a1-9f72-41a6-b318-69a7a3136aa8" />
-        <field name="Name" type="NameTableFieldDefinition" value="REINFORCING" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf4e103dcgf414g6989g578eg9237c5e1e364" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22b05aa7gcaf7g0b81ga7ceg7c32af24af71" version="3" />
+        <field name="Name" type="NameTableFieldDefinition" value="RUNE_REINFORCING_MINOR" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf4e103dcgf414g6989g578eg9237c5e1e364" version="5" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22b05aa7gcaf7g0b81ga7ceg7c32af24af71" version="6" />
         <field name="Icon" type="StringTableFieldDefinition" value="PUZ_Druids_Rune_Stone_A_Tablet_Elk_A" />
         <field name="StackId" type="StringTableFieldDefinition" value="REINFORCING" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="6994e8dc-14ac-48a5-9c8e-c1925031e852" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="44;22;8;64;32" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="not Tagged('NORUNES', context.Source) and Tagged('WPN_SHIELD', context.Source) and ReinforcingApplicable('Minor')" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0065976d-28d3-4470-91bb-e0033acd2ed8" />
-        <field name="Name" type="NameTableFieldDefinition" value="REINFORCING_LESSER" />
+        <field name="Name" type="NameTableFieldDefinition" value="RUNE_REINFORCING_LESSER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="993f22a1-9f72-41a6-b318-69a7a3136aa8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha60e2cb2gd42cgf63dg5eacgf00e29653028" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14c9606fgaa6fgaabeg4094g488a1bbdae81" version="1" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="52;26;10;80;40" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="not Tagged('NORUNES', context.Source) and Tagged('WPN_SHIELD', context.Source) and ReinforcingApplicable('Lesser')" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2beb8eef-0b90-4671-a40e-9b2075572924" />
-        <field name="Name" type="NameTableFieldDefinition" value="REINFORCING_MODERATE" />
+        <field name="Name" type="NameTableFieldDefinition" value="RUNE_REINFORCING_MODERATE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="993f22a1-9f72-41a6-b318-69a7a3136aa8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h53b2eae3g0b2cgfa05g556ag80f3240904a2" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac664a8bg00deg4edag67feg6695ce113467" version="1" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="64;32;13;104;52" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="not Tagged('NORUNES', context.Source) and Tagged('WPN_SHIELD', context.Source) and ReinforcingApplicable('Moderate')" />
       </fields>
     </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
@@ -279,8 +284,7 @@
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="6994e8dc-14ac-48a5-9c8e-c1925031e852" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('PROPERTY_RUNES_1')):ApplyStatus(PROPERTY_RUNES_2,100,-1);IF(HasStatus('PROPERTY_RUNES_0')):ApplyStatus(PROPERTY_RUNES_1,100,-1)" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(PROPERTY_RUNES_1);RemoveStatus(PROPERTY_RUNES_2);" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="RunesApplicableWeapon() and (IsWeapon(context.Source) or Tagged('HANDWRAPS', context.Source))" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -292,7 +296,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd16f6f41gc41dg969dge86dg4ae6413c065c" version="2" />
         <field name="StackId" type="StringTableFieldDefinition" value="RUNE_CRUSHING" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('RUNE_CRUSHING_GREATER')):RemoveStatus(PROPERTY_RUNES_1);IF(not HasStatus('RUNE_CRUSHING_GREATER')):RemoveStatus(PROPERTY_RUNES_2);" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="RunesApplicableWeapon() and ((IsWeapon(context.Source) and Tagged('BLUDGEONING', context.Source)) or Tagged('HANDWRAPS', context.Source)) and not HasStatus('RUNE_CRUSHING_GREATER'}, context.Source)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -303,8 +307,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h893dbcd3ga57eg2da9g8917g072116bdaf50" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1347c767gdfddgc200g73c9gf7d9bda104e9" version="2" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('RUNE_CRUSHING') and HasStatus('PROPERTY_RUNES_1')):ApplyStatus(PROPERTY_RUNES_2,100,-1);IF(HasStatus('PROPERTY_RUNES_0')):ApplyStatus(PROPERTY_RUNES_1,100,-1)" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(PROPERTY_RUNES_1);RemoveStatus(PROPERTY_RUNES_2);" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="RunesApplicableWeapon() and ((IsWeapon(context.Source) and Tagged('BLUDGEONING', context.Source)) or Tagged('HANDWRAPS', context.Source))" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -316,6 +319,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3516b570gdce0ge533g60d9g4202c824a307" version="2" />
         <field name="StackId" type="StringTableFieldDefinition" value="RUNE_RETURNING" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ItemReturnToOwner();" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="RunesApplicableWeapon() and IsWeapon(context.Source) and HasWeaponProperty(WeaponProperties.Thrown, context.Source)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -405,7 +409,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="RUNE_FEARSOME" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('RUNE_FEARSOME_GREATER')):RemoveStatus(PROPERTY_RUNES_1);IF(not HasStatus('RUNE_FEARSOME_GREATER')):RemoveStatus(PROPERTY_RUNES_2);" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="RunesApplicableWeapon() and (IsWeapon(context.Source) or Tagged('HANDWRAPS', context.Source)) and not HasStatus('RUNE_FEARSOME_GREATER'}, context.Source)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -416,8 +420,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6da3424gfab9g6834g9a13gc6927de970f3" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('RUNE_FEARSOME') and HasStatus('PROPERTY_RUNES_1')):ApplyStatus(PROPERTY_RUNES_2,100,-1);IF(HasStatus('PROPERTY_RUNES_0')):ApplyStatus(PROPERTY_RUNES_1,100,-1)" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(PROPERTY_RUNES_1);RemoveStatus(PROPERTY_RUNES_2);" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="RunesApplicableWeapon() and (IsWeapon(context.Source) or Tagged('HANDWRAPS', context.Source))" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -471,6 +474,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf9099aag477dgcfe7gee3fgca7834b38b66" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h65405304g338cg2a49gc808ge57dfeeb1bfe" version="2" />
         <field name="StackId" type="StringTableFieldDefinition" value="RUNE_WOUNDING" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="RunesApplicableWeapon() and ((IsWeapon(context.Source) and HasWeaponProperty(WeaponProperties.Melee, context.Source) and HasAnyTags({'PIERCING','SLASHING'},context.Source)) or Tagged('HANDWRAPS', context.Source))" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -510,6 +514,7 @@
         <field name="StackId" type="StringTableFieldDefinition" value="RUNE_CORROSIVE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamage(1d6,Acid);" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="8e166243-6e8e-4e1f-88ac-a90b48f4ada1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -654,6 +659,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hedca08dcg6e15g5c9bg644fg39c708c0dc5e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5ba48f1cg91eag57d5gf4e7gd7b2b5e800d7" version="3" />
         <field name="StackId" type="StringTableFieldDefinition" value="RUNE_EXTENDING" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="RunesApplicableWeapon() and ((IsWeapon(context.Source) and HasWeaponProperty(WeaponProperties.Melee, context.Source)) or Tagged('HANDWRAPS', context.Source))" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -709,6 +715,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9d719c8ged96g6b5dg5c8bgcf5fd90ba937" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf61a492bgd954gb7e7gd475g47fbaabbb3d0" version="2" />
         <field name="StackId" type="StringTableFieldDefinition" value="RUNE_SERRATING" />
+        <field name="OnApplyConditions" type="StringTableFieldDefinition" value="RunesApplicableWeapon() and ((IsWeapon(context.Source) and HasWeaponProperty(WeaponProperties.Melee, context.Source) and Tagged('SLASHING',context.Source)) or Tagged('HANDWRAPS', context.Source))" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

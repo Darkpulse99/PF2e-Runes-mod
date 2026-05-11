@@ -1,0 +1,174 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//Fundamental runes
+DB_RunesFundamental("WEAPON_POTENCY");
+DB_RunesFundamental("WEAPON_POTENCY_2");
+DB_RunesFundamental("STRIKING");
+DB_RunesFundamental("STRIKING_GREATER");
+DB_RunesFundamental("RUNE_REINFORCING_MINOR");
+DB_RunesFundamental("RUNE_REINFORCING_LESSER");
+DB_RunesFundamental("RUNE_REINFORCING_MODERATE");
+
+//All runes
+DB_RunesAll("WEAPON_POTENCY", (ITEMROOT)LOOT_RUNESTONE_WeaponPotency_6aae2e5c-e51b-4bc7-b7aa-a27f10bf07bd);
+DB_RunesAll("WEAPON_POTENCY_2", (ITEMROOT)LOOT_RUNESTONE_WeaponPotency_2_0962c2a5-ad76-44e2-b58d-e7d8c4856168);
+DB_RunesAll("STRIKING", (ITEMROOT)LOOT_RUNESTONE_Striking_d06cea5b-ec37-4ba2-a940-4930847fdb7a);
+DB_RunesAll("STRIKING_GREATER", (ITEMROOT)LOOT_RUNESTONE_Striking_Greater_249a5ef7-0a26-470e-a222-cbb357df02ea);
+DB_RunesAll("RUNE_REINFORCING_MINOR", (ITEMROOT)LOOT_RUNESTONE_Reinforcing_Minor_0c42fdd7-816d-42a2-9124-86b2fde3f948);
+DB_RunesAll("RUNE_REINFORCING_LESSER", (ITEMROOT)LOOT_RUNESTONE_Reinforcing_Lesser_604d318d-a737-41c6-b347-2e590e5f633e);
+DB_RunesAll("RUNE_REINFORCING_MODERATE", (ITEMROOT)LOOT_RUNESTONE_Reinforcing_Moderate_b47a8bae-50a2-40b9-871b-3cf5dbdd941d);
+DB_RunesAll("RUNE_BANE_ABERRATION", (ITEMROOT)LOOT_RUNESTONE_Bane_Aberration_d52b9b84-826b-444c-bd39-4c748f008cbe);
+DB_RunesAll("RUNE_BANE_BEAST", (ITEMROOT)LOOT_RUNESTONE_Bane_Beast_8ab4dbe2-1853-4687-b170-9396e49bab44);
+DB_RunesAll("RUNE_BANE_CONSTRUCT", (ITEMROOT)LOOT_RUNESTONE_Bane_Construct_6e3db275-fccb-4907-9e6b-1d8ab82c7320);
+DB_RunesAll("RUNE_BANE_DRAGON", (ITEMROOT)LOOT_RUNESTONE_Bane_Dragon_afe7ec2c-c7ef-4b9b-aa29-f57461de8b61);
+DB_RunesAll("RUNE_BANE_ELEMENTAL", (ITEMROOT)LOOT_RUNESTONE_Bane_Elemental_906609a8-56cb-41fe-bfb1-091329960cb7);
+DB_RunesAll("RUNE_BANE_FIEND", (ITEMROOT)LOOT_RUNESTONE_Bane_Fiend_317faf06-8be0-4b03-9e2e-33edf3dee72b);
+DB_RunesAll("RUNE_BANE_MONSTROSITY", (ITEMROOT)LOOT_RUNESTONE_Bane_Monstrosity_0ecb68f8-af09-4cba-85ae-aceb178019c9);
+DB_RunesAll("RUNE_CORROSIVE", (ITEMROOT)LOOT_RUNESTONE_Corrosive_369886c7-fd6e-41e1-a432-7ba87dfa66dd);
+DB_RunesAll("RUNE_CRUSHING", (ITEMROOT)LOOT_RUNESTONE_Crushing_7d3c2723-7800-4adc-95a2-6deae39d0a61);
+DB_RunesAll("RUNE_CRUSHING_GREATER", (ITEMROOT)LOOT_RUNESTONE_Crushing_Greater_571625f6-0295-48c0-a490-e1b859a541f3);
+DB_RunesAll("RUNE_EXTENDING", (ITEMROOT)LOOT_RUNESTONE_Extending_0d719d20-804c-4f99-b06f-0b1d7b02d07b);
+DB_RunesAll("RUNE_FEARSOME", (ITEMROOT)LOOT_RUNESTONE_Fearsome_31b01c1a-1f80-4e1b-9d5e-b5ad87c772c3);
+DB_RunesAll("RUNE_FEARSOME_GREATER", (ITEMROOT)LOOT_RUNESTONE_Fearsome_Greater_d03d73fc-dc1a-4231-b3e1-966ae3612b12);
+DB_RunesAll("RUNE_FLAMING", (ITEMROOT)LOOT_RUNESTONE_Flaming_ac9aa7f2-6083-4b19-804c-0d6e6947a3fc);
+DB_RunesAll("RUNE_FROST", (ITEMROOT)LOOT_RUNESTONE_Frost_0bc5775d-6f91-478b-8d25-297badd96498);
+DB_RunesAll("RUNE_HOLY", (ITEMROOT)LOOT_RUNESTONE_Holy_f59f4a68-d79c-4097-889d-0ce74a651a0c);
+DB_RunesAll("RUNE_HOPEFUL", (ITEMROOT)LOOT_RUNESTONE_Hopeful_96f93d5c-fe65-4ef6-8171-80f5061b69a8);
+DB_RunesAll("RUNE_IMPACTFUL", (ITEMROOT)LOOT_RUNESTONE_Impactful_12893105-da10-4c8f-994e-fcb0d4f80f52);
+DB_RunesAll("RUNE_RETURNING", (ITEMROOT)LOOT_RUNESTONE_Returning_cd82d57d-9eb1-41f2-b16d-9b04b7221497);
+DB_RunesAll("RUNE_SERRATING", (ITEMROOT)LOOT_RUNESTONE_Serrating_62af2315-4c72-4c67-ac2a-6cdd44d336d6);
+DB_RunesAll("RUNE_SHOCK", (ITEMROOT)LOOT_RUNESTONE_Shock_c2d8fe0d-c3bb-4558-a88d-ec4540c6caa5);
+DB_RunesAll("RUNE_THUNDERING", (ITEMROOT)LOOT_RUNESTONE_Thundering_74a0118f-8c55-4322-b9ff-22b8562c0644);
+DB_RunesAll("RUNE_VITALIZING", (ITEMROOT)LOOT_RUNESTONE_Vitalizing_7dbf5380-23bf-4ab7-8047-f613ddbf6830);
+DB_RunesAll("RUNE_WOUNDING", (ITEMROOT)LOOT_RUNESTONE_Wounding_62ff4e5c-6d78-4cdb-92f8-8015350d5957);
+KBSECTION
+//Combine runestone with weapon or handwraps
+//Checks if runestone is being combined
+IF
+RequestCanCombine((CHARACTER)_Character, (ITEM)_Runestone, (ITEM)_Object, _, _, _, (INTEGER)_RequestID)
+AND
+DB_RunesAll((STRING)_Status, (ITEMROOT)_RunestoneTemplate)
+AND
+TemplateIsInPartyInventory((ITEMROOT)TOOL_GEN_RunesmithingTools_14053a44-611e-4b7d-a853-9beac0aa6c1a, _Character, _Count, 0)
+AND
+_Count > 0
+AND
+GetTemplate(_Runestone, _Template)
+AND
+_Template == _RunestoneTemplate
+AND
+HasActiveStatus(_Object, _Status, 0)
+THEN
+ApplyStatus(_Object, _Status, -1.0);
+
+//Remove runestone when rune is applied
+IF
+StatusApplied((ITEM)_Object, (STRING)_Status, _, _)
+AND
+DB_RunesAll(_Status, (ITEMROOT)_Runestone)
+AND
+GetOwner(_Object, _Owner)
+THEN
+MagicPocketsDestroyLocalItemsByTemplate(_Owner, _Runestone, 1);
+NOT DB_ApplyRune(_Object, _Status, _Runestone);
+DB_ApplyRune(_Object, _Status, _Runestone);
+TimerLaunch("RuneAppliedTimer", 1000);
+
+//When weapon potency is applied, also apply PROPERTY_RUNES_0
+IF
+StatusApplied((ITEM)_Object, (STRING)_Status, _, _)
+AND
+DB_RunesAll(_Status, (ITEMROOT)_Runestone)
+AND
+IsSubstring(_Status, "WEAPON_POTENCY", 1)
+THEN
+ApplyStatus(_Object, "PROPERTY_RUNES_0", -1.0);
+
+//When property runes are applied, increase PROPERTY_RUNES_X by 1
+IF
+TimerFinished("RuneAppliedTimer")
+THEN
+PROC_PropertyIncrease_2();
+PROC_PropertyIncrease_1();
+
+PROC
+PROC_PropertyIncrease_1()
+AND
+DB_ApplyRune(_Object, _Status, _Runestone)
+AND
+NOT DB_RunesFundamental(_Status)
+AND
+HasActiveStatus(_Object, "PROPERTY_RUNES_0", 1)
+THEN
+ApplyStatus(_Object, "PROPERTY_RUNES_1", -1.0);
+NOT DB_ApplyRune(_Object, _Status, _Runestone);
+
+PROC
+PROC_PropertyIncrease_2()
+AND
+DB_ApplyRune(_Object, _Status, _Runestone)
+AND
+NOT DB_RunesFundamental(_Status)
+AND
+HasActiveStatus(_Object, "PROPERTY_RUNES_1", 1)
+THEN
+ApplyStatus(_Object, "PROPERTY_RUNES_2", -1.0);
+NOT DB_ApplyRune(_Object, _Status, _Runestone);
+
+
+
+
+
+
+
+
+
+//Remove all shield and property runes by combining with runesmithing tools
+IF
+RequestCanCombine((CHARACTER)_Character, (ITEM)_Tools, (ITEM)_Object, _, _, _, (INTEGER)_RequestID)
+AND
+TemplateIsInPartyInventory((ITEMROOT)TOOL_GEN_RunesmithingTools_14053a44-611e-4b7d-a853-9beac0aa6c1a, _Character, _Count, 0)
+AND
+_Count > 0
+AND
+GetItemByTemplateInPartyInventory((ITEMROOT)TOOL_GEN_RunesmithingTools_14053a44-611e-4b7d-a853-9beac0aa6c1a, _Character, (ITEM)_ToolsTemplate)
+AND
+_Tools == _ToolsTemplate
+AND
+DB_RunesAll((STRING)_Status, _)
+AND
+_Status != "WEAPON_POTENCY"
+AND
+_Status != "WEAPON_POTENCY_2"
+AND
+_Status != "STRIKING"
+AND
+_Status != "STRIKING_GREATER"
+AND
+HasActiveStatus(_Object, _Status, 1)
+THEN
+RemoveStatus(_Object, _Status);
+PROC_ResetPropertyStatus(_Object);
+
+PROC
+PROC_ResetPropertyStatus((ITEM)_Object)
+AND
+IsTagged(_Object, (TAG)WPN_SHIELD_dc9e09f0-b2ba-4720-bd28-ee9ddbdef2f1, 0)
+THEN
+RemoveStatus(_Object, "PROPERTY_RUNES_2");
+RemoveStatus(_Object, "PROPERTY_RUNES_1");
+ApplyStatus(_Object, "PROPERTY_RUNES_0", -1.0);
+
+//Return runestone when rune is removed or upgraded to a higher version
+IF
+StatusRemoved((ITEM)_Object, (STRING)_Status, _, _)
+AND
+DB_RunesAll(_Status, (ITEMROOT)_Runestone)
+AND
+GetOwner(_Object, _Owner)
+THEN
+TemplateAddTo(_Runestone, _Owner, 1);
+EXITSECTION
+
+ENDEXITSECTION

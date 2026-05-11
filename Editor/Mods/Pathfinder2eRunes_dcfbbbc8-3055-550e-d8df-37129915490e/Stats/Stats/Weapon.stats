@@ -1041,7 +1041,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0a6e5a22-414d-4f4e-b9e1-6083822648c4" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IF( not HasPassive('Thief_Finesse') ):BlockAbilityModifierDamageBonus();IF( not HasPassive('Thief_Finesse') ):WeaponDamage(StrengthModifier,Slashing);WeaponAttackRollBonus(1);WeaponProperty(Magical);" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IF( not HasPassive('Thief_Finesse') ):BlockAbilityModifierDamageBonus();IF( not HasPassive('Thief_Finesse') ):WeaponDamage(StrengthModifier,Slashing);" />
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_WhirlwindAttack);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Heavy;Reach;Twohanded;Melee;Dippable;Finesse;Magical" enumeration_type_name="WeaponFlags" version="1" />

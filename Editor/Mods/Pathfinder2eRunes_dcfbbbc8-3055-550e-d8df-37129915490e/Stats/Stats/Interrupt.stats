@@ -3,29 +3,6 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="afd08539-b612-4151-ab9d-3d47aa20ba0e" />
-        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ShieldBlock" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="77491e14-ef33-4e82-a07c-ff77b4daa530" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h79cd45e7g14ffge15cg5483g30288fa7d68b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1e0216cgae77g96f9g5219g851d592b6598" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ShieldMaster_Block" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and IsAttack() and not IsSpell() and (HasStatus('RAISE_SHIELD',context.Observer) or HasStatus('RAISE_SHIELD_SPIRIT',context.Observer) or HasStatus('ParagonShield',context.Observer));" />
-        <field name="Properties" type="StringTableFieldDefinition" value="IF(not HasAnyTags({'STURDY_SHIELD_MINOR', 'STURDY_SHIELD_LESSER', 'STURDY_SHIELD_MODERATE'}, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)) and not HasStatus('REINFORCING', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-5);IF(Tagged('STURDY_SHIELD_MINOR', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)) or HasStatus('REINFORCING', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-8);IF(Tagged('STURDY_SHIELD_LESSER', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-10);IF(Tagged('STURDY_SHIELD_MODERATE', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-13);IF(HasPassive('BlessedShield',context.Observer) and not (HasStatus('REINFORCING', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)) or HasAnyTags({'STURDY_SHIELD_MINOR', 'STURDY_SHIELD_LESSER', 'STURDY_SHIELD_MODERATE'}, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)))):AdjustRoll(-3);IF(HasPassive('BlessedShield',context.Observer) and (HasStatus('REINFORCING', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)) or HasAnyTags({'STURDY_SHIELD_MINOR', 'STURDY_SHIELD_LESSER', 'STURDY_SHIELD_MODERATE'}, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer)))):AdjustRoll(-1);IF(HasStatus('EmblazonShieldStatus',context.Observer)):AdjustRoll(-1);IF(HasPassive('CorruptedShield',context.Observer)):DealDamage(OBSERVER_SOURCE,LevelMapValue(SongbirdsDamage),Necrotic,Magical);IF(HasPassive('CorruptedShield',context.Observer)):ApplyStatus(OBSERVER_SOURCE,DIVINESTRIKE_MELEE_VFX,100,1);" />
-        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPreDamage" enumeration_type_name="InterruptContext" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="03bb9dc7-1c41-4220-be8b-824b029636fb" />
-        <field name="Name" type="NameTableFieldDefinition" value="QuickShieldBlockInterrupt" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="afd08539-b612-4151-ab9d-3d47aa20ba0e" />
-        <field name="Cost" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he0d59342g5c95g442ag916aga308ab10808d" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="01fc0c8a-4eee-4ed6-baa6-9b9bc562800f" />
         <field name="Name" type="NameTableFieldDefinition" value="RuneImpactful_Critical" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc515414ag4383gf9ddg9f89g0455872d1181" version="1" />
@@ -54,6 +31,18 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="EnableCondition" type="StringTableFieldDefinition" value="not HasStatus('RUNE_HOLY_HEALING_BLOCK');" />
         <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="afd08539-b612-4151-ab9d-3d47aa20ba0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ShieldBlock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77491e14-ef33-4e82-a07c-ff77b4daa530" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ad08618ge25eg6d02gdcfbgacc4627b11c7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h190661a0g544cg375dgfd54gd07a003eff92" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ShieldMaster_Block" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and IsAttack() and not IsSpell() and (HasStatus('RAISE_SHIELD',context.Observer) or HasStatus('RAISE_SHIELD_SPIRIT',context.Observer) or HasStatus('ParagonShield',context.Observer));" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasPassive('ShieldHardnessJunk',context.Observer)):AdjustRoll(-3);IF(HasPassive('ShieldHardnessCommon',context.Observer)):AdjustRoll(-5);IF(HasPassive('ShieldHardnessUncommon',context.Observer)):AdjustRoll(-8);IF(HasPassive('ShieldHardnessRare',context.Observer)):AdjustRoll(-10);IF(HasPassive('ShieldHardnessVeryRare',context.Observer)):AdjustRoll(-13);IF(HasPassive('ShieldHardnessLegendary',context.Observer)):AdjustRoll(-15);IF((HasPassive('ShieldHardnessJunk',context.Observer) or HasPassive('ShieldHardnessCommon',context.Observer)) and HasAnyStatus({'RUNE_REINFORCING_MINOR','RUNE_REINFORCING_LESSER','RUNE_REINFORCING_MODERATE'}, {}, {}, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-3);IF(HasPassive('ShieldHardnessUncommon',context.Observer) and HasStatus('RUNE_REINFORCING_LESSER', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-2);IF(HasPassive('ShieldHardnessUncommon',context.Observer) and HasStatus('RUNE_REINFORCING_MODERATE', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-3);IF(HasPassive('ShieldHardnessRare',context.Observer) and HasStatus('RUNE_REINFORCING_MODERATE', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand,context.Observer))):AdjustRoll(-3);IF(HasPassive('BlessedShield',context.Observer)):AdjustRoll(-3);IF(HasStatus('EmblazonShieldStatus',context.Observer)):AdjustRoll(-1);IF(HasPassive('CorruptedShield',context.Observer)):DealDamage(OBSERVER_SOURCE,LevelMapValue(SongbirdsDamage),Necrotic,Magical);IF(HasPassive('CorruptedShield',context.Observer)):ApplyStatus(OBSERVER_SOURCE,DIVINESTRIKE_MELEE_VFX,100,1);IF(HasStatus('MAG_FLAMING_FIST_BLAZING_RETALIATION',context.Observer) and (IsMeleeWeaponAttack() or IsMeleeUnarmedAttack())):DealDamage(OBSERVER_SOURCE,4d6,Fire,Magical);IF(HasStatus('MAG_FLAMING_FIST_BLAZING_RETALIATION',context.Observer) and (IsMeleeWeaponAttack() or IsMeleeUnarmedAttack())):RemoveStatus(OBSERVER_OBSERVER,MAG_FLAMING_FIST_BLAZING_RETALIATION);" />
       </fields>
     </stat_object>
   </stat_objects>

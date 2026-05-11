@@ -24,7 +24,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;89b3c338-a117-454c-b34a-2473e5a8bcc5,,;b3253cb1-b621-4c3b-a93d-efb5ed6b2af1,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d96a454e-eb9b-4be9-bbb3-d21fab4ded25" />
       </fields>
@@ -50,10 +50,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0505d03a-4f1a-4cbc-be5d-e36a3b6b7c4b" />
         <field name="Name" type="NameTableFieldDefinition" value="ClearRunes_Container" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="080ba879-082e-4059-b250-805d4ff37e7b" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c9b00a6g9749gb579gdb15g66f0eef6d9e4" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbe6d5d3cg78e2gbc01g1438gf94f23e320fb" version="3" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ClearRunes_Weapon;Target_ClearRunes_Handwraps" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IgnoreSilence;CannotRotate;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c9b00a6g9749gb579gdb15g66f0eef6d9e4" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbe6d5d3cg78e2gbc01g1438gf94f23e320fb" version="4" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ClearRunes_Weapon;Target_ClearRunes_Handwraps;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotRotate;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Item_UNI_MOO_SendingStone_Stone_A" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
       </fields>
@@ -63,13 +63,13 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d0fabebd-99ea-4d25-ae2e-3a9ff9adf17c" />
         <field name="Name" type="NameTableFieldDefinition" value="ClearRunes_Weapon" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0505d03a-4f1a-4cbc-be5d-e36a3b6b7c4b" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand,RUNE_CLEAR,100,0);" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc8f14ef8gc2fbg63c8g1865g9822612cdcb4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e791920g4a89ga14ag2ba8ga6adda31deab" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc8f14ef8gc2fbg63c8g1865g9822612cdcb4" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e791920g4a89ga14ag2ba8ga6adda31deab" version="4" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and HasWeaponInMainHand();" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IgnoreSilence;CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ClearRunes_Container" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Item_WPN_HUM_Longsword_A_0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -78,12 +78,25 @@
         <field name="Name" type="NameTableFieldDefinition" value="ClearRunes_Handwraps" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0505d03a-4f1a-4cbc-be5d-e36a3b6b7c4b" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ClearRunes_Container" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(Gloves,RUNE_CLEAR,100,0);" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc75d0c4dgff18ge38cg2666ga178af4844eb" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd70d0ddgd7a6g6491ge248ge11589b3e71c" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc75d0c4dgff18ge38cg2666ga178af4844eb" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd70d0ddgd7a6g6491ge248ge11589b3e71c" version="4" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves));" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IgnoreSilence;CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Item_ARM_Gloves_Monk" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad95fc5f-31be-4945-be3e-a2b9f531f98b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ClearRunes_Shield" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0505d03a-4f1a-4cbc-be5d-e36a3b6b7c4b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf13525fcg43ecgc3e8g71e5g95bd88a6ebc5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2a338c7g7bf7ga618g2887g7b9688f369d5" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and HasWeaponInMainHand();" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Item_WPN_HUM_Shield_A_0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -92,11 +105,12 @@
         <field name="Name" type="NameTableFieldDefinition" value="ClearRunes_Armor" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0505d03a-4f1a-4cbc-be5d-e36a3b6b7c4b" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(Breast,RUNE_CLEAR,100,0);" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde85e984g3f4fgd20bge7b3g46936e954572" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48fc9961g4119g26f1gf983gfc4ea6645ce2" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde85e984g3f4fgd20bge7b3g46936e954572" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48fc9961g4119g26f1gf983gfc4ea6645ce2" version="4" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IgnoreSilence;CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and WearingArmor();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Item_ARM_Splint" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -104,11 +118,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="33c71ffc-9786-4aa7-9a7f-18024a1ba944" />
         <field name="Name" type="NameTableFieldDefinition" value="RuneWeaponPotency" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="080ba879-082e-4059-b250-805d4ff37e7b" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasWeaponInMainHand()):ApplyEquipmentStatus(MainHand,WEAPON_POTENCY,100,-1);IF(Unarmed()):ApplyEquipmentStatus(Gloves,WEAPON_POTENCY,100,-1);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not Tagged('NORUNES',GetActiveWeapon()) and HasAnyStatus({},{},{'WEAPON_POTENCY','WEAPON_POTENCY_2'}, GetActiveWeapon())) or (Unarmed() and not Tagged('NORUNES',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and HasAnyStatus({},{},{'WEAPON_POTENCY','WEAPON_POTENCY_2'},GetItemInEquipmentSlot(EquipmentSlot.Gloves))));" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h299ca52dgddf9g0f47g9221g103843446317" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WEAPON_POTENCY,100,-1)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha77d83e6g5542g1247g17efg4251d3fad2fd" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CannotRotate" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasWeaponInMainHand()):ApplyEquipmentStatus(MainHand,WEAPON_POTENCY,100,-1);IF(Unarmed()):ApplyEquipmentStatus(Gloves,WEAPON_POTENCY,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -116,11 +131,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a4ffd999-7294-475f-b742-71b0cab80685" />
         <field name="Name" type="NameTableFieldDefinition" value="RuneWeaponPotency_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="33c71ffc-9786-4aa7-9a7f-18024a1ba944" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasWeaponInMainHand()):ApplyEquipmentStatus(MainHand,WEAPON_POTENCY_2,100,-1);IF(Unarmed()):ApplyEquipmentStatus(Gloves,WEAPON_POTENCY_2,100,-1);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not Tagged('NORUNES',GetActiveWeapon()) and not HasStatus('WEAPON_POTENCY_2', GetActiveWeapon())) or (Unarmed() and not Tagged('NORUNES',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and not HasStatus('WEAPON_POTENCY_2', GetItemInEquipmentSlot(EquipmentSlot.Gloves))));" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e233616ga5b1gbbd0g4de6g8df28e019371" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WEAPON_POTENCY_2,100,-1)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h27ca9d5ag852bg89d6g9343gaf4e7f7e687b" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasWeaponInMainHand()):ApplyEquipmentStatus(MainHand,WEAPON_POTENCY_2,100,-1);IF(Unarmed()):ApplyEquipmentStatus(Gloves,WEAPON_POTENCY_2,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -183,14 +198,15 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eab18200-20c6-48dd-afb2-35bc085fbf2f" />
-        <field name="Name" type="NameTableFieldDefinition" value="RuneReinforcing" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneReinforcing_Minor" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3cf2db40-93dd-429d-ac81-4b91aca7a036" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeOffHand,REINFORCING,100,-1);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and HasShieldEquipped() and not Tagged('NORUNES',GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)) and not (HasStatus('REINFORCING', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)) or Tagged('STURDY_SHIELD_MINOR', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)) or Tagged('STURDY_SHIELD_LESSER', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)) or Tagged('STURDY_SHIELD_MODERATE', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)));" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ab48e45gd9bag1df1g8767g720344fe8715" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19756546g8495g28bdgf779gd6ee126a08d1" version="2" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and RunesApplicableShield() and ReinforcingApplicable('Minor');" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ab48e45gd9bag1df1g8767g720344fe8715" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ef56e2fgf017geff5gd4f3g52e6a17b7c6a" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h44004973g6b47g873cg1997gd2f462728c72" version="2" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(REINFORCING,100,-1)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_REINFORCING_MINOR,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="44;22;8;64;32" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeOffHand,RUNE_REINFORCING_MINOR,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -198,11 +214,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5d3a04f3-d9d3-43d9-9739-fd40332063f5" />
         <field name="Name" type="NameTableFieldDefinition" value="RuneReinforcing_Lesser" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="eab18200-20c6-48dd-afb2-35bc085fbf2f" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeOffHand,REINFORCING_LESSER,100,-1);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and HasShieldEquipped() and not HasStatus('REINFORCING_LESSER', GetActiveWeapon(context.Source, false));" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and RunesApplicableShield() and ReinforcingApplicable('Lesser');" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46d244eegbd93gdaeaga23eg5b24c254e878" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h445cab05g84bcg4aeeg522fge0a41cf5a152" version="1" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(REINFORCING_LESSER,100,-1)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_REINFORCING_LESSER,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="52;26;10;80;40" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeOffHand,RUNE_REINFORCING_LESSER,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -210,11 +226,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c12f7876-a207-4b95-a9d7-70fa0008eb2f" />
         <field name="Name" type="NameTableFieldDefinition" value="RuneReinforcing_Moderate" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="eab18200-20c6-48dd-afb2-35bc085fbf2f" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeOffHand,REINFORCING_MODERATE,100,-1);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and HasShieldEquipped() and not HasStatus('REINFORCING_MODERATE', GetActiveWeapon(context.Source, false));" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and RunesApplicableShield() and ReinforcingApplicable('Moderate');" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa2b6291gbff7g9199gcf55gcaf8c0db42a4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c271dc8g4354g1050g0d3dgba390f865671" version="1" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(REINFORCING_MODERATE,100,-1)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_REINFORCING_MODERATE,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="64;32;13;104;52" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MeleeOffHand,RUNE_REINFORCING_MODERATE,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -387,7 +403,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RuneWounding" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="080ba879-082e-4059-b250-805d4ff37e7b" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasWeaponInMainHand()):ApplyEquipmentStatus(MainHand,RUNE_WOUNDING,100,-1);IF(Unarmed()):ApplyEquipmentStatus(Gloves,RUNE_WOUNDING,100,-1);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not HasStatus('RUNE_WOUNDING', GetActiveWeapon()) and (Tagged('PIERCING',GetActiveWeapon()) or Tagged('SLASHING',GetActiveWeapon())) and RunesApplicableWeapon()) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and not HasStatus('RUNE_WOUNDING', GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and RunesApplicableHandwraps()));" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not HasStatus('RUNE_WOUNDING', GetActiveWeapon()) and HasAnyTags({'PIERCING','SLASHING'},GetActiveWeapon()) and RunesApplicableWeapon()) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and not HasStatus('RUNE_WOUNDING', GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and RunesApplicableHandwraps()));" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8906ceacgd16cg4b6bg9141g43588ae30678" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_WOUNDING,100,-1);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49009859g4a8bg12aegbe89gaade93190818" version="1" />
@@ -446,7 +462,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="523c39bd-a71b-4210-a166-3555dad7f513" />
         <field name="Name" type="NameTableFieldDefinition" value="ShockCrit" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(1d6,Lightning,Magical);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="30" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="40" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and HasStatus('RUNE_SHOCK_TECHNICAL');" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WitchBolt" />
@@ -460,7 +476,7 @@
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead();" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreVisionBlock;IgnoreSilence;IsHarmful;Temporary;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreVisionBlock;IsHarmful;Temporary;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Electric" enumeration_type_name="HitAnimationType" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="77241e8c-ae8d-4402-92d8-a871ce64d86f" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="6f4ad0bd-c5ce-4350-9865-c0ef858fd444" />

@@ -4,19 +4,62 @@ function HasInterruptedCheck()
 	return ConditionResult(context.InterruptedRoll.RollType == ConditionRollType.ConditionCheck) | ConditionResult(context.InterruptedRoll.RollType == ConditionRollType.ConditionAbilityCheck) | ConditionResult(context.InterruptedRoll.RollType == ConditionRollType.ConditionSkillCheck)
 end
 
-function RunesApplicableWeapon()
-	local weapon = GetActiveWeapon()
-	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},weapon) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY_2',0))))
+function RunesApplicableWeapon(weapon)
+	local weapon = weapon or context.Source
+	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},weapon) & (HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},weapon) | HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},weapon)))
 end
 
 function RunesApplicableHandwraps()
-	local handwraps = GetItemInEquipmentSlot(EquipmentSlot.Gloves)
-	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},handwraps) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},handwraps) & StatusDurationEqualOrLessThan(handwraps,'WEAPON_POTENCY_2',0))))
+	local weapon = GetItemInEquipmentSlot(EquipmentSlot.Gloves)
+	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},weapon) & ((HasAnyStatus({}, {'WEAPON_POTENCY','PROPERTY_RUNES_0'}, {},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY',0)) | (HasAnyStatus({'WEAPON_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},weapon) & StatusDurationEqualOrLessThan(weapon,'WEAPON_POTENCY_2',0))))
 end
 
 function RunesApplicableArmor()
 	local armor = GetActiveArmor()
 	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},armor) & ((HasAnyStatus({}, {'ARMOR_POTENCY','PROPERTY_RUNES_0'}, {},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY',0)) | (HasAnyStatus({'ARMOR_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY_2',0))))
+end
+
+function RunesApplicableShield()
+	local shield = GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)
+	return (Tagged('WPN_SHIELD',shield) & ~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},shield))
+end
+
+function ReinforcingApplicable(tier)
+	local shield = context.Source
+	
+	if tier == 'Minor' then
+		if (HasPassive('ShieldBreakJunk').Result or 
+			HasPassive('ShieldBreakCommon').Result or 
+			HasPassive('ShieldHardnessJunk').Result or 
+			HasPassive('ShieldHardnessCommon').Result) and 
+			HasAnyStatus({},{},{'RUNE_REINFORCING_MINOR','RUNE_REINFORCING_LESSER','RUNE_REINFORCING_MODERATE'},shield).Result then
+			return ConditionResult(true)
+		end
+	elseif tier == 'Lesser' then
+		if (HasPassive('ShieldBreakJunk').Result or 
+			HasPassive('ShieldBreakCommon').Result or 
+			HasPassive('ShieldBreakUncommon').Result or 
+			HasPassive('ShieldHardnessJunk').Result or 
+			HasPassive('ShieldHardnessCommon').Result or 
+			HasPassive('ShieldHardnessUncommon').Result) and 
+			HasAnyStatus({},{},{'RUNE_REINFORCING_LESSER','RUNE_REINFORCING_MODERATE'},shield).Result then
+			return ConditionResult(true)
+		end
+	elseif tier == 'Moderate' then
+		if (HasPassive('ShieldBreakJunk').Result or 
+			HasPassive('ShieldBreakCommon').Result or 
+			HasPassive('ShieldBreakUncommon').Result or 
+			HasPassive('ShieldBreakRare').Result or 
+			HasPassive('ShieldHardnessJunk').Result or 
+			HasPassive('ShieldHardnessCommon').Result or 
+			HasPassive('ShieldHardnessUncommon').Result or 
+			HasPassive('ShieldHardnessRare').Result) and 
+			HasAnyStatus({},{},{'RUNE_REINFORCING_MODERATE'},shield).Result then
+			return ConditionResult(true)
+		end
+	else
+		return ConditionResult(false)
+	end
 end
 
 function IsWeaponDamageDieD4(weapon)
