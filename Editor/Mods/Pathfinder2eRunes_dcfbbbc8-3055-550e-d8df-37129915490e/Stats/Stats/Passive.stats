@@ -550,17 +550,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2c68e239-2e18-4f8e-bb3a-3c46beb1596f" />
-        <field name="Name" type="NameTableFieldDefinition" value="GravityWeaponActive" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb64688c2g6407g738bgf8ceg13163501e5ca" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(((IsWeaponAttack() and HasAnyStatus({}, {}, {'STRIKING','STRIKING_GREATER'}, GetAttackWeapon())) or (SpellTypeIs(SpellType.Throw) and HasAnyStatus({}, {}, {'STRIKING','STRIKING_GREATER'}, context.HitDescription.ThrownObject))) and IsHit()):DamageBonus(2);IF(((IsWeaponAttack() and HasStatus('STRIKING',GetAttackWeapon())) or (IsRangedUnarmedAttack() and HasStatus('STRIKING',context.HitDescription.ThrownObject))) and IsHit()):DamageBonus(4);IF(((IsWeaponAttack() and HasStatus('STRIKING_GREATER',GetAttackWeapon())) or (IsRangedUnarmedAttack() and HasStatus('STRIKING_GREATER',context.HitDescription.ThrownObject))) and IsHit()):DamageBonus(6);" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() or SpellTypeIs(SpellType.Throw);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,GRAVITY_WEAPON_ACTIVE)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="89e4dd3b-d153-4b62-a375-a872093ff2e5" />
         <field name="Name" type="NameTableFieldDefinition" value="AdvantageousAssault" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc113967bgaef9g8841g3dd6ge19eff768f9a" version="1" />

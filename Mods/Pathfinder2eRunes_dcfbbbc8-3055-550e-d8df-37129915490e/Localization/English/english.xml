@@ -1403,4 +1403,6 @@
   <content contentuid="h4b33c014g2696gdf3bgf2b8gb76cbc4e1fd4" version="1">Bound Weapon</content>
   <content contentuid="h88c130f7g3bc8g7677g71f2g081d3e3cc8c2" version="1">Ritually bound to its wielder. &lt;br&gt;&lt;br&gt;The weapon can't be knocked out of the wielder's hand, and automatically returns to the wielder when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.</content>
   <content contentuid="hb1a1600cgbd9fg4378g8389g6993c964b378" version="2">The Blood of Lathander</content>
+  <content contentuid="h94fab11agbb50g446egf647gfe0d5475f554" version="1">One Inch Punch (Fist)</content>
+  <content contentuid="h373be417gf294g2932gaff2gbc2f7c200957" version="1">One Inch Punch (Fist, 2 Actions)</content>
 </contentList>
