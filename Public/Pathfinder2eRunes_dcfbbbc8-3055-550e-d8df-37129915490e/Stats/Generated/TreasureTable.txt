@@ -174,14 +174,14 @@ object category "I_ARM_Handwraps_1",1,0,0,0,0,0,0,0
 new subtable "3,1"
 StartLevel "4"
 EndLevel "9"
-object category "I_ARM_Handwraps_2",1,0,0,0,0,0,0,0
+object category "I_ARM_Handwraps_1S",1,0,0,0,0,0,0,0
 new subtable "3,1"
 StartLevel "10"
 EndLevel "11"
-object category "I_ARM_Handwraps_3",1,0,0,0,0,0,0,0
+object category "I_ARM_Handwraps_2",1,0,0,0,0,0,0,0
 new subtable "3,1"
 StartLevel "12"
-object category "I_ARM_Handwraps_4",1,0,0,0,0,0,0,0
+object category "I_ARM_Handwraps_2GS",1,0,0,0,0,0,0,0
 new treasuretable "EquipmentTrader_SecondaryArmor"
 new subtable "1,1"
 object category "T_EquipmentTrader_SecondaryArmor_Metal",1,0,0,0,0,0,0,0

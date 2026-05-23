@@ -16,7 +16,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="70f2e3b5-c298-4cfa-a259-6c8b615d44d6" />
-        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_1S" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f40a03d9-dd87-467a-9d41-d3030d117f76" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
@@ -28,7 +28,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="daaa2013-ea7f-4bc4-ab62-14ea2905c999" />
-        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d1081bb9-1fea-47db-8d1e-b204596577c5" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
@@ -40,7 +40,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e5bfa537-4c28-499a-8cb0-b073914a2c21" />
-        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Handwraps_2GS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="102dbf9e-1226-41c7-8eb7-eb3a7de79ef9" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="42c047c0-1285-4106-8aa0-cc7fedce8654" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />

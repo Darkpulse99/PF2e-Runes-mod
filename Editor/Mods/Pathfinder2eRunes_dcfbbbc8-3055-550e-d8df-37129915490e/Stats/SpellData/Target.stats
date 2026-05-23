@@ -223,7 +223,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RuneCrushing" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="080ba879-082e-4059-b250-805d4ff37e7b" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasWeaponInMainHand()):ApplyEquipmentStatus(MainHand,RUNE_CRUSHING,100,-1);IF(Unarmed()):ApplyEquipmentStatus(Gloves,RUNE_CRUSHING,100,-1);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and HasAnyStatus({},{},{'RUNE_CRUSHING','RUNE_CRUSHING_GREATER'}, GetActiveWeapon()) and Tagged('BLUDGEONING',GetActiveWeapon()) and RunesApplicableWeapon()) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and HasAnyStatus({},{},{'RUNE_CRUSHING','RUNE_CRUSHING_GREATER'}, GetItemInEquipmentSlot(EquipmentSlot.Gloves))) and RunesApplicableHandwraps());" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and HasAnyStatus({},{},{'RUNE_CRUSHING','RUNE_CRUSHING_GREATER'}, GetActiveWeapon()) and HasAnyTags({'BLUDGEONING', 'WPN_VERSATILE_B'},GetActiveWeapon()) and RunesApplicableWeapon()) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and HasAnyStatus({},{},{'RUNE_CRUSHING','RUNE_CRUSHING_GREATER'}, GetItemInEquipmentSlot(EquipmentSlot.Gloves))) and RunesApplicableHandwraps());" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha7f520ffgaa59g707ag09ffgb150c5952c0a" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_CRUSHING,100,-1)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h776562dfg5484g3083gdb0cg96196085d0bc" version="1" />
@@ -235,7 +235,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RuneCrushing_Greater" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d0403846-ab22-41b9-ba34-2ace8482e1c4" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasWeaponInMainHand()):ApplyEquipmentStatus(MainHand,RUNE_CRUSHING_GREATER,100,-1);IF(Unarmed()):ApplyEquipmentStatus(Gloves,RUNE_CRUSHING_GREATER,100,-1);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not HasStatus('RUNE_CRUSHING_GREATER', GetActiveWeapon()) and Tagged('BLUDGEONING',GetActiveWeapon()) and (RunesApplicableWeapon() or HasStatus('RUNE_CRUSHING', GetActiveWeapon()))) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and not HasStatus('RUNE_CRUSHING_GREATER', GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and (RunesApplicableWeapon() or HasStatus('RUNE_CRUSHING', GetItemInEquipmentSlot(EquipmentSlot.Gloves)))));" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not HasStatus('RUNE_CRUSHING_GREATER', GetActiveWeapon()) and HasAnyTags({'BLUDGEONING', 'WPN_VERSATILE_B'},GetActiveWeapon()) and (RunesApplicableWeapon() or HasStatus('RUNE_CRUSHING', GetActiveWeapon()))) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and not HasStatus('RUNE_CRUSHING_GREATER', GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and (RunesApplicableWeapon() or HasStatus('RUNE_CRUSHING', GetItemInEquipmentSlot(EquipmentSlot.Gloves)))));" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75daea12g1ea2gd347g9f9fg6ef90083280d" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_CRUSHING_GREATER,100,-1)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hccff2b90g11bfgaf77g652egdf07986a654c" version="1" />
@@ -387,7 +387,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RuneWounding" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="080ba879-082e-4059-b250-805d4ff37e7b" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasWeaponInMainHand()):ApplyEquipmentStatus(MainHand,RUNE_WOUNDING,100,-1);IF(Unarmed()):ApplyEquipmentStatus(Gloves,RUNE_WOUNDING,100,-1);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not HasStatus('RUNE_WOUNDING', GetActiveWeapon()) and (Tagged('PIERCING',GetActiveWeapon()) or Tagged('SLASHING',GetActiveWeapon())) and RunesApplicableWeapon()) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and not HasStatus('RUNE_WOUNDING', GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and RunesApplicableHandwraps()));" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not HasStatus('RUNE_WOUNDING', GetActiveWeapon()) and HasAnyTags({'PIERCING','SLASHING','WPN_VERSATILE_P','WPN_VERSATILE_S'},GetActiveWeapon()) and RunesApplicableWeapon()) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and not HasStatus('RUNE_WOUNDING', GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and RunesApplicableHandwraps()));" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8906ceacgd16cg4b6bg9141g43588ae30678" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_WOUNDING,100,-1);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49009859g4a8bg12aegbe89gaade93190818" version="1" />
@@ -509,7 +509,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RuneSerrating" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="080ba879-082e-4059-b250-805d4ff37e7b" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand,RUNE_SERRATING,100,-1);IF(Unarmed()):ApplyEquipmentStatus(Gloves,RUNE_SERRATING,100,-1);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not HasStatus('RUNE_SERRATING', GetActiveWeapon()) and Tagged('SLASHING',GetActiveWeapon()) and RunesApplicableWeapon()) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and not HasStatus('RUNE_SERRATING', GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and RunesApplicableHandwraps()));" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and not HasStatus('RUNE_SERRATING', GetActiveWeapon()) and HasAnyTags({'SLASHING','WPN_VERSATILE_S'},GetActiveWeapon()) and RunesApplicableWeapon()) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and not HasStatus('RUNE_SERRATING', GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and RunesApplicableHandwraps()));" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he3b5d66cgf828ga498gf3bag6e2f49e6b8b2" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd02e79bag671cg12c5ged22g568d4286b1c9" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_SERRATING,100,-1)" />
@@ -550,7 +550,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7ff8653b-937b-410f-98e7-faf0f5d9bd0d" />
         <field name="Name" type="NameTableFieldDefinition" value="UnarmedAttack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4+StrengthModifier, Bludgeoning);" />
       </fields>
     </stat_object>
@@ -559,7 +559,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="09ab2a75-5320-4a46-9024-eaac443c80c1" />
         <field name="Name" type="NameTableFieldDefinition" value="BasicFist" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="907c0bb9-3310-46be-b96a-beec2ded6dda" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4+StrengthModifier, Bludgeoning);" />
       </fields>
     </stat_object>
@@ -568,7 +568,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8cd124db-3fa7-4b54-b5a0-d2b4a0b11b34" />
         <field name="Name" type="NameTableFieldDefinition" value="IronFist" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0f0737a2-8906-4b03-ad77-9b9cfe7225a9" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d6+StrengthModifier, Bludgeoning, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d6+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d6+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d6+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+StrengthModifier, Bludgeoning);" />
       </fields>
     </stat_object>
@@ -577,7 +577,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a1844651-816e-4520-b18c-ceca4c6b7e3a" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimalPiercing" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="08a584b3-ace2-4e59-a7b9-5622efd8850f" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d10+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d10+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d10+StrengthModifier, Piercing, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d10+StrengthModifier, Piercing, Magical);IF(UnarmedDice(2)):DealDamage(2d10+StrengthModifier, Piercing, Magical);IF(UnarmedDice(3)):DealDamage(3d10+StrengthModifier, Piercing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10+StrengthModifier, Piercing)" />
       </fields>
     </stat_object>
@@ -586,7 +586,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="103b0857-d1be-4d20-a96d-98241b8cd679" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimalBludgeoning" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0db9cc77-b749-4938-995d-cdffe2729a8a" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d10+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d10+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d10+StrengthModifier, Bludgeoning, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d10+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d10+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d10+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -595,7 +595,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="08bc3caa-2b9f-43ba-b3c5-142a161a5303" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimalSecondarySlashing" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e845bf99-10a7-4283-8a09-c9f7e1c43b87" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d6+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d6+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d6+StrengthModifier, Slashing, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d6+StrengthModifier, Slashing, Magical);IF(UnarmedDice(2)):DealDamage(2d6+StrengthModifier, Slashing, Magical);IF(UnarmedDice(3)):DealDamage(3d6+StrengthModifier, Slashing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+StrengthModifier, Slashing)" />
       </fields>
     </stat_object>
@@ -604,7 +604,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6447c40a-7c4f-4429-bbbd-c9ad54932d3e" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimalSecondaryFrog" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1bef76cb-9055-4433-8ded-ca4f13c27c51" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -613,7 +613,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="63769268-334a-4d42-b851-26c8a610ee5d" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimalHorn" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fea2e354-96cb-41c3-9888-92416198bd5c" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d10+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d10+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d10+StrengthModifier, Piercing, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d10+StrengthModifier, Piercing, Magical);IF(UnarmedDice(2)):DealDamage(2d10+StrengthModifier, Piercing, Magical);IF(UnarmedDice(3)):DealDamage(3d10+StrengthModifier, Piercing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10+StrengthModifier, Piercing)" />
       </fields>
     </stat_object>
@@ -622,7 +622,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="902ccd7e-72a5-4e13-9cda-d571f13d767d" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonStance" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d529c07d-142c-4f78-b3e7-bd185b3ce21d" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d10+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d10+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d10+StrengthModifier, Bludgeoning, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d10+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d10+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d10+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -631,7 +631,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e873d083-6478-4590-b547-3b58bef706cd" />
         <field name="Name" type="NameTableFieldDefinition" value="FallingStone" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="95313887-269e-4c90-b8d5-2bbe539a3495" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d8+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d8+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Bludgeoning, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d8+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d8+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d8+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -640,7 +640,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f1ce09c1-589d-4a79-8c47-5525b45dda78" />
         <field name="Name" type="NameTableFieldDefinition" value="WolfJaw" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="29f19df2-ab34-4619-a4fb-4fc4c766f2eb" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Piercing, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(UnarmedDice(2)):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(UnarmedDice(3)):DealDamage(3d8+StrengthModifier, Piercing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+StrengthModifier, Piercing)" />
       </fields>
     </stat_object>
@@ -649,7 +649,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c642556d-122f-4b03-aacf-ea1951b5aeca" />
         <field name="Name" type="NameTableFieldDefinition" value="TigerClaw" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3e39e280-924c-4780-b191-aad8476b2da8" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d8+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d8+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Slashing, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d8+StrengthModifier, Slashing, Magical);IF(UnarmedDice(2)):DealDamage(2d8+StrengthModifier, Slashing, Magical);IF(UnarmedDice(3)):DealDamage(3d8+StrengthModifier, Slashing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+StrengthModifier, Slashing)" />
       </fields>
     </stat_object>
@@ -658,7 +658,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="524410a7-7491-4141-8ab4-8132fee5e09e" />
         <field name="Name" type="NameTableFieldDefinition" value="CobraFang" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7f21d19c-cd8c-4804-8202-43189eb86664" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d4+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d4+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d4+StrengthModifier, Piercing, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d4+StrengthModifier, Piercing, Magical);IF(UnarmedDice(2)):DealDamage(2d4+StrengthModifier, Piercing, Magical);IF(UnarmedDice(3)):DealDamage(3d4+StrengthModifier, Piercing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4+StrengthModifier, Piercing)" />
       </fields>
     </stat_object>
@@ -1021,7 +1021,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7ecef5ce-7d9d-4f47-9c24-56783385f8ab" />
         <field name="Name" type="NameTableFieldDefinition" value="TigerSlash" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e6cd3525-b678-4f72-a479-5af0b0e2b077" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(4d8+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(5d8+StrengthModifier, Slashing, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SHOVE_REACT,100,0);IF(not SkillCrit() and not Ally()):Force(2,OriginToEntity,Aggressive);IF(UnarmedDice(1)):DealDamage(3d8+StrengthModifier, Slashing, Magical);IF(UnarmedDice(2)):DealDamage(4d8+StrengthModifier, Slashing, Magical);IF(UnarmedDice(3)):DealDamage(5d8+StrengthModifier, Slashing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+StrengthModifier, Slashing)" />
       </fields>
     </stat_object>
@@ -1030,7 +1030,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2613e347-41e6-4c7c-aaa7-d76e3b373f12" />
         <field name="Name" type="NameTableFieldDefinition" value="WolfDrag" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="57405768-fa9c-41e6-b530-d0912b5de972" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(IsCritical() and HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d12+StrengthModifier, Piercing, Magical);IF(IsCritical() and HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d12+StrengthModifier, Piercing, Magical);IF(IsCritical() and HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d12+StrengthModifier, Piercing, Magical);IF(IsHit() and not IsCritical() and HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(IsHit() and not IsCritical() and HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(IsHit() and not IsCritical() and HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Piercing, Magical);ApplyStatus(PRONE,100,1);ApplyStatus(OFF_BALANCED,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(IsCritical() and UnarmedDice(1)):DealDamage(1d12+StrengthModifier, Piercing, Magical);IF(IsCritical() and UnarmedDice(2)):DealDamage(2d12+StrengthModifier, Piercing, Magical);IF(IsCritical() and UnarmedDice(3)):DealDamage(3d12+StrengthModifier, Piercing, Magical);IF(IsCritical()):ApplyStatus(DEADLYD12,100,0);IF(IsHit() and not IsCritical() and UnarmedDice(1)):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(IsHit() and not IsCritical() and UnarmedDice(2)):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(IsHit() and not IsCritical() and UnarmedDice(3)):DealDamage(3d8+StrengthModifier, Piercing, Magical);ApplyStatus(PRONE_PF2,100,-1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -1039,7 +1039,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="77169ce0-da6d-446f-a0b6-06069b6ad66d" />
         <field name="Name" type="NameTableFieldDefinition" value="CraneWing" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="95f5a5d1-f625-4a40-b07b-e5b3fd77a151" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d6+StrengthModifier, Bludgeoning, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d6+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d6+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d6+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d63d8+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -1048,7 +1048,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="96519c60-adb5-4622-80f8-b107b8dd1db6" />
         <field name="Name" type="NameTableFieldDefinition" value="ClingingShadowStance" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="beb0876b-35ad-4f3a-b6ce-0e5224f50187" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d4+StrengthModifier, Necrotic, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d4+StrengthModifier, Necrotic, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d4+StrengthModifier, Necrotic, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d4+StrengthModifier, Necrotic, Magical);IF(UnarmedDice(2)):DealDamage(2d4+StrengthModifier, Necrotic, Magical);IF(UnarmedDice(3)):DealDamage(3d4+StrengthModifier, Necrotic, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4+StrengthModifier, Necrotic);" />
       </fields>
     </stat_object>
@@ -1057,7 +1057,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c9802cde-09ad-4273-8a8c-1a6bc573ed41" />
         <field name="Name" type="NameTableFieldDefinition" value="IronSweep" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7f7a022b-8804-4d72-a5f4-391c482a9b51" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d8+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d8+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Bludgeoning, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d8+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d8+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d8+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -1066,7 +1066,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="737ec172-d195-4e8c-b216-424af7184a81" />
         <field name="Name" type="NameTableFieldDefinition" value="LashingBranch" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0f20bfc3-f226-471c-b427-998cd02d5240" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d8+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d8+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Slashing, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d8+StrengthModifier, Slashing, Magical);IF(UnarmedDice(2)):DealDamage(2d8+StrengthModifier, Slashing, Magical);IF(UnarmedDice(3)):DealDamage(3d8+StrengthModifier, Slashing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+StrengthModifier, Slashing)" />
       </fields>
     </stat_object>
@@ -1075,7 +1075,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bc6a1343-d9c6-4a41-84bf-f005bf921994" />
         <field name="Name" type="NameTableFieldDefinition" value="WindCrash" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="98092d3b-433b-4215-9e47-52eb85af8951" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d6+StrengthModifier, Bludgeoning, Magical);IF(Character() and HasPassive('StunningBlows',context.Source) and not HasStatus('StunningBlowsImmune',context.Target) and not SavingThrow(Ability.Constitution, ClassDC())):ApplyStatus(STUNNED1,100,1);IF(HasPassive('StunningBlows',context.Source)):ApplyStatus(StunningBlowsImmune,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d6+StrengthModifier/2, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d6+StrengthModifier/2, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d6+StrengthModifier/2, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -1084,7 +1084,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="de5fe3a8-a86e-4ddf-8954-cbbebf84c116" />
         <field name="Name" type="NameTableFieldDefinition" value="CobraEnvenom" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36f39667-40d4-4aa4-9be4-4ff2e5ee9a7e" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d4+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d4+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d4+StrengthModifier, Piercing, Magical);ApplyStatus(CobraPoison,100,-1);IF(IsCritical()):ApplyStatus(DEADLYD10,100,0);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d4+StrengthModifier, Piercing, Magical);IF(UnarmedDice(1)):ApplyStatus(CobraPoison,100,-1);IF(UnarmedDice(2)):DealDamage(2d4+StrengthModifier, Piercing, Magical);IF(UnarmedDice(2)):ApplyStatus(CobraPoison_S,100,-1);IF(UnarmedDice(3)):DealDamage(3d4+StrengthModifier, Piercing, Magical);IF(UnarmedDice(3)):ApplyStatus(CobraPoison_GS,100,-1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4+StrengthModifier, Piercing)" />
       </fields>
     </stat_object>
@@ -1093,7 +1093,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="31d2358e-41a2-4dcb-ac9a-2e1d1d911dbd" />
         <field name="Name" type="NameTableFieldDefinition" value="KnockbackStrike" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ad9da342-78a2-4aca-86ce-010fafcaf3ed" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d6+StrengthModifier, Bludgeoning, Magical);IF(not SavingThrow(Ability.Strength, ClassDC())):Force(5);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d6+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d6+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d6+StrengthModifier, Bludgeoning, Magical);IF(not SavingThrow(Ability.Constitution, ClassDC())):Force(4);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -1102,7 +1102,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2c57fff7-e68a-4ad9-92c5-4a32e12b0df9" />
         <field name="Name" type="NameTableFieldDefinition" value="DisruptQi" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0802b493-b009-4f75-b3bb-68d5201c9522" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d6+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d6+StrengthModifier, Bludgeoning, Magical);ApplyStatus(DisruptedQi,100,-1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d6+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d6+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d6+StrengthModifier, Bludgeoning, Magical);ApplyStatus(DisruptedQi,100,-1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -1111,7 +1111,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="49957810-b69b-4762-8707-d41d636e288f" />
         <field name="Name" type="NameTableFieldDefinition" value="EldritchNails" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ae4679b8-1c8d-4d65-a019-025f6c3d154f" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d6+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d6+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d6+StrengthModifier, Slashing, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d6+StrengthModifier, Slashing, Magical);IF(UnarmedDice(2)):DealDamage(2d6+StrengthModifier, Slashing, Magical);IF(UnarmedDice(3)):DealDamage(3d6+StrengthModifier, Slashing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+StrengthModifier, Slashing)" />
       </fields>
     </stat_object>
@@ -1120,7 +1120,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7eca7ff2-f3e2-4fdc-92df-8aabf2b1fbf3" />
         <field name="Name" type="NameTableFieldDefinition" value="IronTeeth" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a8b7ae6e-395c-45a2-8bb8-385b754773f2" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Piercing, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(UnarmedDice(2)):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(UnarmedDice(3)):DealDamage(3d8+StrengthModifier, Piercing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+StrengthModifier, Piercing)" />
       </fields>
     </stat_object>
@@ -1129,7 +1129,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6a5b5e99-f4cc-4b74-ac49-7f21acb935da" />
         <field name="Name" type="NameTableFieldDefinition" value="LivingHair" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="779affd2-b06f-4dd8-973c-b6c923fbc570" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -1138,7 +1138,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f2c9a6e1-3560-48d6-a0ac-c8e788b65a29" />
         <field name="Name" type="NameTableFieldDefinition" value="SympatheticStrike_Nails" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f56573fa-c451-4f42-97be-fec91cfc7996" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d6+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d6+StrengthModifier, Slashing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d6+StrengthModifier, Slashing, Magical);ApplyStatus(StatusPenalty1Saves,100,1);IF(IsCritical()):ApplyStatus(StatusPenalty2Saves,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d6+StrengthModifier, Slashing, Magical);IF(UnarmedDice(2)):DealDamage(2d6+StrengthModifier, Slashing, Magical);IF(UnarmedDice(3)):DealDamage(3d6+StrengthModifier, Slashing, Magical);ApplyStatus(StatusPenalty1Saves,100,1);IF(IsCritical()):ApplyStatus(StatusPenalty2Saves,100,1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+StrengthModifier, Slashing)" />
       </fields>
     </stat_object>
@@ -1147,7 +1147,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d4b4f378-0528-4666-872e-f8efccf912f3" />
         <field name="Name" type="NameTableFieldDefinition" value="SympatheticStrike_Teeth" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ed7fb200-7578-4985-8c1b-c1872f937916" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Piercing, Magical);ApplyStatus(StatusPenalty1Saves,100,1);IF(IsCritical()):ApplyStatus(StatusPenalty2Saves,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(UnarmedDice(2)):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(UnarmedDice(3)):DealDamage(3d8+StrengthModifier, Piercing, Magical);ApplyStatus(StatusPenalty1Saves,100,1);IF(IsCritical()):ApplyStatus(StatusPenalty2Saves,100,1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -1156,7 +1156,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e501492d-0218-45e1-baf4-318921a4a833" />
         <field name="Name" type="NameTableFieldDefinition" value="SympatheticStrike_Hair" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="69a675de-8a95-4f77-85bc-cc500744e493" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);ApplyStatus(StatusPenalty1Saves,100,1);IF(IsCritical()):ApplyStatus(StatusPenalty2Saves,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(2)):DealDamage(2d4+StrengthModifier, Bludgeoning, Magical);IF(UnarmedDice(3)):DealDamage(3d4+StrengthModifier, Bludgeoning, Magical);ApplyStatus(StatusPenalty1Saves,100,1);IF(IsCritical()):ApplyStatus(StatusPenalty2Saves,100,1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4+StrengthModifier, Bludgeoning)" />
       </fields>
     </stat_object>
@@ -1165,7 +1165,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7b6f2b5b-8966-436a-b99e-339983d593a3" />
         <field name="Name" type="NameTableFieldDefinition" value="SnakeFangsAttack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="73f087a5-a4e6-4cb7-9079-5f5edd250f7b" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d8+StrengthModifier, Piercing, Magical);DealDamage(2d10,Poison,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d8+StrengthModifier, Piercing, Magical);IF(UnarmedDice(2)):DealDamage(2d8+StrengthModifier, Piercing, Magical);IF(UnarmedDice(3)):DealDamage(3d8+StrengthModifier, Piercing, Magical);DealDamage(2d10,Poison,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+StrengthModifier, Piercing);DealDamage(2d10,Poison)" />
       </fields>
     </stat_object>
@@ -1174,7 +1174,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a75fa60e-04a4-4dee-a0a3-1d34260202d0" />
         <field name="Name" type="NameTableFieldDefinition" value="OrcTusks" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="17ed09c8-f2ad-4a9f-b189-ec3bcd7c52ce" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(1d6+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(2d6+StrengthModifier, Piercing, Magical);IF(HasStatus('STRIKING_GREATER',GetItemInEquipmentSlot(EquipmentSlot.Gloves,context.Source))):DealDamage(3d6+StrengthModifier, Piercing, Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(UnarmedDice(1)):DealDamage(1d6+StrengthModifier, Piercing, Magical);IF(UnarmedDice(2)):DealDamage(2d6+StrengthModifier, Piercing, Magical);IF(UnarmedDice(3)):DealDamage(3d6+StrengthModifier, Piercing, Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+StrengthModifier, Piercing)" />
       </fields>
     </stat_object>
@@ -1241,51 +1241,6 @@
         <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self() and ((HasWeaponInMainHand() and HasAnyStatus({},{},{'RUNE_VITALIZING','BLESSEDARMAMENT_VITALIZING'}, GetActiveWeapon())) or (Unarmed() and Tagged('HANDWRAPS',GetItemInEquipmentSlot(EquipmentSlot.Gloves)) and HasAnyStatus({},{},{'RUNE_VITALIZING','BLESSEDARMAMENT_VITALIZING'}, GetItemInEquipmentSlot(EquipmentSlot.Gloves))));" />
         <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
-      </fields>
-    </stat_object>
-    <stat_object color="#FFFF69B4" is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ec652e8f-595c-425c-9cd9-5e94a99269f4" />
-        <field name="Name" type="NameTableFieldDefinition" value="FIGHTER" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f344579d-86d2-425e-8fc9-a0be6939c866" />
-        <field name="Name" type="NameTableFieldDefinition" value="AdvantageousAssault" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="fb0f3d26-29e5-453e-8931-d98e3c8eec83" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="Press() and CanUseWeaponActions();" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetAttackWeapon())):DealDamage(MainMeleeWeapon+1);IF(HasStatus('STRIKING',GetAttackWeapon())):DealDamage(MainMeleeWeapon+2);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon())):DealDamage(MainMeleeWeapon+3);ExecuteWeaponFunctors(MainHand);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'STRIKING','STRIKING_GREATER'},GetAttackWeapon())):DealDamage(1,MainMeleeWeaponDamageType,,,0,,true,true);IF(HasStatus('STRIKING',GetAttackWeapon())):DealDamage(2,MainMeleeWeaponDamageType,,,0,,true,true);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon())):DealDamage(3,MainMeleeWeaponDamageType,,,0,,true,true);ExecuteWeaponFunctors(MainHand);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() or Item()) and not Self() and not Dead() and (HasStatus('SG_Prone') or HasStatus('Grappled'))" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Smash" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_MenacingAttack" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_MenacingAttack" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
-        <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" value="79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2b5cf667-33aa-4758-868c-a6c88eb1c81f" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1712482b-491a-4655-a2c1-197aefedd228" />
-        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="77543fdb-b41c-4ba9-b709-bd846c602de3" />
-        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="c947ac0d-1379-41f4-9f2d-27dc0ddace34" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="MeleeMainWeaponRange" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40548aa0g58fbgfbb0g37a0g1ea26f2bdd50" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4aba510bg8f6egd96cgb18dg2ecc65b4ae26" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object color="#FF4B0082" is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="78ab77a1-6430-4492-b518-e4041706f272" />
-        <field name="Name" type="NameTableFieldDefinition" value="TESTING_STUFF" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f082fb3b-e4c1-499c-b8d9-e7efa10ab65e" />
-        <field name="Name" type="NameTableFieldDefinition" value="Summon_Goblin" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="787ca369-e48a-46f7-b33b-dfee42494bf4" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon( b0f372f0-f74f-4c00-84e6-34ba09117578,Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf6bad2cg0777g4cbdg492dgc9654873cea0" version="1" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

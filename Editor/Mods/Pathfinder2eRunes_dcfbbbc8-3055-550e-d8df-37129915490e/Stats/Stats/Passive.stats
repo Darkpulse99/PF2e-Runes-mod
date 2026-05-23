@@ -344,51 +344,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6585a1d5-7bfb-4f5c-aef0-988f64926e99" />
-        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD6" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb1888a7g6c07g52acgcd1cg8bf2968b9a47" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD6,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D6,100,0)" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="45d38fa6-9451-4a54-bd21-c418b274add8" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="22c9af3d-de30-4ab5-ac90-5e59f5e92a6c" />
-        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD8" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD8,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D8,100,0)" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="adbb4c09-f02a-4784-8da3-39901107a2e1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3beda1e7g9d72gf046g873agb68ec862d7af" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a0bf9810-3a43-4f56-8921-035358293bd1" />
-        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD8_Slashing" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8210396c-6c8d-49eb-8500-4a01e965f98e" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD8_Slashing,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D8_Slashing,100,0)" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf323e830gac5eg23aegf806gc83291c63249" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="b79efc9b-ee68-4dfb-9cba-4e940ade9fec" />
-        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD10" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="0f778fb2-9241-4cfa-bd86-1317689ed521" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD10,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D10,100,0)" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h333e0b64gcc81g42f9ga441gcf26c1da04d7" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="641f22d2-c750-47d1-bda2-7cf343e83a99" />
-        <field name="Name" type="NameTableFieldDefinition" value="DeadlyD12" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="0dc74ecc-946e-436f-9db7-9e9c9ad200f6" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLYD12,100,0);IF(HasStatus('STRIKING_GREATER',GetAttackWeapon(context.Source))):ApplyStatus(DEADLY2D12,100,0)" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f5b1029g288agbb7eg754cg55ccd77f4f8a" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="aefb8db8-1a3d-4796-a085-75b92ff492f5" />
         <field name="Name" type="NameTableFieldDefinition" value="MartialArts_BonusUnarmedStrike" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfdff6563g7cadg1e42gd431g3aee53f75675" version="1" />
@@ -411,122 +366,85 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ff0fcc18-3f43-4e52-80c8-53797f9acca2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="951a0cfc-64e6-401e-ac65-eb047a558b6b" />
         <field name="Name" type="NameTableFieldDefinition" value="UnarmedABP" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f0fda68g15ecgca42g911bg739147286bde" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4d48c14g49b6gbe92g05a9g2f95741797f1" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_StunningStrike" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff0fcc18-3f43-4e52-80c8-53797f9acca2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="cd8bf9c9-9ce1-4a43-9b05-5944418f3241" />
+        <field name="UUID" type="IdTableFieldDefinition" value="831a1a6c-790d-4371-a29a-46bd9d77a572" />
         <field name="Name" type="NameTableFieldDefinition" value="UnarmedABP_Rank2" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a61572fgd980gc736g26b2gfc72cd8b56ce" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc6cb7ee3gd0d4gb5f7g2ecag98989a7c3b2f" version="1" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cd8bf9c9-9ce1-4a43-9b05-5944418f3241" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0126f12d-1c4e-4de0-9778-5605f9869dc0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="543a401e-fefa-4ed2-a028-39024487e0a8" />
         <field name="Name" type="NameTableFieldDefinition" value="OneInchPunch" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb428044fg62f9g4c76g48fbgc36154e618dc" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he9a33e73g8cb0g6fd9g125fg1c0c6e025fbb" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasAnyStatus({},{},{'ClingingShadowStanceStatus','CobraStanceStatus','CraneStanceStatus','DragonStanceStatus','IronbloodStanceStatus','MountainStanceStatus','TangledForestStanceStatus','TigerStanceStatus','WildWindsStanceStatus','WolfStanceStatus'},context.Source)):UnlockSpell(Target_OneInchPunch);IF(HasStatus('ClingingShadowStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_ClingingShadow);IF(HasStatus('CobraStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Cobra);IF(HasStatus('CraneStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Crane);IF(HasStatus('DragonStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Dragon);IF(HasStatus('IronbloodStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Ironblood);IF(HasStatus('MountainStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Mountain);IF(HasStatus('TangledForestStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_TangledForest);IF(HasStatus('TigerStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Tiger);IF(HasStatus('WildWindsStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_WildWinds);IF(HasStatus('WolfStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Wolf);" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0126f12d-1c4e-4de0-9778-5605f9869dc0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('Block_NonUnarmedStrike',context.Source)):UnlockSpell(Target_OneInchPunch);IF(HasStatus('ClingingShadowStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_ClingingShadow);IF(HasStatus('CobraStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Cobra);IF(HasStatus('CraneStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Crane);IF(HasStatus('DragonStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Dragon);IF(HasStatus('IronbloodStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Ironblood);IF(HasStatus('MountainStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Mountain);IF(HasStatus('TangledForestStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_TangledForest);IF(HasStatus('TigerStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Tiger);IF(HasStatus('WildWindsStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_WildWinds);IF(HasStatus('WolfStanceStatus',context.Source)):UnlockSpell(Target_OneInchPunch_Wolf);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="9ac09c89-9267-49dc-9195-509b15626bab" />
+        <field name="UUID" type="IdTableFieldDefinition" value="839d48e9-b6fe-44a4-8fc8-c568916575e3" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimalInstinctApe" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a310a98g378dg124cg337fgcea1d1a28473" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfa5695d6ga97bg6305g2990g261f079ec219" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AnimalBludgeoning)" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage" />
-        <field name="Owner" type="CommentTableFieldDefinition" value="Piercings: Eagle" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage')" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ac09c89-9267-49dc-9195-509b15626bab" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="403713aa-9e37-4985-b54c-b5f1535df75a" />
+        <field name="UUID" type="IdTableFieldDefinition" value="27c94709-0c43-4076-a00e-7414e7e40aac" />
         <field name="Name" type="NameTableFieldDefinition" value="CraneStance" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b62513bgec55g37bag9395gc2896bdcba63" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h960e69e2g8ce9gcce2gefb1g4d42bc4106ca" version="1" />
-        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindFamiliar_Raven" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CraneStance)" />
-        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
-        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="403713aa-9e37-4985-b54c-b5f1535df75a" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dcb476cb-5ab8-42a1-b394-964c39803d3b" />
+        <field name="UUID" type="IdTableFieldDefinition" value="242e45f1-c3b3-41e0-86f3-43d4ce6d5b1f" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonStance" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14990c75g3e32gfac2ge246gb8df7dfe99f0" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98fdb8aagdf97ge44fg9032gd26ab44e388f" version="1" />
-        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FavoredEnemy_RangerKnight" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DragonStance)" />
-        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
-        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcb476cb-5ab8-42a1-b394-964c39803d3b" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1d03b571-ca58-4e88-bb0c-c2e0b6ac0d50" />
+        <field name="UUID" type="IdTableFieldDefinition" value="213ec900-64f9-48ae-a38b-a5769f5c24d6" />
         <field name="Name" type="NameTableFieldDefinition" value="MountainStance" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9edbb434g60e1g5b84g40d6g62f176d333b6" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf210d215gc5dcg7465gb143g02393814c26a" version="1" />
-        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Land_Mountain" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MountainStance)" />
-        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
-        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d03b571-ca58-4e88-bb0c-c2e0b6ac0d50" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="35e79166-d5d8-439b-a851-852ece873953" />
+        <field name="UUID" type="IdTableFieldDefinition" value="194f9c2b-36ba-4b7a-a0e3-fd0d95e57372" />
         <field name="Name" type="NameTableFieldDefinition" value="TigerStance" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf133bcbfg1df7g5499g7a23g8312271501d4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5171b9c7gef0cg570fgdfdcgfdb5668e4134" version="1" />
-        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage_TigerTotem" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_TigerStance)" />
-        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
-        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="35e79166-d5d8-439b-a851-852ece873953" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e1992b65-5ffa-46a3-83bf-20854263bc83" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6b667182-2d7e-412b-aec1-8bc5eb4ac490" />
         <field name="Name" type="NameTableFieldDefinition" value="WolfStance" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf4287f73ge9b7g163fg0b6fgb2df9108fe85" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d4315e3g9a3eg91eag3c7fg4856ab2d3a3e" version="1" />
-        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage_WolfTotem" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WolfStance)" />
-        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
-        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1992b65-5ffa-46a3-83bf-20854263bc83" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0bc56f6d-c097-41a5-a286-8eb9076c7011" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bca2cdf5-7630-461e-994e-294167acaa31" />
         <field name="Name" type="NameTableFieldDefinition" value="CobraStance" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb22d10egcde2ge541ga33dgb067403e5944" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d524fbegac82g75eag9191gec61a7e6365b" version="1" />
-        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FangsOfTheFireSnake" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CobraStance)" />
-        <field name="DynamicAnimationTag" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
-        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="73c08de0-7999-41ec-9968-df81908d42fe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0bc56f6d-c097-41a5-a286-8eb9076c7011" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not UnarmedDice(3)):ApplyStatus(PersistentPoisonDamage_1,100,-1);IF(UnarmedDice(3)):ApplyStatus(PersistentPoisonDamage_2,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -546,18 +464,6 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ea16f35g7f25gb1f9gd6b2g26eab5c77421" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6e3439dg7ce8g8b2dg9b0eg552d6bf33e4a" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ShieldMaster_Block" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="89e4dd3b-d153-4b62-a375-a872093ff2e5" />
-        <field name="Name" type="NameTableFieldDefinition" value="AdvantageousAssault" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc113967bgaef9g8841g3dd6ge19eff768f9a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h45d03613g1eb8g670fg4c48g754840c0f46c" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Smash" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AdvantageousAssault)" />
-        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="c947ac0d-1379-41f4-9f2d-27dc0ddace34" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

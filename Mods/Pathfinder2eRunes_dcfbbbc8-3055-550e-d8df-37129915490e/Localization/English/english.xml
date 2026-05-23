@@ -793,15 +793,15 @@
   <content contentuid="h1e133052gc88dg452egb473g031d175de8d1" version="7">Fashioned by some unknown archmage - no identifying insignia is forthcoming.&lt;br&gt;&lt;br&gt;The staff thrums with a slow, ferocious pulse that draws its concussive power from the spiral-horned creatures that gave the weapon its name.</content>
   <content contentuid="hdab561d7ga636g4722g9b56g6d4e9a6cc912" version="4">Dagger</content>
   <content contentuid="h6e66ce5bg5f0ag4319g877agdcc9bbcf13bc" version="4">This dagger's handle is smooth and light, its jagged blade sharpened into a thin, cruel edge.</content>
-  <content contentuid="h33896556g20f5g4fe0gb091g97d0d0fc0c88" version="4">Dagger</content>
-  <content contentuid="h0881ee66gc86ag44ffg9b7cg995f8f5867cf" version="4">A light, slender blade, magically honed to stay razor-sharp.</content>
+  <content contentuid="h33896556g20f5g4fe0gb091g97d0d0fc0c88" version="7">Dagger</content>
+  <content contentuid="h0881ee66gc86ag44ffg9b7cg995f8f5867cf" version="7">A light, slender blade, magically honed to stay razor-sharp.</content>
   <content contentuid="h0ffee62eg6007g41ecg8b83g67771c85fb10" version="4">Steelforged Sword</content>
   <content contentuid="h1a85ec24g7b77g4e46g9f96g8f9f79bbb4d6" version="4">Though the grip's leather is old and crusty, it shows no signs of wear, and not a single scratch mars the slender blade.</content>
   <content contentuid="h935fb097g313ag4267g91begda96d90b9986" version="4">Shortsword</content>
   <content contentuid="h9037a0f0gfc6cg4150gbb32g74c1813c0bc3" version="4">A standard, lightweight sword, suitable for both thrusting and slashing techniques.</content>
-  <content contentuid="ha8750abagb8bdg4ea4g9fb2g95d8b6ae0d8d" version="4">Shortsword</content>
-  <content contentuid="h0cbbd37cg53b5g4034gbcb7g7f2b154b3982" version="4">Battleaxe</content>
-  <content contentuid="ha79383fbg8de0g4e5agb8b0gbd44c270466d" version="3">The intricate engravings on this axe's blade and handle make plain the skill of its smith.</content>
+  <content contentuid="ha8750abagb8bdg4ea4g9fb2g95d8b6ae0d8d" version="6">Shortsword</content>
+  <content contentuid="h0cbbd37cg53b5g4034gbcb7g7f2b154b3982" version="5">Battleaxe</content>
+  <content contentuid="ha79383fbg8de0g4e5agb8b0gbd44c270466d" version="4">The intricate engravings on this axe's blade and handle make plain the skill of its smith.</content>
   <content contentuid="h2ff391c3g1c8cg4befgadcagfcf22f469d94" version="4">Club</content>
   <content contentuid="h2bba66e3g9f31g4515g9162g75cf55a7dcdc" version="3">A long, deep crack runs through the side of the wood, filled with crusted blood.</content>
   <content contentuid="hce3aa526g8ffeg412cg83f9g0cdb981cd91d" version="4">Flail</content>
@@ -864,68 +864,68 @@
   <content contentuid="h0d4f1e23gb528g4cdbgb7bag1e86e96b4d59" version="3">Following tradition, this hammer's faces were forged with grooves that sealed in the blood of its first kill.</content>
   <content contentuid="h67539ee6g96a2g4818g86e0g788931e5a5b7" version="4">War Pick</content>
   <content contentuid="hfdee0c47g2cf0g4707g9662g94a18be5b1bd" version="3">When swung, the arc of this weapon perfectly matches the curve of its beak-like pick.</content>
-  <content contentuid="hae39a7dcge0f6g49e2g9bf6g08664c230c13" version="3">Githyanki Greatsword</content>
-  <content contentuid="h0149fa94g03dfg475cg8524g500195cbdb95" version="4">Though heavily decorated and inlaid with rubies, the blade's sharp edge suggests its use isn't merely ornamental.</content>
-  <content contentuid="h10045ed4g1ad0g4cfaga0c3gb4b44d13b847" version="4">Githyanki Crossbow</content>
-  <content contentuid="h5187dcf4gc8ceg481bg9412gacf2abd35f18" version="3">This heavy crossbow is fashioned from a curious, tensile metal that doesn't seem to be native to Faerûn.</content>
-  <content contentuid="hb447a316g3ecbg4990g8847gbee7b509ed1d" version="4">Githyanki Longsword</content>
-  <content contentuid="h3735cb5bg786fg40bfg90a5gf8127b0cb23e" version="3">Every tip and edge on this elaborate sword is sharpened to a deadly perfection.</content>
-  <content contentuid="ha31f73fdg090fg4490g91c8g9df3b2e46358" version="4">Githyanki Shortsword</content>
-  <content contentuid="h4d723eadg0130g4eb6gadfbgeb021e847bc3" version="3">Despite its engravings, this lightweight sword is perfectly balanced - a flawless killing implement.</content>
-  <content contentuid="h33955a69g3081g4ad3gacf9g579d6f8749a8" version="4">Battleaxe</content>
-  <content contentuid="h0ea9776fg8987g4397g92cbgaa09d11b670e" version="4">A pulse of magic shoots through your hands whenever you touch this axe.</content>
-  <content contentuid="hb828fbfbg386bg4362g8d61ga5e18c2a7349" version="4">Flail</content>
-  <content contentuid="h2b882693gcbaeg4c5dg91dbgb3dce03e6d0a" version="4">The flail sits heavy in your hand - the weight of steel and magic.</content>
-  <content contentuid="h6e01d680g67ddg4e14gaeaag3f4d2fb96b6b" version="4">Glaive</content>
-  <content contentuid="h706d769cg783cg49b2g89e6g165114ae2ce0" version="4">Tiny specks of blood are fused into the blade, as if the glaive is feeding on them.</content>
-  <content contentuid="h29444f83g29afg41a5g9953g3c9c547284bf" version="4">Greataxe</content>
-  <content contentuid="h45c0958ag40c4g4096g8ce6gf3f74c8577de" version="3">This heavy axe emits a barely audible hum when swung.</content>
-  <content contentuid="hf83da603g5bfcg411cg967bg3ee2847f1ae5" version="4">Greatclub</content>
-  <content contentuid="hdbc9a5b7gc982g4379g86c1gcfcf2b74fbcc" version="3">A blue glow radiates through the brass spirals at the end of this heavy club.</content>
-  <content contentuid="h29d7ebdcgf222g47f9gb6f6gceccf812ef6f" version="4">Greatsword</content>
-  <content contentuid="h6758bb42g6c0eg4d49gb91cgaf529b390556" version="3">This greatsword's guard has been replaced with the spiked ball of a morningstar. </content>
-  <content contentuid="h77a8574ag8a67g4ca6g9c4ag2eeb178c472a" version="4">Halberd</content>
-  <content contentuid="h4ebbcfceg0f71g4260g9b37g5c437dac36ba" version="4">A deep scratch runs down one side of the axe blade. It thrums with magic.</content>
-  <content contentuid="h8e53a93cg2abdg4e59gbefcg7231c2fe1f81" version="4">Hand Crossbow</content>
-  <content contentuid="h5f1b1779g6652g48a3gb878g7192f3d8b4d3" version="3">Though the crossbow is small and light, a heavy power runs through its bowstring.</content>
-  <content contentuid="h7e6b9f04gb525g4fe4ga948gda687c00031d" version="4">Heavy Crossbow</content>
-  <content contentuid="hd66285f8g94b1g4d4bg9db3g2adce6368161" version="3">The crossbow feels weightless in your hands, as if held up by indiscernible currents of air.</content>
-  <content contentuid="hf4ab2eccg9d87g4d6agb7b2gafeefe1f25d7" version="4">Javelin</content>
-  <content contentuid="h3eb82ce5g3bf2g4f26ga962gbb8a76888e58" version="3">The tell-tale glow of magical enchantment pulses along this javelin's hooked head.</content>
-  <content contentuid="h63010807g1feeg421egb547gacb3c8e797ae" version="4">Light Crossbow</content>
-  <content contentuid="h82c07153gac5cg4542ga53ag1d679a0af226" version="4">Persistent rumours speak of magical crossbows that never miss their mark. While clearly exaggerated, every tale holds a kernel of truth.</content>
-  <content contentuid="hde86a300g13a0g4b0dg8657g375e68b67092" version="4">Light Hammer</content>
-  <content contentuid="h92ff6b11gbcbbg4889gb3aagf8ae90deddd4" version="4">Magic thrums through you with each blow of this hammer.</content>
-  <content contentuid="he5e0e95bgeb1dg4ce0gb982g3ce97b7bd3d1" version="4">Longbow</content>
-  <content contentuid="h31ed7786g4eceg4fecg8c2cg9107418a6c75" version="3">A soothing hum drifts through your head whenever you draw this bow.</content>
-  <content contentuid="h362c5076g1cf4g411ag8e71ga153356a1c4c" version="4">Longsword</content>
-  <content contentuid="hb420f2e2gd27bg4490ga4a7gf49a99422f7e" version="4">This longsword never dulls, although an observer may notice it quietly drinks the blood of slain enemies.</content>
-  <content contentuid="hc4409cc8gab5cg44d5g8c54g117d011cc1aa" version="4">Mace</content>
-  <content contentuid="h5fa4f748g1c26g4425gad55gb9326ef5dec4" version="3">The shallow etchings along this mace's head seem to change shape, depending on the light.</content>
-  <content contentuid="h72574fe5g2598g407eg9708g85c309d87209" version="4">Maul</content>
-  <content contentuid="h72c38ebeg9a6eg48fcg9efdg80f620fb3082" version="3">This massive hammer is inscribed with a battle chant in Giant, bidding the wielder to split the world in two.</content>
-  <content contentuid="h31173838gea14g4acfg943bg7bc53a8313e9" version="4">Morningstar</content>
-  <content contentuid="h54d03e06g9578g445dga0b2ge0f502baa0aa" version="3">The intense heat of dwarven forges has given the metal its shiny blue hue.</content>
-  <content contentuid="hd8d40387g9620g43b4g89d9g38f1b869a359" version="4">Pike</content>
-  <content contentuid="hf1614bc4g398fg49dcga6c9g460beda0370d" version="3">Tiny indentations in the groove along this pike's head emit a high-pitched whistle when thrust.</content>
-  <content contentuid="h7f5ca892g22ceg4b55gab74gb66a507269e4" version="6">Quarterstaff</content>
-  <content contentuid="h230684e9ge38cg4f23ga2adg7283a9f63e22" version="5">Steel bands wrap around a wooden core, giving this staff extra momentum.</content>
-  <content contentuid="h8570dc79ge64bg4049g8c2egdd31f5d3b019" version="4">Rapier</content>
-  <content contentuid="h5f53c879gb6f3g4b5bg9172gcae683e32b07" version="5">The thin edge of this sword seems to blur and become nigh imperceptible with even the slightest movement.</content>
-  <content contentuid="h208cc59egfe62g4c5eg860cg7e6cdcb7ad7e" version="4">Scimitar</content>
-  <content contentuid="hdf477f28g232bg44ecgb5ffg20e4c0c57432" version="4">An arched electric-blue afterimage follows this blade's every move.</content>
+  <content contentuid="hae39a7dcge0f6g49e2g9bf6g08664c230c13" version="4">Githyanki Greatsword</content>
+  <content contentuid="h0149fa94g03dfg475cg8524g500195cbdb95" version="5">Though heavily decorated and inlaid with rubies, the blade's sharp edge suggests its use isn't merely ornamental.</content>
+  <content contentuid="h10045ed4g1ad0g4cfaga0c3gb4b44d13b847" version="5">Githyanki Crossbow</content>
+  <content contentuid="h5187dcf4gc8ceg481bg9412gacf2abd35f18" version="4">This heavy crossbow is fashioned from a curious, tensile metal that doesn't seem to be native to Faerûn.</content>
+  <content contentuid="hb447a316g3ecbg4990g8847gbee7b509ed1d" version="5">Githyanki Longsword</content>
+  <content contentuid="h3735cb5bg786fg40bfg90a5gf8127b0cb23e" version="4">Every tip and edge on this elaborate sword is sharpened to a deadly perfection.</content>
+  <content contentuid="ha31f73fdg090fg4490g91c8g9df3b2e46358" version="5">Githyanki Shortsword</content>
+  <content contentuid="h4d723eadg0130g4eb6gadfbgeb021e847bc3" version="4">Despite its engravings, this lightweight sword is perfectly balanced - a flawless killing implement.</content>
+  <content contentuid="h33955a69g3081g4ad3gacf9g579d6f8749a8" version="7">Battleaxe</content>
+  <content contentuid="h0ea9776fg8987g4397g92cbgaa09d11b670e" version="7">A pulse of magic shoots through your hands whenever you touch this axe.</content>
+  <content contentuid="hb828fbfbg386bg4362g8d61ga5e18c2a7349" version="6">Flail</content>
+  <content contentuid="h2b882693gcbaeg4c5dg91dbgb3dce03e6d0a" version="6">The flail sits heavy in your hand - the weight of steel and magic.</content>
+  <content contentuid="h6e01d680g67ddg4e14gaeaag3f4d2fb96b6b" version="6">Glaive</content>
+  <content contentuid="h706d769cg783cg49b2g89e6g165114ae2ce0" version="6">Tiny specks of blood are fused into the blade, as if the glaive is feeding on them.</content>
+  <content contentuid="h29444f83g29afg41a5g9953g3c9c547284bf" version="7">Greataxe</content>
+  <content contentuid="h45c0958ag40c4g4096g8ce6gf3f74c8577de" version="6">This heavy axe emits a barely audible hum when swung.</content>
+  <content contentuid="hf83da603g5bfcg411cg967bg3ee2847f1ae5" version="6">Greatclub</content>
+  <content contentuid="hdbc9a5b7gc982g4379g86c1gcfcf2b74fbcc" version="5">A blue glow radiates through the brass spirals at the end of this heavy club.</content>
+  <content contentuid="h29d7ebdcgf222g47f9gb6f6gceccf812ef6f" version="6">Greatsword</content>
+  <content contentuid="h6758bb42g6c0eg4d49gb91cgaf529b390556" version="5">This greatsword's guard has been replaced with the spiked ball of a morningstar. </content>
+  <content contentuid="h77a8574ag8a67g4ca6g9c4ag2eeb178c472a" version="5">Halberd</content>
+  <content contentuid="h4ebbcfceg0f71g4260g9b37g5c437dac36ba" version="5">A deep scratch runs down one side of the axe blade. It thrums with magic.</content>
+  <content contentuid="h8e53a93cg2abdg4e59gbefcg7231c2fe1f81" version="6">Hand Crossbow</content>
+  <content contentuid="h5f1b1779g6652g48a3gb878g7192f3d8b4d3" version="5">Though the crossbow is small and light, a heavy power runs through its bowstring.</content>
+  <content contentuid="h7e6b9f04gb525g4fe4ga948gda687c00031d" version="6">Heavy Crossbow</content>
+  <content contentuid="hd66285f8g94b1g4d4bg9db3g2adce6368161" version="5">The crossbow feels weightless in your hands, as if held up by indiscernible currents of air.</content>
+  <content contentuid="hf4ab2eccg9d87g4d6agb7b2gafeefe1f25d7" version="6">Javelin</content>
+  <content contentuid="h3eb82ce5g3bf2g4f26ga962gbb8a76888e58" version="5">The tell-tale glow of magical enchantment pulses along this javelin's hooked head.</content>
+  <content contentuid="h63010807g1feeg421egb547gacb3c8e797ae" version="6">Light Crossbow</content>
+  <content contentuid="h82c07153gac5cg4542ga53ag1d679a0af226" version="6">Persistent rumours speak of magical crossbows that never miss their mark. While clearly exaggerated, every tale holds a kernel of truth.</content>
+  <content contentuid="hde86a300g13a0g4b0dg8657g375e68b67092" version="6">Light Hammer</content>
+  <content contentuid="h92ff6b11gbcbbg4889gb3aagf8ae90deddd4" version="6">Magic thrums through you with each blow of this hammer.</content>
+  <content contentuid="he5e0e95bgeb1dg4ce0gb982g3ce97b7bd3d1" version="6">Longbow</content>
+  <content contentuid="h31ed7786g4eceg4fecg8c2cg9107418a6c75" version="5">A soothing hum drifts through your head whenever you draw this bow.</content>
+  <content contentuid="h362c5076g1cf4g411ag8e71ga153356a1c4c" version="6">Longsword</content>
+  <content contentuid="hb420f2e2gd27bg4490ga4a7gf49a99422f7e" version="6">This longsword never dulls, although an observer may notice it quietly drinks the blood of slain enemies.</content>
+  <content contentuid="hc4409cc8gab5cg44d5g8c54g117d011cc1aa" version="6">Mace</content>
+  <content contentuid="h5fa4f748g1c26g4425gad55gb9326ef5dec4" version="5">The shallow etchings along this mace's head seem to change shape, depending on the light.</content>
+  <content contentuid="h72574fe5g2598g407eg9708g85c309d87209" version="6">Maul</content>
+  <content contentuid="h72c38ebeg9a6eg48fcg9efdg80f620fb3082" version="5">This massive hammer is inscribed with a battle chant in Giant, bidding the wielder to split the world in two.</content>
+  <content contentuid="h31173838gea14g4acfg943bg7bc53a8313e9" version="6">Morningstar</content>
+  <content contentuid="h54d03e06g9578g445dga0b2ge0f502baa0aa" version="5">The intense heat of dwarven forges has given the metal its shiny blue hue.</content>
+  <content contentuid="hd8d40387g9620g43b4g89d9g38f1b869a359" version="6">Pike</content>
+  <content contentuid="hf1614bc4g398fg49dcga6c9g460beda0370d" version="5">Tiny indentations in the groove along this pike's head emit a high-pitched whistle when thrust.</content>
+  <content contentuid="h7f5ca892g22ceg4b55gab74gb66a507269e4" version="8">Quarterstaff</content>
+  <content contentuid="h230684e9ge38cg4f23ga2adg7283a9f63e22" version="7">Steel bands wrap around a wooden core, giving this staff extra momentum.</content>
+  <content contentuid="h8570dc79ge64bg4049g8c2egdd31f5d3b019" version="6">Rapier</content>
+  <content contentuid="h5f53c879gb6f3g4b5bg9172gcae683e32b07" version="7">The thin edge of this sword seems to blur and become nigh imperceptible with even the slightest movement.</content>
+  <content contentuid="h208cc59egfe62g4c5eg860cg7e6cdcb7ad7e" version="6">Scimitar</content>
+  <content contentuid="hdf477f28g232bg44ecgb5ffg20e4c0c57432" version="6">An arched electric-blue afterimage follows this blade's every move.</content>
   <content contentuid="h27034815g3904g49b2g9593g29af0a3db3f7" version="2">Shield</content>
   <content contentuid="hda92bfeag21cfg4778gb900gb95ac6b783b7" version="2">This robust shield has been polished to a bright sheen.</content>
-  <content contentuid="hde12216dg9df5g4339gbc26gbf91fc0d53fa" version="4">Shortbow</content>
-  <content contentuid="hc11fb3efg7365g401egbc3egeb76fb4bae0c" version="3">Pliable yew and a hearty bowstring ensure this shortbow fires straight and true.</content>
-  <content contentuid="ha4163824g60efg4949gb28bg656172852750" version="3">Spear</content>
-  <content contentuid="hc1bca072g7b10g40ecga65agcbe5a98d7d00" version="3">Even the ornamentation at the base of this spear's head is honed to a razor edge.</content>
-  <content contentuid="h89295d65gd428g4618g91d4ga7d3fe3ae3b7" version="3">Trident</content>
-  <content contentuid="h7b23196cg6db1g4690gb904g063326ba5f2a" version="4">An elegant, vicious weapon designed to eviscerate flesh and organs.</content>
-  <content contentuid="h6744da5eg0e9eg436eg88f8g259c5e3c2b02" version="4">Warhammer</content>
-  <content contentuid="ha42705cbgf29dg4cc3gaea5gd0eacae53fc8" version="3">The segmented design of this gnome-forged hammer borrows elements of dragonborn weaponry.</content>
-  <content contentuid="h6bdcaf03g48b6g40faga92egfdc096415690" version="3">War Pick</content>
-  <content contentuid="h3e92fb66gb142g4166gaac3g7d12fa68356a" version="3">This weapon's slick steel point prevents it from catching in armour or bone.</content>
+  <content contentuid="hde12216dg9df5g4339gbc26gbf91fc0d53fa" version="6">Shortbow</content>
+  <content contentuid="hc11fb3efg7365g401egbc3egeb76fb4bae0c" version="5">Pliable yew and a hearty bowstring ensure this shortbow fires straight and true.</content>
+  <content contentuid="ha4163824g60efg4949gb28bg656172852750" version="5">Spear</content>
+  <content contentuid="hc1bca072g7b10g40ecga65agcbe5a98d7d00" version="5">Even the ornamentation at the base of this spear's head is honed to a razor edge.</content>
+  <content contentuid="h89295d65gd428g4618g91d4ga7d3fe3ae3b7" version="5">Trident</content>
+  <content contentuid="h7b23196cg6db1g4690gb904g063326ba5f2a" version="6">An elegant, vicious weapon designed to eviscerate flesh and organs.</content>
+  <content contentuid="h6744da5eg0e9eg436eg88f8g259c5e3c2b02" version="6">Warhammer</content>
+  <content contentuid="ha42705cbgf29dg4cc3gaea5gd0eacae53fc8" version="5">The segmented design of this gnome-forged hammer borrows elements of dragonborn weaponry.</content>
+  <content contentuid="h6bdcaf03g48b6g40faga92egfdc096415690" version="5">War Pick</content>
+  <content contentuid="h3e92fb66gb142g4166gaac3g7d12fa68356a" version="5">This weapon's slick steel point prevents it from catching in armour or bone.</content>
   <content contentuid="hb3a26b0fg1fb8g47b1gbaa5gddbd838e0bb0" version="5">Thermodynamo Axe</content>
   <content contentuid="h172d710dg2d86g454bga607g6dc0ae46380f" version="3">Designed by gnomish innovation, this weapon has a dynamic core that swivels and tinkles into life whenever the axe is swung at a foe. </content>
   <content contentuid="hd5b582afg0defg4bbeg9c2bg891dadc00039" version="4">Ironwood Club</content>
@@ -942,9 +942,9 @@
   <content contentuid="h629ea019gf042g4bdfgaf9bge94ce0872293" version="4">Once wielded by a murderer, the weapon's handle retains an eerie, clammy warmth, as if Dolor's pre-slaughter sweat somehow crept into the leather - and lingers there still. </content>
   <content contentuid="hee9dd75cg40eag4e2aga062g3aa8fc5d3133" version="4">Gleamdance Dagger</content>
   <content contentuid="h8d4c653bg405bg4dcbga344g0b2b02edc032" version="4">A pair of pixie wings were used to create this pretty blade - their delicate tracings can be seen all day and night, though they shine brightest by the light of a gibbous moon.</content>
-  <content contentuid="hd3f607a8gbd0fg4b9aga683g965c06fb6055" version="3">Sussur Dagger</content>
-  <content contentuid="h1c4249a3gb72dg4f30g8ce2gb48f01e7a2c0" version="3">&lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silences&lt;/LSTag&gt; targets on hit.</content>
-  <content contentuid="h0496d826gfd8dg4ac2gbab7gf8d8bf831be0" version="3">Smoke-like whorls of sussur sap darken the metal of this dagger's blade and silence its victims.</content>
+  <content contentuid="hd3f607a8gbd0fg4b9aga683g965c06fb6055" version="4">Sussur Dagger</content>
+  <content contentuid="h1c4249a3gb72dg4f30g8ce2gb48f01e7a2c0" version="4">&lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silences&lt;/LSTag&gt; targets on hit.</content>
+  <content contentuid="h0496d826gfd8dg4ac2gbab7gf8d8bf831be0" version="4">Smoke-like whorls of sussur sap darken the metal of this dagger's blade and silence its victims.</content>
   <content contentuid="h8e7ec137gffcag4653gb2e6g66bd55418d41" version="6">Rhapsody</content>
   <content contentuid="hf1642298gcb05g406egadabgde4f364f8bde" version="7">Cazador's love of poetry arose after he read one on the naked stomach of a dead child in his homeland. The child was hung from the lowest branch of a tree. Cazador read the poem, and looked at the child, and he knew that here was the artform for him. </content>
   <content contentuid="h84f55b02gf800g409eg97d8ga8155b9bedb6" version="4">Stillmaker</content>
@@ -967,9 +967,9 @@
   <content contentuid="heb47e75egf30dg4701g897eg2cac70ad083a" version="5">A club with nails hammered through it. Classic.</content>
   <content contentuid="h253190acg76a9g481fgace6gdcfe38e63a08" version="4">Svartlebee's Woundseeker</content>
   <content contentuid="h33f4a9f6g82d1g4f58gb6dfg3f8041efd420" version="3">Wielded by Svartlebee The Custodian, so named because he had the following reputation: Have you got someone in your life causing a mess? Send Svartlebee a missive. He shall clean them up, and then clean up the crime scene. </content>
-  <content contentuid="he11cbd50gad99g4f4dgb6edg82b0174e0de2" version="3">Sussur Greatsword</content>
-  <content contentuid="h17383768g7570g4082g80a0g075a77c7661b" version="3">&lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silences&lt;/LSTag&gt; targets on hit.</content>
-  <content contentuid="h76b3b60fg8606g4204g83d2g925db719d5cc" version="3">Sussur roots extend from this sword's hilt into the blade itself. It yearns to drink magic, silencing every creature it strikes.</content>
+  <content contentuid="he11cbd50gad99g4f4dgb6edg82b0174e0de2" version="4">Sussur Greatsword</content>
+  <content contentuid="h17383768g7570g4082g80a0g075a77c7661b" version="4">&lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silences&lt;/LSTag&gt; targets on hit.</content>
+  <content contentuid="h76b3b60fg8606g4204g83d2g925db719d5cc" version="4">Sussur roots extend from this sword's hilt into the blade itself. It yearns to drink magic, silencing every creature it strikes.</content>
   <content contentuid="he90d2745g770eg431dg857eg69d5c567fc08" version="4">Sword of Chaos</content>
   <content contentuid="hb6966adbgfdffg42b1g862cg62ab0e3eb7f9" version="3">The sword of Sarevok, brother of Gorion's Ward and child of the evil god Bhaal. Though much of its power died with him, the sword is still formidable, and glows with a malevolent light.</content>
   <content contentuid="h283b53d9g85a0g482bg95d5g057a88e72d79" version="8">Balduran's Giantslayer</content>
@@ -1002,10 +1002,10 @@
   <content contentuid="hf5649bb2g401fg4803g869eg776804508ba2" version="3">The commonly held belief that archers are rangey, thin-wristed people is completely false. It takes years of training to pull a bowstring all the way back to your cheekbone, and wrists like iron.</content>
   <content contentuid="h338488a3g4cf2g4027gaa32g30aafe106ae9" version="4">Gontr Mael</content>
   <content contentuid="h5ac5b510g13e9g4820g81d1gb6951dc229ed" version="5">Gontr Mael blasted from the corpse of the Steel Watcher Titan: a bow formed from the boiling slag and weird whispering gyros inherent to the mechanical giant. It must have acted as the Titan's abdomen, exchanging muscle for immaculate steel.</content>
-  <content contentuid="h92819002g6e2fg49aag99edg72630778bfc8" version="4">Katana</content>
-  <content contentuid="hccebbf40g138fg422ega113g7a0869715627" version="4">The hilt of this slender sword is wrapped with soft, black silk - the dark colour hiding any possible stains.</content>
-  <content contentuid="he8e5d5d3g15ceg4226gbbf1g3c83cc9beb1c" version="4">Adamantine Longsword</content>
-  <content contentuid="h482584a2gd6b5g41dbg870fg6487f49f1b44" version="3">Though heavy, this longsword swings effortlessly in your hand - ready to take down a hundred enemies.</content>
+  <content contentuid="h92819002g6e2fg49aag99edg72630778bfc8" version="5">Katana</content>
+  <content contentuid="hccebbf40g138fg422ega113g7a0869715627" version="5">The hilt of this slender sword is wrapped with soft, black silk - the dark colour hiding any possible stains.</content>
+  <content contentuid="he8e5d5d3g15ceg4226gbbf1g3c83cc9beb1c" version="5">Adamantine Longsword</content>
+  <content contentuid="h482584a2gd6b5g41dbg870fg6487f49f1b44" version="4">Though heavy, this longsword swings effortlessly in your hand - ready to take down a hundred enemies.</content>
   <content contentuid="h4d9ce4e7ga6bbg4014ga191g58bff282cd41" version="6">Blackguard's Sword</content>
   <content contentuid="hd656fc45g37d2g40d9g8dc6gff11994a4f49" version="3">Formerly wielded by one who forsook all ties of friendship and kindness, this sword is rife with deranged energies. It seems to transmit feelings of contentment when carving through bones.</content>
   <content contentuid="ha859b83cgb737g4c6eg9032g885bf405d106" version="5">Blade of Oppressed Souls</content>
@@ -1020,8 +1020,8 @@
   <content contentuid="h977077fag4f31g4273gadefg1b8eca4034e7" version="3">Precise infernal runes are woven into this weapon's filigree, implying a creator well-versed in hellish arcana.</content>
   <content contentuid="hae173e3cg83c0g4606gbf75g39aaf4c12dca" version="2">Loviatar's Scourge</content>
   <content contentuid="h61ad2bf3g74efg478egb74dg722ef8f1ef52" version="2">More club than scourge, this weapon has a serrated edge made for drawing long, shallow cuts.</content>
-  <content contentuid="h8a357567gf3e6g4773g9243g3eaa0a148f9d" version="4">Adamantine Mace</content>
-  <content contentuid="h44454fc6gf835g4c3egaf66g4e7676f78287" version="4">A nimble mace, heavy with the promise of broken bones.</content>
+  <content contentuid="h8a357567gf3e6g4773g9243g3eaa0a148f9d" version="5">Adamantine Mace</content>
+  <content contentuid="h44454fc6gf835g4c3egaf66g4e7676f78287" version="5">A nimble mace, heavy with the promise of broken bones.</content>
   <content contentuid="hd4c423e3g4e4ag4802ga377g7cf09c982b1e" version="4">Shattered Flail</content>
   <content contentuid="hede1bb4ag8daag4340ga146gce22a4093152" version="4">A bundle of bones and blood - and a soul-piercing demonic presence - is all that remains of the Flind's flail. It would make a decent mace with a particularly nasty bite.</content>
   <content contentuid="hf603b674g3717g40begb7c9gf7b36697773a" version="7">Handmaiden's Mace</content>
@@ -1087,8 +1087,8 @@
   <content contentuid="h2189fd56ga22ag4115gbe2dgcc81917e71cf" version="6">Mortician Kurwin was known to use his trusty Cauteriser on all sorts of interesting subjects. At first these were cadavers, then people who wouldn't be missed, and it was only after he targeted a well-liked tavern owner that he was ratted out to the law.</content>
   <content contentuid="h13b721f8ge73bg4555g8b5fg0bda3b7493eb" version="5">Sylvan Scimitar</content>
   <content contentuid="h9a84136bgf785g4b61g9e7fgdee432817f8a" version="3">Everything moves strangely in the Feywild, from rivers to behaviours. It's a mercurial place, where the magical and physical can pass permeably through one another. </content>
-  <content contentuid="h39b84902g3f14g4041gb6c8g4cad6ce53857" version="4">Adamantine Scimitar</content>
-  <content contentuid="h7d602510gdffag45cfga535g67508dab20f4" version="5">Each cut of this blade shines with the wicked glint of adamantine - a promise for a devastating blow.</content>
+  <content contentuid="h39b84902g3f14g4041gb6c8g4cad6ce53857" version="5">Adamantine Scimitar</content>
+  <content contentuid="h7d602510gdffag45cfga535g67508dab20f4" version="6">Each cut of this blade shines with the wicked glint of adamantine - a promise for a devastating blow.</content>
   <content contentuid="h05944f47ged27g49efg9dd1g9bb36ca59326" version="3">Thorn Blade</content>
   <content contentuid="hdadff295g89ebg47a6gae9bgff6ceb5c20e7" version="2">This blade is sharp and slender as a serpent's fang - and just as likely to inflict a hideous sting. </content>
   <content contentuid="h745b7e39gaf4eg40aeg8277g1076b66b7751" version="4">Belm</content>
@@ -1113,25 +1113,25 @@
   <content contentuid="hed4c9549gb168g4029g8e08g182847664caf" version="4">Snatched from the realm of the mad wizard Halaster Blackcloak, this knife became a prized keepsake of a duergar king.</content>
   <content contentuid="h62dcdcc5g1085g4ac6ga86fg4589de831c96" version="5">Crimson Mischief</content>
   <content contentuid="h8ccaff71gf114g4729g995dgceb86deef6ae" version="4">When she was a girl, she toyed with nastiness and sadism. Children often grow out of this; they get hobbies. For Orin, that taste for cruelty fermented, and in a way she did find hobbies. Ones that screamed.</content>
-  <content contentuid="hf9d58539gc31fg4b02gb3d6g36f0134571b8" version="3">Sussur Sickle</content>
-  <content contentuid="hee463fd8g6dedg4d6aga45cgf81509b49ca8" version="3">&lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silences&lt;/LSTag&gt; targets on hit.</content>
-  <content contentuid="h4dfb7163gf3f5g42e4ga39ege8e25bd316dd" version="3">The sheen of sussur sap forged into this sickle glows blue, silencing every creature it cuts.</content>
+  <content contentuid="hf9d58539gc31fg4b02gb3d6g36f0134571b8" version="4">Sussur Sickle</content>
+  <content contentuid="hee463fd8g6dedg4d6aga45cgf81509b49ca8" version="4">&lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silences&lt;/LSTag&gt; targets on hit.</content>
+  <content contentuid="h4dfb7163gf3f5g42e4ga39ege8e25bd316dd" version="4">The sheen of sussur sap forged into this sickle glows blue, silencing every creature it cuts.</content>
   <content contentuid="h74856d42gb077g486fg878cga70643ddc8c7" version="4">Wavemother's Sickle</content>
   <content contentuid="h8e6943fagb792g4598g86fcgd7c1bd0dc10c" version="3">The curve of this sickle evokes a pitiless crescent moon over turbulent seas.</content>
   <content contentuid="heb9ab780g155dg4c30ga064g738a7b9d7603" version="5">Lightning Jabber</content>
   <content contentuid="hf6ae4f36ga5e5g4f54g9375g50ad1c738cdb" version="3">A makeshift spear fashioned from a giant crab's claw and the charged imagination of kuo-toa fishfolk.</content>
   <content contentuid="h17a4c836gc466g4eaegbde4gd891196854c4" version="3">Infernal Spear</content>
   <content contentuid="h7d16237bgf552g4c05g9dacgbc70539615d0" version="3">Precise infernal runes are woven into this weapon's filigree, implying a creator well-versed in hellish arcana.</content>
-  <content contentuid="h69de81cag76d8g406fgb4dfgf1fbff99557d" version="4">Spear of Night</content>
-  <content contentuid="h64ce6ea9g20ceg4ab1g9be6gc8be88b69b83" version="4">There is an eager, annihilating darkness thrumming within this weapon - it begs to be used. </content>
+  <content contentuid="h69de81cag76d8g406fgb4dfgf1fbff99557d" version="5">Spear of Night</content>
+  <content contentuid="h64ce6ea9g20ceg4ab1g9be6gc8be88b69b83" version="5">There is an eager, annihilating darkness thrumming within this weapon - it begs to be used. </content>
   <content contentuid="h02fe9d0fgd894g4e7fgb6e3ga80885a505dc" version="4">Selûne's Spear of Night</content>
   <content contentuid="h633e3006g0051g4141g92c5g67d8c74effb4" version="3">'One of the goddess Selûne's titles, Moonmaiden, has often been debated among the ecclesiastical. Common symbology certainly rejects the assumption of virginity. More to the point, 'maiden' itself carries some dusty connotations. How about Lunar Lady? Keeps the alliteration, too.' - Margaery Henderplum</content>
   <content contentuid="h0cebece6g09c9g42a9g9c76g06616f2e391c" version="4">Shar's Spear of Evening</content>
   <content contentuid="hbcd604begf27cg42bdgb074ge2ee0360c40b" version="3">When visiting mortals in dreams, Shar's hair would curl and twist about her head like strands of inky midnight. If it tickled her nose, the goddess was careful not to show it.</content>
-  <content contentuid="h7c27ef06g98d5g42aag8946g2f4c0684bfe2" version="2">The Watcher's Guide</content>
-  <content contentuid="h72218e29gd804g43f2gb089g939c7bfb0573" version="5">Time has dampened this spear's sheen, but the centre glows a faint blue. The magic it exudes feels old, terrible... and divine. The spear was given to its previous owner for his unerring loyalty - even after death.</content>
-  <content contentuid="h3744342bg3711g4be3g9139gc4d88f8d1615" version="3">The Sparky Points</content>
-  <content contentuid="hefe5c63ag9dcbg4193g8c3cgab47da358c66" version="3">When Yrre the Sparkstruck was asked why they'd created a trident twice their size, they simply replied, 'The question is why not?'</content>
+  <content contentuid="h7c27ef06g98d5g42aag8946g2f4c0684bfe2" version="3">The Watcher's Guide</content>
+  <content contentuid="h72218e29gd804g43f2gb089g939c7bfb0573" version="6">Time has dampened this spear's sheen, but the centre glows a faint blue. The magic it exudes feels old, terrible... and divine. The spear was given to its previous owner for his unerring loyalty - even after death.</content>
+  <content contentuid="h3744342bg3711g4be3g9139gc4d88f8d1615" version="4">The Sparky Points</content>
+  <content contentuid="hefe5c63ag9dcbg4193g8c3cgab47da358c66" version="4">When Yrre the Sparkstruck was asked why they'd created a trident twice their size, they simply replied, 'The question is why not?'</content>
   <content contentuid="h6575fa95gb207g4f1egb3aeg8936005dac0d" version="4">Trident of the Waves</content>
   <content contentuid="hecbc17d9g0e3ag4be1gab2fg839031a37960" version="3">Umberlee, the goddess of the sea, is deeply capricious, intelligent, and not nearly as wet around the edges as her domain might suggest. She often demands sacrificial tribute from sailors, such as their ships, their cargo, and, while she's at it, them. </content>
   <content contentuid="h9abafab1g7844g4ac7gaf1fgdf984991d934" version="12">Nyrulna</content>
@@ -1152,12 +1152,12 @@
   <content contentuid="had087e20g32d1g4f2dgaaeag423c7e88982d" version="2">Dwarven Thrower</content>
   <content contentuid="hbafb86d6g3349g4241gb303g428f445f31cd" version="2">The first Dwarven Thrower was created unintentionally. The moment was transcribed in the annals of dwarfdom thusly: 'Ach, it doesn't work. Another design down the bloody drain. Now to... Does er... Does anyone else hear a sort of humming whistle? Growing louder?'</content>
   <content contentuid="hf64042f4g8fbdg4c00g9f23g8cf73993bd83" version="3">Every contract a devil makes has some form of insurance - this one is cast in infernal iron and was forged in deep, ruinous hellfire. </content>
-  <content contentuid="h2847f44bg7fb5g405bgbbf7g4daecd083563" version="3">Air Myrmidon Flail</content>
-  <content contentuid="hf7dc19e7g4a07g4755g8e11g01fd98fcfba3" version="3">Fire Myrmidon's Burning Scimitar</content>
-  <content contentuid="h89a72b67gf945g4086gadc1g6194698683f8" version="4">Trident Water Myrmidon</content>
+  <content contentuid="h2847f44bg7fb5g405bgbbf7g4daecd083563" version="4">Air Myrmidon Flail</content>
+  <content contentuid="hf7dc19e7g4a07g4755g8e11g01fd98fcfba3" version="4">Fire Myrmidon's Burning Scimitar</content>
+  <content contentuid="h89a72b67gf945g4086gadc1g6194698683f8" version="5">Trident Water Myrmidon</content>
   <content contentuid="h4e489523g6f4eg4056gb3a2g929428669f92" version="4">Twisted Oak Crook</content>
-  <content contentuid="hfa7196c1g0edeg4b38g8a09g8fd298c723bb" version="4">Djinni Scimitar</content>
-  <content contentuid="he9a38245ge0e5g43b0g82b9g85d8e74ae870" version="3">Contrary to popular belief, your standard djinni doesn't grant wishes, unless that wish is to have your nose lopped off. </content>
+  <content contentuid="hfa7196c1g0edeg4b38g8a09g8fd298c723bb" version="5">Djinni Scimitar</content>
+  <content contentuid="he9a38245ge0e5g43b0g82b9g85d8e74ae870" version="4">Contrary to popular belief, your standard djinni doesn't grant wishes, unless that wish is to have your nose lopped off. </content>
   <content contentuid="h93f7962fg5a2bg734dg09c5ge65dbdfe7ef4" version="1">Toggle the Extending rune on/off, increasing the range of melee attacks to 60ft at a higher action cost.</content>
   <content contentuid="hff0818b5gb355g57cdg677fg14ce72789375" version="1">Deadly d6</content>
   <content contentuid="hf8338b9dg9596gc83eg1bcagf2b8b8a8fead" version="1">Deadly 2d8</content>
@@ -1405,4 +1405,181 @@
   <content contentuid="hb1a1600cgbd9fg4378g8389g6993c964b378" version="2">The Blood of Lathander</content>
   <content contentuid="h94fab11agbb50g446egf647gfe0d5475f554" version="1">One Inch Punch (Fist)</content>
   <content contentuid="h373be417gf294g2932gaff2gbc2f7c200957" version="1">One Inch Punch (Fist, 2 Actions)</content>
+  <content contentuid="hd2db27d8g2ab2g172bg29abg70a31d51f4b9" version="1">Halberd</content>
+  <content contentuid="heac73a86g3033g4ea4g1344g745b3aad8d86" version="1">A deep scratch runs down one side of the axe blade. It thrums with magic.</content>
+  <content contentuid="he9be9e4eg588bg6d9bgc8d0g842d41d9d730" version="3">Battleaxe</content>
+  <content contentuid="ha5a8ca1eg116cg730dg7e42gba7e508846bc" version="3">The intricate engravings on this axe's blade and handle make plain the skill of its smith.</content>
+  <content contentuid="hc7e4aee3gb9a1g62afgadf9g747d1854637a" version="2">Battleaxe</content>
+  <content contentuid="hc1b6b18ag72a8g09b6g5aa0g75ccdd5aa187" version="2">A pulse of magic shoots through your hands whenever you touch this axe.</content>
+  <content contentuid="h507b029dg5a9bgd347g3211gfedd5cfe4d96" version="2">Club</content>
+  <content contentuid="h1fa7a477ge0deg8637gf511g738f675f785e" version="2">A long, deep crack runs through the side of the wood, filled with crusted blood.</content>
+  <content contentuid="hebb6512bg57bag44f2g8c43g902dd9e189ab" version="3">Xyanyde</content>
+  <content contentuid="h1cdf1954g08fag462agaf53gf7856f8b5651" version="4">Cast deep in the Underdark by duergar slaves, the head of this mace is engraved with spiderwebs. It is ice-cold to the touch.</content>
+  <content contentuid="h18c23abagc8e5g7dd8g07f5g06e7256e8dba" version="2">Dagger</content>
+  <content contentuid="h3c5da545gd7a6gd4aag879bg627b339191cd" version="2">This dagger's handle is smooth and light, its jagged blade sharpened into a thin, cruel edge.</content>
+  <content contentuid="h472ff2bag2bacga94bga47eg4162b21abc99" version="2">Dagger</content>
+  <content contentuid="h4dc6441egceb3g7301g0177g03bc2ed30b16" version="2">A light, slender blade, magically honed to stay razor-sharp.</content>
+  <content contentuid="h16525209ge37ag90b7g0f07g092a7ca1589a" version="2">Flail</content>
+  <content contentuid="h667a71b6ga797g8cffgb3a4g9ddd31502c3f" version="2">A browning piece of brain sticks stubbornly to one of the spikes.</content>
+  <content contentuid="ha6848becg7832g0894g88e6gf26c26c11bdb" version="2">Flail</content>
+  <content contentuid="h7bbb1379gac68gb53ega222gb7aafd9a2345" version="2">The flail sits heavy in your hand - the weight of steel and magic.</content>
+  <content contentuid="h51a9b128g3d53g4118g950bg213555de3cbf" version="3">Torch of Revocation</content>
+  <content contentuid="h9a1b775cg94deg41d7ga4c8gd8f7406eafe3" version="4">This staple of any worthwhile exorcist burns with a pale flame that destroys the anchors of troublesome ghosts in need of banishment.</content>
+  <content contentuid="h778e99e4g87efg1a20g0aa3g42d4b55499dc" version="2">Glaive</content>
+  <content contentuid="hacef9cc7g847bgd262gb709g8e43441a2ae5" version="2">Fashioned by expert elven hands to be both deadly and beautiful.</content>
+  <content contentuid="hf7de4754g577cg4b25gba32g4793abcbd037" version="2">Glaive</content>
+  <content contentuid="h9277be08g99c8g7341g6661g03ae136a9aa9" version="2">Tiny specks of blood are fused into the blade, as if the glaive is feeding on them.</content>
+  <content contentuid="hd4e5bd44g0157gac46g4f6agc1ad4e270cbd" version="2">Greataxe</content>
+  <content contentuid="hd149780cg975ag40e7gc2cbg4ac4a43b2d31" version="2">A small prayer decorates the hilt of this axe. It resonates in your head when you touch it.</content>
+  <content contentuid="h23d1a024g5164ge4fcg674dg2dd80fa3f73c" version="2">Greataxe</content>
+  <content contentuid="h32cc1776g097ag620bgd2f0g895c5242af96" version="2">This heavy axe emits a barely audible hum when swung.</content>
+  <content contentuid="h277af0ecg08fdg51fdg6711g79492d98f206" version="2">Greatclub</content>
+  <content contentuid="h9e41680dg703fgd760geac7g8643c4643b3c" version="2">Without the wrapped leather grip, the weight of the slab of iron at the end of this greatclub would send it flying with a single swing.</content>
+  <content contentuid="hfa7a8351gd701ga3f5gbc64g2d7b51d3d436" version="2">Greatclub</content>
+  <content contentuid="h39a11589g76d4g2164gbec0gd1b96a3d8705" version="2">A blue glow radiates through the brass spirals at the end of this heavy club.</content>
+  <content contentuid="h9c4ae9aeg53f9gcdceg2aa4ge11eddd66d6a" version="2">Greatsword</content>
+  <content contentuid="h65c362d6gb9f1gc2dcg3728gabf5403b7945" version="2">The thick leather straps wrapped around the base of the blade creak under a solid grip.</content>
+  <content contentuid="hafe3c95ag2a9bg14fbg8c67g8729652e86d2" version="2">Greatsword</content>
+  <content contentuid="h79f391b1g6172g563fg0b05g080f80145d47" version="2">This greatsword's guard has been replaced with the spiked ball of a morningstar. </content>
+  <content contentuid="h7982bd8cgd7ebg81b4gca2dg91d02f4420b1" version="2">Halberd</content>
+  <content contentuid="habc9a778g90afg0ab7g5985ge90579a43c66" version="2">This halberd's spike is black with ash that cannot be washed away.</content>
+  <content contentuid="h056e8379g622cg3edfgf268g04a28a4716ca" version="2">Halberd</content>
+  <content contentuid="hc4483045g156fg5355g98bfga455327902d7" version="2">A deep scratch runs down one side of the axe blade. It thrums with magic.</content>
+  <content contentuid="h169e09bag3416g7ebbg4787g5c713f75c691" version="2">Handaxe</content>
+  <content contentuid="h882e192fgb768g3bbag0acag5f9af47a1ffa" version="2">This axe's hooked blade is crafted to cleave flesh and bone.</content>
+  <content contentuid="hae12d3dbg0be3g82ccg8a85ga77ee5126457" version="2">Hand Crossbow</content>
+  <content contentuid="h64ea0f9cgc8b9g8467g520fg6271da86578b" version="2">A subtle magic runs through both strings of this crossbow, keeping the bows even once the lock is released.</content>
+  <content contentuid="hf3dfa94eg4d6dgff6bg06c5g3113c2499169" version="2">Hand Crossbow</content>
+  <content contentuid="he06eb05cg174bgfb3ag9da1g77f38a707a5b" version="2">Though the crossbow is small and light, a heavy power runs through its bowstring.</content>
+  <content contentuid="h0896e854gad39g693cg8aafgd0a9cf987e6e" version="2">Heavy Crossbow</content>
+  <content contentuid="h9cf7588egf756g0989gd691g5f499ca1af83" version="2">Despite the heaviness of this crossbow, the latch pulls back with an effortless ease.</content>
+  <content contentuid="h3ae7739cg48f2g4979gd9c3gace984065d6f" version="2">Heavy Crossbow</content>
+  <content contentuid="h6b9ab8b8g7535g6bd2g85f7g2ac94b7af90d" version="2">The crossbow feels weightless in your hands, as if held up by indiscernible currents of air.</content>
+  <content contentuid="h8de2c30fg2b9eg38b5g22f5g498214ab5927" version="2">Javelin</content>
+  <content contentuid="hde54f3aeg31c8g2e5dgcaf9g6faffef71abb" version="2">The tell-tale glow of magical enchantment pulses along this javelin's hooked head.</content>
+  <content contentuid="h524a6cecgf626gd45bg3207g2fdca0bd582c" version="2">Light Crossbow</content>
+  <content contentuid="h0d25b769g6d95gdd88gf1dcg2fe5b8311487" version="2">Though this crossbow's stock is hollowed out, its heavy trigger mechanism keeps it well-balanced.</content>
+  <content contentuid="hd9051dc9g020eg4427ga7cdgff5b12ce0c36" version="2">Light Crossbow</content>
+  <content contentuid="h7e9a7e3eg1a59g8794gab74g40a961b3605a" version="2">Persistent rumours speak of magical crossbows that never miss their mark. While clearly exaggerated, every tale holds a kernel of truth.</content>
+  <content contentuid="h6889fff5g1b96ged34g1fc2g5a107dffcefd" version="2">Light Hammer</content>
+  <content contentuid="h9a1d7837gf686g9458gb354g2e1d15920608" version="2">Magic thrums through you with each blow of this hammer.</content>
+  <content contentuid="h5da15664gc04dga679ge137g7ced3b2815b8" version="2">Longbow</content>
+  <content contentuid="hf382292bge962g51c5g5a99g58dc37701325" version="2">Carved enchantments span the length of this supple bow.</content>
+  <content contentuid="hb09b1f0eg88c3g3271g1acbgb96705a6bd41" version="2">Javelin</content>
+  <content contentuid="h2abee063g3b68gd4c1ga0d0g82a1749805e1" version="2">The worn leather strap at the end of this javelin loops around the wrist to let it be thrown with devastating force.</content>
+  <content contentuid="ha4d56d9cgd46fg4e18gd834g354496589ffe" version="2">Light Hammer</content>
+  <content contentuid="hb645aa36g2beeg47dag0343g72e6521218f7" version="2">A skilful smith decorated the wooden handle with a fine golden filigree.</content>
+  <content contentuid="h399e92ccgdb36g7bccg2b51g896d979c562c" version="2">Longbow</content>
+  <content contentuid="hcd330d31g29d1gdc21gc787g19b589c4a3d8" version="2">A soothing hum drifts through your head whenever you draw this bow.</content>
+  <content contentuid="h32c651fbg3300g90f7ge83ag0530aacde47f" version="1">Crane Stance</content>
+  <content contentuid="h05b3e387g8979g51dege34agd41d97d254d9" version="1">1 Action &lt;br&gt; Your arms flutter like a crane’s wings. You gain a +1 circumstance bonus to AC, but the only Strikes you can make are crane wing attacks. These deal 1d6 bludgeoning damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. While in Crane Stance, reduce the DC for High Jump and Long Jump by 5, and when you Leap, you can move an additional 5 feet horizontally or 2 feet vertically.</content>
+  <content contentuid="h7541be1eg2bdbg99a5g2414gfea31779bb6c" version="2">Longsword</content>
+  <content contentuid="ha2f660eage55fgaac6g2ba3g96d13fcc661f" version="2">A complex filigree wraps around the base of this blade - the runes on the side suggesting it is not merely decorative.</content>
+  <content contentuid="hb4193eeeg2e6dg6770g4b85g8b62a18d86f2" version="2">Longsword</content>
+  <content contentuid="hb5cf5060g1b9cgcdd2g7fafge638c8bfcbb4" version="2">This longsword never dulls, although an observer may notice it quietly drinks the blood of slain enemies.</content>
+  <content contentuid="h2d336b3fg41fdg62b5g084eg71463c642e59" version="2">Morningstar</content>
+  <content contentuid="h9b0c7ba4g16acg561aga5ecgf920fd3877e7" version="2">It's said that one warrior with a morningstar is worth seventeen with a sword - one for each of the weapon's spikes.</content>
+  <content contentuid="he156d346g86f7gd6c4g0f88g171b023545e9" version="2">Morningstar</content>
+  <content contentuid="he2138657g4aeag04edgd6f3gccadf9123b50" version="2">The intense heat of dwarven forges has given the metal its shiny blue hue.</content>
+  <content contentuid="ha501ba0dgb67agf825g715cg90b5d9a1443e" version="2">Quarterstaff</content>
+  <content contentuid="h33b26221g3caagd1d5ge6d8g3913077f2b99" version="2">A polished wooden staff, embellished with knobs and steel for both function and design.</content>
+  <content contentuid="hec9b7f4ag6d7dga83eg4911g8002da03be47" version="2">Rapier</content>
+  <content contentuid="h2285e058g6ba0gd763ge293g56897c9c84f9" version="2">A lightweight sword that turns the slightest flick of a wrist into a deadly attack.</content>
+  <content contentuid="h6ccaf2c8gc19fg4da2g2ed7ga596e2407321" version="2">Rapier</content>
+  <content contentuid="h222b1aa7g6601g00b3g09f0ga1cd5b7c5a0e" version="2">The thin edge of this sword seems to blur and become nigh imperceptible with even the slightest movement.</content>
+  <content contentuid="hc16f9247gcd16g2370gc891gfda6c96479f8" version="2">Shortbow</content>
+  <content contentuid="h8b1cd4d7g0537gbb54gac29gf1fdb108240d" version="2">This halfling bow requires a full draw for smaller folk, but serves as a quick off-hand for those of greater height.</content>
+  <content contentuid="h739131b9g94b5ga0b6g9707g83914a268737" version="2">War Pick</content>
+  <content contentuid="h0f3398afgb45eg2645g7425gd952572b0bc5" version="2">When swung, the arc of this weapon perfectly matches the curve of its beak-like pick.</content>
+  <content contentuid="h7650fea9g1eb5g23a8ga72bg7ab172642332" version="2">War Pick</content>
+  <content contentuid="hb56f278fg9da7g8a73ga899g3e706fc399b1" version="2">This weapon's slick steel point prevents it from catching in armour or bone.</content>
+  <content contentuid="h64c1f8a9g4e65g16ffgb2c7g8b396d80839b" version="2">Mace</content>
+  <content contentuid="h8db7107egcdd1g85f9g7887g49bdae0f484b" version="2">The leather handle of this mace smells badly of rotting blood.</content>
+  <content contentuid="h8b721e90g9cbag2498g5b8egb515007dbce6" version="2">Mace</content>
+  <content contentuid="h377573b0g557dg1186g9dafg3c2ff1738f2f" version="2">The shallow etchings along this mace's head seem to change shape, depending on the light.</content>
+  <content contentuid="h81428575g6627g40d4g420cgcbb538094e72" version="2">Maul</content>
+  <content contentuid="h1ce25416g2662ge5d2g63b1g7f513e38bc09" version="2">A weapon of dwarven make: elegant, but strong enough to last several human lifetimes.</content>
+  <content contentuid="h60e577fcg9625g7c99g2b00ged5d1e489098" version="2">Maul</content>
+  <content contentuid="h9ae63246gf9e5g7e50gd0a0gd244b5db6edf" version="2">This massive hammer is inscribed with a battle chant in Giant, bidding the wielder to split the world in two.</content>
+  <content contentuid="h44e8d20eg7e86gf543ge74egcf52aa1cc7c3" version="2">Pike</content>
+  <content contentuid="he1c4f24eg9952g7141g002egf43e5fe7dee7" version="2">The base of this polearm's shaft is splintered, likely having borne the weight of a rider plucked from their mount.</content>
+  <content contentuid="hf2e54e1ega9ceg3726g7c47gd27a0b43ba5a" version="2">Pike</content>
+  <content contentuid="hca441b0cg80fcg4250gd90bgae96d8879816" version="2">Tiny indentations in the groove along this pike's head emit a high-pitched whistle when thrust.</content>
+  <content contentuid="h010e7616ga030g3b18g8a0fg602f3fd074ed" version="2">Quarterstaff</content>
+  <content contentuid="h389bea2cg0bebg68adg37ecgff86841c089f" version="2">Steel bands wrap around a wooden core, giving this staff extra momentum.</content>
+  <content contentuid="hbaaee16eg6b61gbe04gd1abgbe32edd69445" version="2">Scimitar</content>
+  <content contentuid="h7828203dg17e8g8ac6g13a3g6877566bff78" version="2">The phases of the moon are carved into the hilt of this scimitar, betraying a druid's careful hand.</content>
+  <content contentuid="hca470daag74d5g0794g39e7g4208fa071175" version="2">Scimitar</content>
+  <content contentuid="h60e684fbg4c69gb704g5cf9g6ea7965cc4c4" version="2">An arched electric-blue afterimage follows this blade's every move.</content>
+  <content contentuid="h95f585f2gcad6gc1bcga35eg83f7006b4f2c" version="2">Shortbow</content>
+  <content contentuid="h21f9a762gc31dg621bg092ag2027f177b5ac" version="2">Pliable yew and a hearty bowstring ensure this shortbow fires straight and true.</content>
+  <content contentuid="h529b8291g3fa1g867dg4260gc6d4f6355eef" version="2">Shortsword</content>
+  <content contentuid="h62b56f91g1446g194agaf55g6093c3afe174" version="2">A standard, lightweight sword, suitable for both thrusting and slashing techniques.</content>
+  <content contentuid="h19fcaf14g8333g86b4gf1aagb76ba998febb" version="2">Shortsword</content>
+  <content contentuid="hdbce7c3agd9b5gc581gf54dg700ae4fcd1b8" version="2">Spear</content>
+  <content contentuid="h2cc86b86g1c7eg154bg0267gc21b56aebe1a" version="2">Forged by dwarven hands, and prized by all warriors who wish to keep their foe at a distance.</content>
+  <content contentuid="h78ca4895g3377g6659g1b12g3a2b9dda3103" version="2">Spear</content>
+  <content contentuid="h366842d1g45f2g49d3g2930ge028608b53dc" version="2">Even the ornamentation at the base of this spear's head is honed to a razor edge.</content>
+  <content contentuid="h12b957a9g90d8g4da5g878eg7134f1467a00" version="2">Trident</content>
+  <content contentuid="h05dc2341gb36agbe1cgf93cg1692210bcafa" version="2">The brutal design of this weapon's trio of prongs forces pierced flesh apart.</content>
+  <content contentuid="h1bae3685g5fe2g8b01g01e2g8affdb6b6a46" version="2">Trident</content>
+  <content contentuid="h9d268842g3a98g3ce1g9acbg11db19b2fc3c" version="2">An elegant, vicious weapon designed to eviscerate flesh and organs.</content>
+  <content contentuid="hcd684f95g3d5ag44f2gfddfge24a87ac8b74" version="2">Warhammer</content>
+  <content contentuid="hb39818adg19f5gc7c3gd028gdb2619dfb04a" version="2">Following tradition, this hammer's faces were forged with grooves that sealed in the blood of its first kill.</content>
+  <content contentuid="hdb110545gc7d7g4ae6g4d8bge7884037d334" version="2">Warhammer</content>
+  <content contentuid="h928375e2g0033gfc6agc4d0g942dbe0ea637" version="2">The segmented design of this gnome-forged hammer borrows elements of dragonborn weaponry.</content>
+  <content contentuid="he15d0698gdc2fg4918g8dc5g7cf44e8402f6" version="4">Dart</content>
+  <content contentuid="h7f94c9ccgd6e1g4e37g9c99g75fdd1384fbd" version="4">A dart made of lightweight wood, its feathers carefully cut at a sharp angle.</content>
+  <content contentuid="hfb502717g447cg4038g95bbg4ff7a448f733" version="3">Dart</content>
+  <content contentuid="hb53186cbga313g4b9bg890dg56e8c638a7ff" version="2">Pegasus feathers lend this dart remarkable speed, as well as a pleasant jasmine fragrance.</content>
+  <content contentuid="h99cedab1gf864g65bag49ceg1246166b187a" version="1">Dart</content>
+  <content contentuid="h8a3a77f7gd340g2394gbdd8geff86f401c99" version="1">A dart made of lightweight wood, its feathers carefully cut at a sharp angle.</content>
+  <content contentuid="hcb208dd4ga651g1abfgc0c2g9a5c9c38b857" version="1">Dart</content>
+  <content contentuid="heedb378fg62f0g64bcgf5fag9eff65f62dc8" version="1">Pegasus feathers lend this dart remarkable speed, as well as a pleasant jasmine fragrance.</content>
+  <content contentuid="h6f2240c4g4875g60e1ge1c1g4391d91cba7a" version="1">Sickle</content>
+  <content contentuid="h4b4c060eg3a6dg65d9g5aa9g27f944249199" version="1">A farming tool with a wicked edge, spilling blood and grain with equal ease.</content>
+  <content contentuid="h260a6825g813fg2323g969dgeaa49213c01f" version="1">Sickle</content>
+  <content contentuid="h691eaa86g3774gd12dg80deg821402300c72" version="1">A farming tool with a wicked edge, spilling blood and grain with equal ease.</content>
+  <content contentuid="hc4a8f6c9g40ddgd9eeg93bbg481e5f945ffe" version="1">Sickle</content>
+  <content contentuid="he95775d2ge5f3ga059g0198gc545eb0ea26e" version="1">A farming tool with a wicked edge, spilling blood and grain with equal ease.</content>
+  <content contentuid="hdc88b23agfb6ag7bcfgb61fg247eabc48f2d" version="1">Sickle</content>
+  <content contentuid="hbdbe527fg5878g0e3cg3141gdcd18c1107ee" version="1">A farming tool with a wicked edge, spilling blood and grain with equal ease.</content>
+  <content contentuid="hc95a92a1g3ff8g04b5gb0ffg17e85268c8d7" version="1">One-Inch Punch</content>
+  <content contentuid="h854718dcg0d73ga254g8ff5gf72bd6e54119" version="1">2 Actions or 3 Actions&lt;br&gt; You put all your force into a single mighty, carefully controlled blow. Make an unarmed Strike. If you spend two actions and this Strike hits, you deal an extra die of weapon damage. You can instead spend 3 actions to perform an even more powerful attack, dealing a second additional die of weapon damage on a hit. If you’re at least 10th level, the number of additional dice you add from this feat doubles, for a total of 2 additional dice if you spend 2 actions or 4 additional dice if you spend 3 actions. If you’re at least 18th level, the number of additional dice you add from this feat triples, for a total of 3 additional dice if you spend 2 actions or 6 additional dice if you spend 3 actions</content>
+  <content contentuid="h764a13ebg9c70g3f3bgd7f5gadb7e5b02c9c" version="2">You are taking [1] poison persistent damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h4a01e173g93b6g6e2bgaee2g5adc5efaac64" version="2">1 Action &lt;br&gt; You enter a tightly coiled stance, with your hands poised as venomous fangs. While in this stance, the only Strikes you can make are cobra fang unarmed attacks. These deal 1d4 piercing damage; are in the brawling group; and have the agile, deadly d10, finesse, unarmed, and venomous (page 119) traits. While in Cobra Stance, you gain a +1 circumstance bonus to Fortitude saves and your Fortitude DC, and you gain poison resistance equal to half your level.</content>
+  <content contentuid="h6927d81ageb25g4592gac42g41259f7f8e68" version="3">Speedy Reply</content>
+  <content contentuid="h7006c903g546ag44d3g926fg858ceebc6153" version="3">A heavy haft and wide blade belie the speed of this weapon. It parts the air as swiftly as any duelling sabre.</content>
+  <content contentuid="h246e8b9dg04a4g4701g872bg87ccc3542778" version="2">Sickle of BOOOAL</content>
+  <content contentuid="h9b7ac0b7g5e1fg4307ga7a8gc911787a28ad" version="2">Infused with the inconceivable might of the formidable BOOOAL!</content>
+  <content contentuid="h5082c30agb686g407cg96abg5474ce6891d8" version="3">Greatclub</content>
+  <content contentuid="h202b1835g560ag4d7cgb0e8gf619c1e9adfc" version="2">Heavy, spiked branches bound together with rope and sinew. It's hard to imagine a cruder weapon, but it is effective.</content>
+  <content contentuid="h7cd55263gacddg4cd2g9af6g3a88891dca4e" version="2">Gnarled Tree Branch</content>
+  <content contentuid="h3990f21dg3c18g4ecag8a0bgc2677117541e" version="2">A heavy branch ripped from the trunk of an oak tree.</content>
+  <content contentuid="hc812f371gfad3g464dga6acg1d1c9c5b40bb" version="3">Promise</content>
+  <content contentuid="h6f68a8d4g4af1g44e0gac95g555d15ab130f" version="3">A leafy pattern is carved into the dagger's blade. It glows faintly in the dark.</content>
+  <content contentuid="h544c3a35g538bg4ca0gbdabga9213a9ebdc4" version="2">Jagged Spear</content>
+  <content contentuid="h74f27475g758ag4473gb6dcg5b2df323f242" version="4">The point of this spear is blackened and melted - the uneven metal is designed to catch deep in the wounds it creates.</content>
+  <content contentuid="hb8ed6552g013fg49a6g8044g63144ff47df0" version="2">Vision of the Absolute</content>
+  <content contentuid="hcdf42a60g1636g476egb7e2g7d12ea538f3c" version="2">The tip of this spear strikes unerringly towards its target's eyes.</content>
+  <content contentuid="h7ffa3da3g139fg4bacgb964g131f98669fbb" version="3">Torch of Revocation</content>
+  <content contentuid="hbac87353g8f14g4e7bga9b6g87aca76ed438" version="2">If old myths of stolen fire were recounted with aestheticism and beauty in mind rather than technological advancement and envy, those mythical flames might still have been burning like these - how pure and perfect they churn!</content>
+  <content contentuid="hb8091b51gc424g4bafgb4e7g6d47bde34a0f" version="2">Club of Hill Giant Strength</content>
+  <content contentuid="ha8c1723fg6bb5g4affg9e93g43f18824d8e6" version="2">Though this rotting chair leg doesn't look like much, every splinter vibrates with barely-contained power.</content>
+  <content contentuid="h4e0a1d9fgbf76g483dg92bfga607954fbfc8" version="2">Watcher Greatsword</content>
+  <content contentuid="hf0808f2ag509eg4167gb7b7g61494f5c54c5" version="2">Watcher Greatsword</content>
+  <content contentuid="h63a25380g729ag4db0gad16g3a24490c73e0" version="2">Scrap Sword</content>
+  <content contentuid="hb812ebd7ga255g42f0g9394g37fac9f6ea9f" version="2">Crudely forged with mismatched components, nearly rusted through, and &lt;i&gt;plenty&lt;/i&gt; sharp.</content>
+  <content contentuid="h2e2d14acg72b1g472cga909g115c39360ae2" version="3">Ambusher</content>
+  <content contentuid="he9687495g3e0ag4f6fga393g7b17f1b4c213" version="2">This blade is one of a few rare swords wielded by the Eucalyptus League, a group of fabulously wealthy courtesans who owned a great deal of Luskan's bazaars.</content>
+  <content contentuid="h7aaaa240g6996g4159g9852gfbdcde235e98" version="2">Morningstar</content>
+  <content contentuid="hea0c24fdgbc72g4b5dga656g9b07d822a191" version="2">A tuft of hair is caked to the base of one this morningstar's jagged spikes.</content>
+  <content contentuid="hbccec4f1g3d36g4effga453gfa5ceff2f08d" version="3">Exterminator's Axe</content>
+  <content contentuid="h890c9c8cg5b87g4253gb748g647602fab950" version="2">The intricate engravings on this axe's blade and handle make plain the skill of its smith.</content>
+  <content contentuid="h6646db16g663dg4337g94eage6ebf57676e5" version="2">Scythe of Myrkul</content>
+  <content contentuid="h2f69ca46gfaacg4482ga87dg19d4e5d24610" version="2">Brewing Ladle</content>
+  <content contentuid="h94e7f078g4e72g49eaga2e3g8ab836dbdde4" version="2">A skilful smith decorated the wooden handle with a fine golden filigree.</content>
+  <content contentuid="hddb39ffdg875eg419cg976dg2be29090abb8" version="2">Chaos Flail</content>
+  <content contentuid="h6bc9c326g91bbg42f9g977fg46172ec0c94c" version="2">The weapon of a flind, imbued with the power of the demon lord Yeenoghu. Some say the flail itself is the catalyst for transforming gnolls into vicious flinds.</content>
+  <content contentuid="h53b4babeg421eg4018gaecfg8d0c5b780a3d" version="2">Watcher Crossbow</content>
 </contentList>

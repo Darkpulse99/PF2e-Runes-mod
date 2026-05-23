@@ -4,7 +4,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a688444a-3845-4a44-9ec5-6756b068b1b2" />
-        <field name="Name" type="NameTableFieldDefinition" value="Weapon_1_override" />
+        <field name="Name" type="NameTableFieldDefinition" value="Weapon_1_Override" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4cd41c74-9c86-4233-922e-4db5bc750df5" />
         <field name="ParentScale" type="FloatTableFieldDefinition" value="1" />
         <field name="Level1" type="IntegerTableFieldDefinition" value="51" />
@@ -16,7 +16,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f" />
-        <field name="Name" type="NameTableFieldDefinition" value="Weapon_2_override" />
+        <field name="Name" type="NameTableFieldDefinition" value="Weapon_1S" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
         <field name="ParentScale" type="FloatTableFieldDefinition" value="1" />
         <field name="Level1" type="IntegerTableFieldDefinition" value="116" />
@@ -28,13 +28,23 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f479703b-e905-49a3-889a-f285ac95e094" />
-        <field name="Name" type="NameTableFieldDefinition" value="Weapon_3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Weapon_2S" />
+        <field name="ParentScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Level1" type="IntegerTableFieldDefinition" value="1016" />
+        <field name="Level2" type="IntegerTableFieldDefinition" value="1040" />
+        <field name="Level3" type="IntegerTableFieldDefinition" value="1050" />
+        <field name="Level4" type="IntegerTableFieldDefinition" value="1065" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="da078020-17bb-4c37-a75b-c51de72ab51a" />
-        <field name="Name" type="NameTableFieldDefinition" value="Weapon_4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Weapon_2GS" />
+        <field name="ParentScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Level1" type="IntegerTableFieldDefinition" value="2016" />
+        <field name="Level2" type="IntegerTableFieldDefinition" value="2040" />
+        <field name="Level3" type="IntegerTableFieldDefinition" value="2050" />
+        <field name="Level4" type="IntegerTableFieldDefinition" value="2045" />
       </fields>
     </stat_object>
   </stat_objects>
