@@ -112,7 +112,7 @@ data "OnApplyConditions" "HasStatus('STRIKING',context.Source) or HasStatus('MAG
 data "StackId" "STRIKING_TECHNICAL"
 data "StackPriority" "0"
 data "StackType" "Overwrite"
-data "Boosts" "Tag(WPN_RUNE_STRIKING);WeaponProperty(Magical);IF(IsWeaponDamageDieD4(context.Source)):WeaponDamageDieOverride(2d4);IF(IsWeaponDamageDieD6(context.Source)):WeaponDamageDieOverride(2d6);IF(IsWeaponDamageDieD8(context.Source)):WeaponDamageDieOverride(2d8);IF(IsWeaponDamageDieD10(context.Source)):WeaponDamageDieOverride(2d10);IF(IsWeaponDamageDieD12(context.Source)):WeaponDamageDieOverride(2d12);"
+data "Boosts" "Tag(WPN_RUNE_STRIKING);WeaponProperty(Magical);IF(IsWeaponDamageDieD4(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d4);IF(IsWeaponDamageDieD6(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d6);IF(IsWeaponDamageDieD8(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d8);IF(IsWeaponDamageDieD10(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d10);IF(IsWeaponDamageDieD12(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d12);"
 data "RemoveConditions" "not (HasStatus('STRIKING') or HasStatus('MAGIC_WEAPON'))"
 data "RemoveEvents" "OnStatusRemoved"
 data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
