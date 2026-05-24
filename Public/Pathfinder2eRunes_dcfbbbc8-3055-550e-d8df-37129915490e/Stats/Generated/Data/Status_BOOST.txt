@@ -665,7 +665,7 @@ new entry "MAGIC_WEAPON"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAGIC_WEAPON"
-data "Boosts" "WeaponProperty(Magical);IF(Tagged('WPN_RUNE_1',context.Source) and not Tagged('WPN_RUNE_2',context.Source)):WeaponAttackRollBonus(1);"
+data "Boosts" "WeaponProperty(Magical);IF(not HasAnyTags({'WPN_RUNE_1','WPN_RUNE_2'},context.Source)):WeaponAttackRollBonus(1);"
 data "OnApplyFunctors" "IF(not HasStatus('STRIKING_TECHNICAL')):ApplyStatus(STRIKING_TECHNICAL,100,10);"
 
 new entry "MAGIC_WEAPON_4"

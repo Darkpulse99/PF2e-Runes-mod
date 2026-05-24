@@ -809,7 +809,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c9a809ab-96b6-4b60-a242-a1cb2d9a7be9" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGIC_WEAPON" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0dfaec7d-fb0e-4bd6-82cc-2d713e3169a2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IF(Tagged('WPN_RUNE_1',context.Source) and not Tagged('WPN_RUNE_2',context.Source)):WeaponAttackRollBonus(1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IF(not HasAnyTags({'WPN_RUNE_1','WPN_RUNE_2'},context.Source)):WeaponAttackRollBonus(1);" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('STRIKING_TECHNICAL')):ApplyStatus(STRIKING_TECHNICAL,100,10);" />
       </fields>
     </stat_object>
