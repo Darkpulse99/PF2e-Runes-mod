@@ -105,7 +105,7 @@
                         </node>
                         <node id="ModuleShortDesc">
                             <attribute id="Folder" type="LSString" value="Pathfinder2ndEdition_dda83752-5c01-30f9-6a09-824c7e182090"/>
-                            <attribute id="MD5" type="LSString" value="23cb4ff7cda4312cae9e70d7e4feb131"/>
+                            <attribute id="MD5" type="LSString" value="0832ed17f194f58c90dfee75d74fd3d7"/>
                             <attribute id="Name" type="LSString" value="Pathfinder 2nd Edition"/>
                             <attribute id="PublishHandle" type="uint64" value="4330140"/>
                             <attribute id="UUID" type="guid" value="dda83752-5c01-30f9-6a09-824c7e182090"/>
@@ -117,10 +117,10 @@
                     <attribute id="Author" type="LSString" value="Darkpulse99"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="This mod adds runes to enhance your weapon- and unarmed attacks, shields, and in the future, armor."/>
-                    <attribute id="FileSize" type="uint64" value="1473512"/>
+                    <attribute id="FileSize" type="uint64" value="1473777"/>
                     <attribute id="Folder" type="LSString" value="Pathfinder2eRunes_dcfbbbc8-3055-550e-d8df-37129915490e"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="fc83062ea7deb389245cc5140a5581d0"/>
+                    <attribute id="MD5" type="LSString" value="7ad92e74e88cea8a403b50488cb8e79f"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="Pathfinder 2e Runes"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -128,7 +128,7 @@
                     <attribute id="PublishHandle" type="uint64" value="5093075"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="dcfbbbc8-3055-550e-d8df-37129915490e"/>
-                    <attribute id="Version64" type="int64" value="36169540949770242"/>
+                    <attribute id="Version64" type="int64" value="36169540949770243"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718543409"/>

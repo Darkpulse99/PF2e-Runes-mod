@@ -2133,7 +2133,6 @@ type "Weapon"
 using "WPN_Morningstar_1"
 data "RootTemplate" "5ca50a09-548b-4134-a0c7-98f10e8d69e6"
 data "ItemGroup" "Bugbear_Morningstar"
-data "Rarity" "Uncommon"
 
 new entry "WPN_Pike_1_Uncommon"
 type "Weapon"

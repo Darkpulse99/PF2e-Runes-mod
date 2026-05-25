@@ -2913,7 +2913,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="9cbb2e5a-e6e0-4e8a-b741-d43162cf38a6" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5ca50a09-548b-4134-a0c7-98f10e8d69e6" />
         <field name="ItemGroup" type="StringTableFieldDefinition" value="Bugbear_Morningstar" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

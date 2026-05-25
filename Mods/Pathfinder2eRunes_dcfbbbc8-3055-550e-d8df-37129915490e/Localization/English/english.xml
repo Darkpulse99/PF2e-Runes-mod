@@ -868,10 +868,10 @@
   <content contentuid="h0149fa94g03dfg475cg8524g500195cbdb95" version="5">Though heavily decorated and inlaid with rubies, the blade's sharp edge suggests its use isn't merely ornamental.</content>
   <content contentuid="h10045ed4g1ad0g4cfaga0c3gb4b44d13b847" version="5">Githyanki Crossbow</content>
   <content contentuid="h5187dcf4gc8ceg481bg9412gacf2abd35f18" version="4">This heavy crossbow is fashioned from a curious, tensile metal that doesn't seem to be native to Faerûn.</content>
-  <content contentuid="hb447a316g3ecbg4990g8847gbee7b509ed1d" version="5">Githyanki Longsword</content>
-  <content contentuid="h3735cb5bg786fg40bfg90a5gf8127b0cb23e" version="4">Every tip and edge on this elaborate sword is sharpened to a deadly perfection.</content>
-  <content contentuid="ha31f73fdg090fg4490g91c8g9df3b2e46358" version="5">Githyanki Shortsword</content>
-  <content contentuid="h4d723eadg0130g4eb6gadfbgeb021e847bc3" version="4">Despite its engravings, this lightweight sword is perfectly balanced - a flawless killing implement.</content>
+  <content contentuid="hb447a316g3ecbg4990g8847gbee7b509ed1d" version="6">Githyanki Longsword</content>
+  <content contentuid="h3735cb5bg786fg40bfg90a5gf8127b0cb23e" version="5">Every tip and edge on this elaborate sword is sharpened to a deadly perfection.</content>
+  <content contentuid="ha31f73fdg090fg4490g91c8g9df3b2e46358" version="6">Githyanki Shortsword</content>
+  <content contentuid="h4d723eadg0130g4eb6gadfbgeb021e847bc3" version="5">Despite its engravings, this lightweight sword is perfectly balanced - a flawless killing implement.</content>
   <content contentuid="h33955a69g3081g4ad3gacf9g579d6f8749a8" version="7">Battleaxe</content>
   <content contentuid="h0ea9776fg8987g4397g92cbgaa09d11b670e" version="7">A pulse of magic shoots through your hands whenever you touch this axe.</content>
   <content contentuid="hb828fbfbg386bg4362g8d61ga5e18c2a7349" version="6">Flail</content>
@@ -1075,7 +1075,7 @@
   <content contentuid="h0acbe0b9g40a6g4842ga908g50a5f67c3413" version="3">Kereska, draconic goddess of arcane knowledge, imbues many chromatic dragons with their magic. This includes their exquisite and terrible breath, which has wrenched giants from their tall thrones, and destroyed civilisations of smallfolk. </content>
   <content contentuid="hfa55dd2cgde7eg4fd5g8d5ag898feae3d126" version="3">Vicious Battleaxe</content>
   <content contentuid="hbb3407eagf4adg4db0ga030g4a6c01045cf5" version="4">Kobold Looter</content>
-  <content contentuid="h7fa3812ege673g4f72gb6c6g829b1b50ca76" version="2">Ketheric Thorm</content>
+  <content contentuid="h7fa3812ege673g4f72gb6c6g829b1b50ca76" version="1">Ketheric Thorm</content>
   <content contentuid="h21db4846g46e6ga8d5g4e6cgc074ed432af3" version="5">Opulent Chest</content>
   <content contentuid="h4623bc1fgf5bdg46c3gb645gbace7f685b65" version="3">Infernal Rapier</content>
   <content contentuid="h2b3af78dg10d0g468bg8e0dge984d502df5a" version="3">Imagine the soul as a blade. A good one, carefully looked after. A bad one suited for rusting in the rain. Flame-chewed and narrow, this blade is Wyll's soul summarised in steel.</content>
@@ -1153,11 +1153,11 @@
   <content contentuid="hbafb86d6g3349g4241gb303g428f445f31cd" version="2">The first Dwarven Thrower was created unintentionally. The moment was transcribed in the annals of dwarfdom thusly: 'Ach, it doesn't work. Another design down the bloody drain. Now to... Does er... Does anyone else hear a sort of humming whistle? Growing louder?'</content>
   <content contentuid="hf64042f4g8fbdg4c00g9f23g8cf73993bd83" version="3">Every contract a devil makes has some form of insurance - this one is cast in infernal iron and was forged in deep, ruinous hellfire. </content>
   <content contentuid="h2847f44bg7fb5g405bgbbf7g4daecd083563" version="4">Air Myrmidon Flail</content>
-  <content contentuid="hf7dc19e7g4a07g4755g8e11g01fd98fcfba3" version="4">Fire Myrmidon's Burning Scimitar</content>
-  <content contentuid="h89a72b67gf945g4086gadc1g6194698683f8" version="5">Trident Water Myrmidon</content>
-  <content contentuid="h4e489523g6f4eg4056gb3a2g929428669f92" version="4">Twisted Oak Crook</content>
-  <content contentuid="hfa7196c1g0edeg4b38g8a09g8fd298c723bb" version="5">Djinni Scimitar</content>
-  <content contentuid="he9a38245ge0e5g43b0g82b9g85d8e74ae870" version="4">Contrary to popular belief, your standard djinni doesn't grant wishes, unless that wish is to have your nose lopped off. </content>
+  <content contentuid="hf7dc19e7g4a07g4755g8e11g01fd98fcfba3" version="5">Fire Myrmidon's Burning Scimitar</content>
+  <content contentuid="h89a72b67gf945g4086gadc1g6194698683f8" version="6">Trident Water Myrmidon</content>
+  <content contentuid="h4e489523g6f4eg4056gb3a2g929428669f92" version="5">Twisted Oak Crook</content>
+  <content contentuid="hfa7196c1g0edeg4b38g8a09g8fd298c723bb" version="6">Djinni Scimitar</content>
+  <content contentuid="he9a38245ge0e5g43b0g82b9g85d8e74ae870" version="5">Contrary to popular belief, your standard djinni doesn't grant wishes, unless that wish is to have your nose lopped off. </content>
   <content contentuid="h93f7962fg5a2bg734dg09c5ge65dbdfe7ef4" version="1">Toggle the Extending rune on/off, increasing the range of melee attacks to 60ft at a higher action cost.</content>
   <content contentuid="hff0818b5gb355g57cdg677fg14ce72789375" version="1">Deadly d6</content>
   <content contentuid="hf8338b9dg9596gc83eg1bcagf2b8b8a8fead" version="1">Deadly 2d8</content>
@@ -1572,8 +1572,8 @@
   <content contentuid="hb812ebd7ga255g42f0g9394g37fac9f6ea9f" version="2">Crudely forged with mismatched components, nearly rusted through, and &lt;i&gt;plenty&lt;/i&gt; sharp.</content>
   <content contentuid="h2e2d14acg72b1g472cga909g115c39360ae2" version="3">Ambusher</content>
   <content contentuid="he9687495g3e0ag4f6fga393g7b17f1b4c213" version="2">This blade is one of a few rare swords wielded by the Eucalyptus League, a group of fabulously wealthy courtesans who owned a great deal of Luskan's bazaars.</content>
-  <content contentuid="h7aaaa240g6996g4159g9852gfbdcde235e98" version="2">Morningstar</content>
-  <content contentuid="hea0c24fdgbc72g4b5dga656g9b07d822a191" version="2">A tuft of hair is caked to the base of one this morningstar's jagged spikes.</content>
+  <content contentuid="h7aaaa240g6996g4159g9852gfbdcde235e98" version="3">Morningstar</content>
+  <content contentuid="hea0c24fdgbc72g4b5dga656g9b07d822a191" version="3">A tuft of hair is caked to the base of one this morningstar's jagged spikes.</content>
   <content contentuid="hbccec4f1g3d36g4effga453gfa5ceff2f08d" version="3">Exterminator's Axe</content>
   <content contentuid="h890c9c8cg5b87g4253gb748g647602fab950" version="2">The intricate engravings on this axe's blade and handle make plain the skill of its smith.</content>
   <content contentuid="h6646db16g663dg4337g94eage6ebf57676e5" version="2">Scythe of Myrkul</content>
