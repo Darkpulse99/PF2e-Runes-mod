@@ -19,6 +19,51 @@ function RunesApplicableArmor()
 	return (~HasAnyTags({'NORUNES', 'NOPROPERTYRUNES'},armor) & ((HasAnyStatus({}, {'ARMOR_POTENCY','PROPERTY_RUNES_0'}, {},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY',0)) | (HasAnyStatus({'ARMOR_POTENCY_2'}, {}, {'PROPERTY_RUNES_2'},armor) & StatusDurationEqualOrLessThan(armor,'ARMOR_POTENCY_2',0))))
 end
 
+function IsWeaponDamageDieD4(weapon)
+	local weapon = weapon or GetAttackWeapon(context.Source)
+	local owner = GetOwner(weapon)
+	return HasAnyTags({
+		'WPN_DAGGER', 'WPN_SICKLE'
+	}, weapon) | (HasAnyTags({
+		'WPN_STAVE'
+	}, weapon) & (DualWielder(owner) | HasShieldEquipped(owner)))
+end
+
+function IsWeaponDamageDieD6(weapon)
+	local weapon = weapon or GetAttackWeapon(context.Source)
+	return HasAnyTags({
+		'WPN_CLUB', 'WPN_FLAIL', 'WPN_HANDAXE', 'WPN_HAND_CROSSBOW',
+		'WPN_JAVELIN', 'WPN_LIGHT_HAMMER', 'WPN_MACE', 'WPN_MORNINGSTAR',
+		'WPN_RAPIER', 'WPN_SCIMITAR', 'WPN_SHORTBOW', 'WPN_SHORTSWORD',
+		'WPN_SPEAR', 'WPN_WAR_PICK'
+	}, weapon)
+end
+
+function IsWeaponDamageDieD8(weapon)
+	local weapon = weapon or GetAttackWeapon(context.Source)
+	local owner = GetOwner(weapon)
+	return HasAnyTags({
+		'WPN_BATTLEAXE', 'WPN_GLAIVE', 'WPN_GREATCLUB', 'WPN_LIGHT_CROSSBOW',
+		'WPN_LONGBOW', 'WPN_LONGSWORD', 'WPN_TRIDENT', 'WPN_WARHAMMER'
+	}, weapon) | (HasAnyTags({
+		'WPN_STAVE'
+	}, weapon) & ~(DualWielder(owner) | HasShieldEquipped(owner)))
+end
+
+function IsWeaponDamageDieD10(weapon)
+	local weapon = weapon or GetAttackWeapon(context.Source)
+	return HasAnyTags({
+		'WPN_HALBERD', 'WPN_HEAVY_CROSSBOW', 'WPN_PIKE'
+	}, weapon)
+end
+
+function IsWeaponDamageDieD12(weapon)
+	local weapon = weapon or GetAttackWeapon(context.Source)
+	return HasAnyTags({
+		'WPN_GREATAXE', 'WPN_GREATSWORD', 'WPN_MAUL'
+	}, weapon)
+end
+
 function UnarmedDice(amount)
     local handwraps = GetItemInEquipmentSlot(EquipmentSlot.Gloves)
 

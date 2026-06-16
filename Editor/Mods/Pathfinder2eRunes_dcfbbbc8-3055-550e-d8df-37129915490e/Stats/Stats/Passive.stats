@@ -449,6 +449,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f11f890d-97d4-46a5-9419-8ecb62fc5074" />
+        <field name="Name" type="NameTableFieldDefinition" value="Stance_DeadlyD10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cbd7b82e-69ba-49ee-8cf3-2a78af511985" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not UnarmedDice(3)):ApplyStatus(DEADLYD10,100,0);IF(UnarmedDice(3)):ApplyStatus(DEADLYD10_GS,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="74bf4c69-8916-4b78-8f61-0c59aa239661" />
         <field name="Name" type="NameTableFieldDefinition" value="BlessedArmament" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd7cc93adgd49agc55bg42cbga10e9a1b987f" version="1" />
@@ -464,14 +472,6 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ea16f35g7f25gb1f9gd6b2g26eab5c77421" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6e3439dg7ce8g8b2dg9b0eg552d6bf33e4a" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ShieldMaster_Block" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f9f5190f-d758-4ccb-8591-a08911d75c11" />
-        <field name="Name" type="NameTableFieldDefinition" value="MAG_TheThorns_ExplosiveThrowing_Passive" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="61bd56f0-b126-4e87-84f9-276ae8086f1e" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74fe4b14gc3b3g8caag8a53g1a0d2703633e" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

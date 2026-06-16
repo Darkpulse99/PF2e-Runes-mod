@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <content contentuid="hbad8e6fdg5092g7349ga36dg42b59bc8f722" version="1">Rune base</content>
-  <content contentuid="h160f084fgfb36g0ec5g5c6eg8b48995a5cb8" version="2">Applies the stored rune onto your active main hand weapon or handwraps if unarmed.</content>
+  <content contentuid="h160f084fgfb36g0ec5g5c6eg8b48995a5cb8" version="3">Applies the stored rune onto your active main hand weapon or gloves if unarmed.</content>
   <content contentuid="h3c9b00a6g9749gb579gdb15g66f0eef6d9e4" version="2">Clear runes</content>
   <content contentuid="hbe6d5d3cg78e2gbc01g1438gf94f23e320fb" version="3">Removes all property runes from an item.</content>
   <content contentuid="h299ca52dgddf9g0f47g9221g103843446317" version="1">Weapon Potency +1</content>
@@ -339,8 +339,8 @@
   <content contentuid="h3a29444fg6d16ga276ge898g37832f2ce60d" version="1">A patina of puce alchemical matter coats this pouch - hopefully not the former owner reduced to dust by their experiments.</content>
   <content contentuid="hc8f14ef8gc2fbg63c8g1865g9822612cdcb4" version="1">Clear runes (Weapon)</content>
   <content contentuid="h0e791920g4a89ga14ag2ba8ga6adda31deab" version="3">Removes all property runes from your active main hand weapon.</content>
-  <content contentuid="hc75d0c4dgff18ge38cg2666ga178af4844eb" version="1">Clear runes (Handwraps)</content>
-  <content contentuid="hdd70d0ddgd7a6g6491ge248ge11589b3e71c" version="3">Removes all property runes from your Handwraps of Mighty Blows.</content>
+  <content contentuid="hc75d0c4dgff18ge38cg2666ga178af4844eb" version="2">Clear runes (Gloves)</content>
+  <content contentuid="hdd70d0ddgd7a6g6491ge248ge11589b3e71c" version="4">Removes all property runes from your gloves.</content>
   <content contentuid="hde85e984g3f4fgd20bge7b3g46936e954572" version="1">Clear runes (Armor)</content>
   <content contentuid="h48fc9961g4119g26f1gf983gfc4ea6645ce2" version="3">Removes all property runes from your armor.</content>
   <content contentuid="hf5fb942fgb969g1012gaea8ge9791da20d88" version="1">Handwraps</content>
@@ -870,8 +870,8 @@
   <content contentuid="h5187dcf4gc8ceg481bg9412gacf2abd35f18" version="4">This heavy crossbow is fashioned from a curious, tensile metal that doesn't seem to be native to Faerûn.</content>
   <content contentuid="hb447a316g3ecbg4990g8847gbee7b509ed1d" version="6">Githyanki Longsword</content>
   <content contentuid="h3735cb5bg786fg40bfg90a5gf8127b0cb23e" version="5">Every tip and edge on this elaborate sword is sharpened to a deadly perfection.</content>
-  <content contentuid="ha31f73fdg090fg4490g91c8g9df3b2e46358" version="6">Githyanki Shortsword</content>
-  <content contentuid="h4d723eadg0130g4eb6gadfbgeb021e847bc3" version="5">Despite its engravings, this lightweight sword is perfectly balanced - a flawless killing implement.</content>
+  <content contentuid="ha31f73fdg090fg4490g91c8g9df3b2e46358" version="7">Githyanki Shortsword</content>
+  <content contentuid="h4d723eadg0130g4eb6gadfbgeb021e847bc3" version="6">Despite its engravings, this lightweight sword is perfectly balanced - a flawless killing implement.</content>
   <content contentuid="h33955a69g3081g4ad3gacf9g579d6f8749a8" version="7">Battleaxe</content>
   <content contentuid="h0ea9776fg8987g4397g92cbgaa09d11b670e" version="7">A pulse of magic shoots through your hands whenever you touch this axe.</content>
   <content contentuid="hb828fbfbg386bg4362g8d61ga5e18c2a7349" version="6">Flail</content>
@@ -1259,8 +1259,8 @@
   <content contentuid="hc9f980d5g8016g44c2g9f7dg0b86187de5ee" version="4">This halberd's spike is black with ash.</content>
   <content contentuid="h7ac6b21dg1321g4df7gbca2g91fb242942d0" version="2">Club</content>
   <content contentuid="hf0e00f9bg15dag4576ga301g18c52e2d947d" version="3">Battleaxe</content>
-  <content contentuid="h13e81505g180bg48ccga6f9gad79750c62a6" version="2">Dagger</content>
-  <content contentuid="h974ef23ag5a5fg4a5ag84daga391e3ab1f6d" version="2">This dagger's handle is smooth and light, its jagged blade sharpened into a thin, cruel edge.</content>
+  <content contentuid="h13e81505g180bg48ccga6f9gad79750c62a6" version="3">Dagger</content>
+  <content contentuid="h974ef23ag5a5fg4a5ag84daga391e3ab1f6d" version="3">This dagger's handle is smooth and light, its jagged blade sharpened into a thin, cruel edge.</content>
   <content contentuid="hc7e6e2cbg26fbg465dg8a2ag9402190ff0b1" version="2">Dart</content>
   <content contentuid="h43852b2dgb57cg4fdbg82ceg4ee30026fea2" version="2">Glaive</content>
   <content contentuid="h2d3f9080g6a76g4388g8c8eg714db6a50391" version="2">Greataxe</content>
@@ -1582,4 +1582,272 @@
   <content contentuid="hddb39ffdg875eg419cg976dg2be29090abb8" version="2">Chaos Flail</content>
   <content contentuid="h6bc9c326g91bbg42f9g977fg46172ec0c94c" version="2">The weapon of a flind, imbued with the power of the demon lord Yeenoghu. Some say the flail itself is the catalyst for transforming gnolls into vicious flinds.</content>
   <content contentuid="h53b4babeg421eg4018gaecfg8d0c5b780a3d" version="2">Watcher Crossbow</content>
+  <content contentuid="h65dae3dag34fdgda68g48e6ga3644c1989f5" version="1">Serrating activate</content>
+  <content contentuid="hb248a61eg6e42g3ca2g9e67g0ee55b628732" version="1">You brandish the weapon and focus its power, causing the serrated shards to buzz as they spin at a dizzying speed. On your next hit with the weapon this turn that deals slashing damage, the serrating rune adds an additional 1d12 damage instead of the additional 1d4 damage, and then the shards return to their usual speed.</content>
+  <content contentuid="h791d3208gea80g3f83g26a6gb1a32e606ad0" version="1">Rune base</content>
+  <content contentuid="h580af6d5gabacg0ec5g0cecgd8acd505a0f3" version="1">Applies the stored rune onto your active main hand weapon or handwraps if unarmed.</content>
+  <content contentuid="h7975fd0bgd008gc564gb2d2g2d28cd144809" version="1">Applies the stored rune onto your armor.</content>
+  <content contentuid="he14dc7b7gbe7eg9c7cgd3b3gd43de3ddf5a5" version="1">Applies the stored rune onto your shield.</content>
+  <content contentuid="he7766cb2gbe5eg13e8ga34fgdbab42c89142" version="1">Clear runes</content>
+  <content contentuid="h325d01cbg55f6gba6egb0d7g6bbbfd0450ab" version="1">Removes all property runes from an item.</content>
+  <content contentuid="h2fa1592eg2d69ga374g366dgd1a9b400ef2d" version="1">Clear runes (Weapon)</content>
+  <content contentuid="ha67e4bcbg2d6egb23ag774bg387e285005af" version="1">Removes all property runes from your active main hand weapon.</content>
+  <content contentuid="h933e2945g90a7g33a9g8dafg0f412d5b7eb6" version="1">Clear runes (Handwraps)</content>
+  <content contentuid="hce8834b8g6595g64d3gec06g99575c19e70e" version="1">Removes all property runes from your Handwraps of Mighty Blows.</content>
+  <content contentuid="h439eb461g70dbgd8c6g0248g16564382a16b" version="1">Clear runes (Armor)</content>
+  <content contentuid="h6c7d0914g7e8fg0d0dgda14g71e6e478eda3" version="1">Removes all property runes from your armor.</content>
+  <content contentuid="h37ac0d68gd7d3gdff8g49bagd96246d7ecd1" version="1">Weapon Potency +1</content>
+  <content contentuid="h915949e3g6910g549egec9eg8395b6db14b0" version="1">Etched onto a weapon&lt;br&gt;Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.</content>
+  <content contentuid="h8b126c9eg415cg401eg54dfg2f0e216af552" version="1">Weapon Potency +2</content>
+  <content contentuid="h25731f8cg12dbgd46cg85cbg81c082ce4c7e" version="1">Etched onto a weapon&lt;br&gt;Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +2 item bonus, and the weapon can be etched with two property runes.</content>
+  <content contentuid="hd8fc97b0g15d8g4ed3g6f2cgb9668c83bb84" version="1">Striking</content>
+  <content contentuid="h18a5c698g8f55g75d8gfec5g1df180d0edc3" version="1">Etched onto a weapon&lt;br&gt;A striking rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a +1 striking dagger would deal 2d4 damage instead of 1d4 damage.</content>
+  <content contentuid="h96ef51e2g0e64g7b6dgf107g4bdd830531da" version="1">Striking (Greater)</content>
+  <content contentuid="h29d4c6ffg645bgea52g8a27g4193ec6a7e9f" version="1">Etched onto a weapon&lt;br&gt;A greater striking rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to three instead of one. For instance, a +2 greater striking dagger would deal 3d4 damage instead of 1d4 damage.</content>
+  <content contentuid="he813382bga7b9gde83g5daega7f7a9de6ca5" version="1">Armor Potency +1</content>
+  <content contentuid="h06f35c9cg54fbg503eg935ag9fc32e9c475b" version="1">Armor Potency +2</content>
+  <content contentuid="hb7b0c103gfd0dge85fgc6c1g3156d74adf39" version="1">Resilient</content>
+  <content contentuid="h933ee3e2gb741g05bag4ce3g52dd7d4be3a0" version="1">Reinforcing</content>
+  <content contentuid="h69846c26g819ag0e08g9cb1g317848c34ed3" version="1">Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.&lt;BR&gt;The shield’s hardness increases by 3 to a maximum of 8 (most shields have a hardness of 5).&lt;BR&gt;Can not be applied to sturdy shields.</content>
+  <content contentuid="h185dc359g35d3g8060g8853g075d165ee178" version="1">Applies the stored rune onto your shield.</content>
+  <content contentuid="hda55a167ga8a3g9f98g1170gbbb25595a882" version="1">Reinforcing (Lesser)</content>
+  <content contentuid="h7f0112aagf02agbf5egbbd2ga5f39fd352f4" version="1">Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.&lt;BR&gt;The shield’s Hardness increases to 10.</content>
+  <content contentuid="h26704492g49e6ge4ddg88e9gcd2d02a1a10b" version="1">Reinforcing (Moderate)</content>
+  <content contentuid="h1433e71dgc267g8334g40dcgc4d20c7036b2" version="1">Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.&lt;BR&gt;The shield’s Hardness increases to 13.</content>
+  <content contentuid="h1bd29f9cgad22g5409gfd20g791ed9709195" version="1">Crushing</content>
+  <content contentuid="haf1f0b53g55a2gce83g9f4eg1a3264acc7e3" version="1">Etched onto a bludgeoning weapon&lt;br&gt;Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes clumsy 1 and enfeebled 1 until the end of your next turn.</content>
+  <content contentuid="h777059f6gcd39ga67ag98d0g6b2ce35a6685" version="1">Crushing (Greater)</content>
+  <content contentuid="hd51686a9gca50g65fagd2cdga0ebca1e31e6" version="1">Etched onto a bludgeoning weapon&lt;br&gt;Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes clumsy 2 and enfeebled 2 until the end of your next turn.</content>
+  <content contentuid="ha654491ege054gd68cg714fg93be6a289352" version="1">Returning</content>
+  <content contentuid="hb5bba67cgdb1fg8594g7114g12c75555a9b8" version="1">Etched onto a thrown weapon&lt;br&gt;When you make a thrown Strike with this weapon, it flies back to your hand after the Strike is complete.</content>
+  <content contentuid="h9cb05c41g9524g1be1gd36dg04a9877f35a5" version="1">Applies the stored rune onto your active main hand weapon.</content>
+  <content contentuid="hc1c52fb5g22cegb79agcd80g6445fb49ff7a" version="1">Bane (Aberration)</content>
+  <content contentuid="h8fb54a52g373cgc417g9b9egf7979acd8bd8" version="1">Etched onto a weapon&lt;br&gt;A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="h7bd5a77dg1a8dg307cg9d3cg985a9969d020" version="1">Bane (Beast)</content>
+  <content contentuid="h25b92e03gcd0dg784dg092egdabbdb04459e" version="1">Etched onto a weapon&lt;br&gt;A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="hcbe0df77g047bg77abgd820gf9fddef1b3ed" version="1">Bane (Construct)</content>
+  <content contentuid="h3c1207dbg7c3ag2060gd27agcaf8340f1887" version="1">Etched onto a weapon&lt;br&gt;A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="h452be746geffdg40d1g30d4gb1f3a6e3a01b" version="1">Bane (Dragon)</content>
+  <content contentuid="he74c40d9g7186g6781g8d73g55ca6a4353a8" version="1">Etched onto a weapon&lt;br&gt;A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="h5c8bb4d2g4052gf54fg320eg767e7dfcc4a8" version="1">Bane (Elemental)</content>
+  <content contentuid="h5bab42d1g2a5bgb30ag1a84g488259d56218" version="1">Etched onto a weapon&lt;br&gt;A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="had4d6952gf2cagb2e9g288dg0251e8eece1c" version="1">Bane (Fiend)</content>
+  <content contentuid="ha452174fg23dbgc558g3f31g6793268c1dd6" version="1">Etched onto a weapon&lt;br&gt;A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="h75d55030ge172g665fgb2cdgef823aff59bf" version="1">Bane (Monstrosity)</content>
+  <content contentuid="h59f33b0eg001eg8df8g4478gdb1240c10d95" version="1">Etched onto a weapon&lt;br&gt;A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="h800b3d6dg7abag06aeg016ag55c30dcc8876" version="1">Fearsome</content>
+  <content contentuid="h0725d006g1f58g73d5g9b25ge212f2fcbc6e" version="1">Etched onto a weapon&lt;br&gt;When you critically hit with this weapon, the target becomes frightened 1.</content>
+  <content contentuid="hcda47f19ge98bga150g28abg20b7520871d8" version="1">Fearsome (Greater)</content>
+  <content contentuid="h6f1b1eb6g3db0gad03g7109g7296f9bea254" version="1">Etched onto a weapon&lt;br&gt;When you critically hit with this weapon, the target becomes frightened 2.</content>
+  <content contentuid="hbae5a300g108cg2943g94ebga255233cd1ee" version="1">Vitalizing</content>
+  <content contentuid="h5d666dffg331bg0d90ge258g3ef20b0137b4" version="1">Etched onto a weapon&lt;br&gt;A vitalizing weapon pulses with vital energy, dealing an extra 1d6 persistent vitality damage to undead. On a critical hit, the undead is also enfeebled 1 until the end of your next turn.</content>
+  <content contentuid="ha08ea416gdc3cg03f7g4ce6g6f6af6e56bda" version="1">Wounding</content>
+  <content contentuid="h68d78591gde10g9b9bged64g90ffed1ded99" version="1">Etched onto a piercing or slashing melee weapon&lt;br&gt;Weapons with wounding runes are said to thirst for blood. When you hit a creature with a wounding weapon, you deal an extra 1d6 persistent bleed damage.</content>
+  <content contentuid="hd983d3c8gf1acg1aa0g4873g18cc62f1f4a2" version="1">Corrosive</content>
+  <content contentuid="h1dfb67bdgd02egacbcg3f78g7c4d2d0ae868" version="1">Etched onto a weapon&lt;br&gt;Acid sizzles across the surface of the weapon etched with this rune. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target takes 1d4 persistent acid damage and its armor class is reduced by 1 for the duration.</content>
+  <content contentuid="hca01448ag697cg5e34g2546g3e08f5651dc9" version="1">Flaming</content>
+  <content contentuid="h01afbc11gdbb6g59bcg7e8dg653c42a0d44d" version="1">Etched onto a weapon&lt;br&gt;A weapon with this rune is empowered by flickering flame. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 1d10 persistent fire damage on a critical hit.</content>
+  <content contentuid="h925bdaa1geb55ged52g7b7eg16ce3d6d9375" version="1">Frost</content>
+  <content contentuid="h4203fcf1ga6e3gae79gdddagf7d857928372" version="1">Etched onto a weapon&lt;br&gt;This weapon is empowered with freezing ice. It deals an additional 1d6 cold damage on a successful Strike. On a critical hit, the target is also slowed 1 until the end of your next turn unless it succeeds at a DC 16 Fortitude save.</content>
+  <content contentuid="h4a4b61cage283g794agc3a3g8f70108acf6a" version="1">Shock</content>
+  <content contentuid="h756b9259ga6fbgf471g2886g76cac3ef625f" version="1">Etched onto a weapon&lt;br&gt;Electric arcs crisscross shock weapons, dealing an extra 1d6 electricity damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.</content>
+  <content contentuid="h97a0a8f1g61b1gafefg46abg234711e8ca18" version="1">Shock (Critical)</content>
+  <content contentuid="h9f48c499g4771ge9c3gaccagd182b8f3e59b" version="1">Deal 1d6 electricity damage to up to two other creatures of your choice within 10 feet of the target.</content>
+  <content contentuid="h95403f4cgd7fag5eecg447bga48ec23a5955" version="1">Thundering</content>
+  <content contentuid="h4cc7a8e0g1a13g0916gd11fgf03281d8a3af" version="1">Etched onto a weapon&lt;br&gt;A thundering weapon lets out a peal of thunder when it hits, dealing an extra 1d6 sonic damage on a successful Strike. On a critical hit, the target must succeed at a DC 16 Fortitude save or be deafened for 1 minute.</content>
+  <content contentuid="h560ce48fgfc20g319fge8ffg4faa3aeffa06" version="1">Extending</content>
+  <content contentuid="had591c4bg07f0g6782g262cg2af9c41d52da" version="1">Etched onto a melee weapon&lt;br&gt;An extending rune allows you to extend your weapon to impossible lengths.&lt;br&gt;You extend your weapon, giving you an impossible reach. You Strike with the weapon, and you have reach 60 feet for the Strike.&lt;br&gt;Adds a toggle to enable/disable Extending on all eligible attacks.</content>
+  <content contentuid="h2c4f0e3dg3446g6bc8gb845g3a3c464d96cf" version="1">Impactful</content>
+  <content contentuid="ha8ac7837gef8bg91b7g704dgc1dfe274c833" version="1">Etched onto a weapon&lt;br&gt;This rune thrums with pure magical energy. Weapons with the rune deal an additional 1d6 force damage on a successful Strike. On a critical hit, you can choose to force the target to succeed at a DC 17 Fortitude save or be pushed 5 feet away from you.</content>
+  <content contentuid="h81b911bbgcda3g4540g9f89g4db97a402943" version="1">Serrating</content>
+  <content contentuid="hb361a3d6gc974gca8dg32b7g6aa495ab2b90" version="1">Etched onto a slashing melee weapon&lt;br&gt;A serrating weapon’s bladed edge separates into jagged, swirling shards that spin along the blade. When dealing slashing damage, the weapon deals an additional 1d4 damage.&lt;br&gt;&lt;br&gt;Activate [one-action] Interact; Effect You brandish the weapon and focus its power, causing the serrated shards to buzz as they spin at a dizzying speed. On your next hit with the weapon this turn that deals slashing damage, the serrating rune adds an additional 1d12 damage instead of the additional 1d4 damage, and then the shards return to their usual speed.</content>
+  <content contentuid="h8a44d1dbgf682g669ag59e3gebb58099b134" version="1">Holy</content>
+  <content contentuid="hee9730b7g1e51g942aga118g13bee6c93238" version="1">Etched onto a weapon&lt;br&gt;A holy weapon commands powerful celestial energy. Strikes made with it deal an extra 1d4 spirit damage, or an extra 2d4 against a fiend or undead target.&lt;br&gt;&lt;br&gt;Activate—Holy Healing [reaction]; Frequency once per day; Trigger You critically succeed at a Strike against a fiend or undead creature with the weapon; Effect You regain HP equal to double the fiend or undead creature's level.</content>
+  <content contentuid="he56b8c8egf73dgd201g58c6ged4a8d18502f" version="1">Hopeful</content>
+  <content contentuid="h8efc2193gd2e8gae71g30acg75cb8978e828" version="1">Etched onto a weapon&lt;br&gt;A weapon with a hopeful rune exudes positivity. On a critical hit with this weapon, you inspire your comrades, pushing them to fight harder and stand for your shared convictions. Allies within 30 feet gain a +1 status bonus to attack rolls until the end of your next turn.</content>
+  <content contentuid="h07c98178gddb7g8c56g02c0g294c100c5701" version="1">Blessed Armament</content>
+  <content contentuid="hb37ad610g939fg233dgc827ge9e4e703de7e" version="1">Select one weapon or handwraps of mighty blows. You gain that armament's critical specialization effect, and you grant the armament a property rune of your choice from the following list: fearsome, returning, or vitalizing. During your daily preparations, you can change the spirit to inhabit a different armament, grant a different rune, or both.</content>
+  <content contentuid="h33448857g9a28g2bf1gaa4egea88e5372728" version="1">Impactful (Critical)</content>
+  <content contentuid="h6e1947a6g34a4g0640g6728g7c7d76f7a057" version="1">On a critical hit, you can choose to force the target to succeed at a DC 17 Fortitude save or be pushed 5 feet away from you.</content>
+  <content contentuid="h4a544f95ge47dg4d94g61beg7b3af7c324a5" version="1">Holy Healing</content>
+  <content contentuid="h15966612gd70fgb5e1g1493g815afe27dfbf" version="1">Frequency once per day; Trigger You critically succeed at a Strike against a fiend or undead creature with the weapon; Effect You regain HP equal to double the fiend or undead creature's level.</content>
+  <content contentuid="he435d3e1g8617gbf75gc707g505df0cd7e2c" version="1">Rune Rules</content>
+  <content contentuid="h948f8417gc704g0d83gbd3cgf84c1ef51d36" version="1">Rune Rules Test</content>
+  <content contentuid="hbe82afc2gdafagb1b1g06eegc192ae6489a6" version="1">Weapon Potency +1</content>
+  <content contentuid="h1aaf84c0g4e41gf92cg75e5g2966f543823f" version="1">Weapon Potency +2</content>
+  <content contentuid="h1dde2940g5e4bgd42ag10b1g9f382768bddb" version="1">Armor Potency +1</content>
+  <content contentuid="h6f8c2077g4564g4904g8c94g7bd55d66b870" version="1">Armor Potency +2</content>
+  <content contentuid="heb1acb00g4466g8ff9g9754gabc8188dfa53" version="1">Striking</content>
+  <content contentuid="h58257c4ag31c3gbac8g6d73gb888bf00c4c3" version="1">Striking (Greater)</content>
+  <content contentuid="h90f7a5c3gfa75gf17fgb489gaa03b8147af9" version="1">Crushing</content>
+  <content contentuid="hcd3c75dfg1eadgf244ga1c0g58085c172615" version="1">Crushing (Greater)</content>
+  <content contentuid="hc6afde3dgbf20g1a71g177fgddd31ee2fd73" version="1">Bane (Aberration)</content>
+  <content contentuid="h6a73ad45g4cc4gd4c1g0b92g990d578b9653" version="1">Bane (Beast)</content>
+  <content contentuid="hd43c2151g47a9gda43gaa97ga7ac7a3bf76f" version="1">Bane (Construct)</content>
+  <content contentuid="h6b92421eg0053g574fg0c83g442488974c24" version="1">Bane (Dragon)</content>
+  <content contentuid="h5fedc2a9g24e9ga85fg04ebg5e4a7f271aba" version="1">Bane (Elemental)</content>
+  <content contentuid="h879decb7g1f6fgd6deg229fgcd7459e9c493" version="1">Bane (Fiend)</content>
+  <content contentuid="hb78c5661gfb41g5303g52e8ga53408734b15" version="1">Bane (Monstrosity)</content>
+  <content contentuid="hdbf99a0eg72f2gec8ag2472ge87fc5810a69" version="1">Fearsome</content>
+  <content contentuid="h089b5239g8b41g3a93gdd19geb9df70f8243" version="1">Fearsome (Greater)</content>
+  <content contentuid="h0dca1f2fgc08fg8631g7500gc772525b7be3" version="1">Vitalizing</content>
+  <content contentuid="hd5ad6372g1549g1640g0210gde99d9b4a4fb" version="1">Wounding</content>
+  <content contentuid="h7815f452g7506g0afbgd0d9g4c88a9771818" version="1">Corrosive</content>
+  <content contentuid="hc1055e84ga61eg8eb4gcdf7g3a7616b801c1" version="1">Flaming</content>
+  <content contentuid="h1e2584f5g4beegaee0gc58cg586f9f25e3b5" version="1">Frost</content>
+  <content contentuid="h4d7865d7g545dgb94cg83b7g208affb27261" version="1">Shock</content>
+  <content contentuid="h24f6c912g4216gc1a2g6e37gd8e026064ea8" version="1">Thundering</content>
+  <content contentuid="hf00f082cga5acga15bg1b7agdbb2d78bc346" version="1">Extending</content>
+  <content contentuid="h03d2c72dgd035gbcadgb95agaf9771d42c83" version="1">Extending Toggle</content>
+  <content contentuid="h81244e8eg9895ge130g428fgbdd664013fbb" version="1">Toggle the Extending rune on/off, increasing the range of melee attacks to 60ft at a higher action cost.</content>
+  <content contentuid="h87d83164g161egb2c5g6c64g5aba835e979f" version="1">Impactful</content>
+  <content contentuid="h91f60549g546dg4c93gbbb5g4d76c625fbe8" version="1">Serrating</content>
+  <content contentuid="hddb36f75ge97cg892aga640g8fe8e89ff2e0" version="1">Holy</content>
+  <content contentuid="h49f4db5cgc76ag89c2g6ca5g00bbe2a1cb67" version="1">Hopeful</content>
+  <content contentuid="h66a8ec54gb44fg1e1dg38c3g0b64bb0b8c55" version="1">All runes unlocked</content>
+  <content contentuid="h8568a2b4g19b8g9716g229bgb943535c485d" version="1">Property runes: 0</content>
+  <content contentuid="ha990b6e5gfff2gbb54g8aa8g50e2e6cc5c94" version="1">This item has no property runes etched onto it.&lt;BR&gt;An item can hold as many property runes as its potency value.</content>
+  <content contentuid="h9692b703g4bf3gc3c2g0509gfb0d0c2b412e" version="1">Property runes: 1</content>
+  <content contentuid="h3bed4437g0e6bgf806g3b09g3bb5fb07df5a" version="1">This item has 1 property rune etched onto it.&lt;BR&gt;An item can hold as many property runes as its potency value.</content>
+  <content contentuid="h87d0683cgce74gb77eg2397g3daf42a51619" version="1">Property runes: 2</content>
+  <content contentuid="hfa9242cbgbcceg5520g795ag077c825a7d8e" version="1">This item has 2 property runes etched onto it.&lt;BR&gt;An item can hold as many property runes as its potency value.</content>
+  <content contentuid="h3f778b76ga000g4088g7ed7g2a1e3682697b" version="1">Clear property runes</content>
+  <content contentuid="ha63f15aag5c51g6533g29fcgc9c5cca8edb3" version="1">Strips all property runes from a weapon or set of armor.</content>
+  <content contentuid="h8373cd54gc17eg3701ge197g5d661d1da27f" version="1">Weapon Potency +1</content>
+  <content contentuid="hc6b50c9bgfbf8g193cg793bg40ab3cc6afd9" version="1">Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +1 item bonus, and the weapon can be etched with one property rune.</content>
+  <content contentuid="h42449bfdg51ebgca90g1f89g759bfb165cd1" version="1">Weapon Potency +2</content>
+  <content contentuid="hcffad1aag0aaag4221g091fga8bd8cf617dc" version="1">Magical enhancements make this weapon strike true. Attack rolls with this weapon gain a +2 item bonus, and the weapon can be etched with two property runes.</content>
+  <content contentuid="h805989a9g416bg251cg3b82g57af3d38e68b" version="1">Striking</content>
+  <content contentuid="h92f42143g6d3ageacag4f2bgb57043c38827" version="1">A striking rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to two instead of one. For instance, a +1 striking dagger would deal 2d4 damage instead of 1d4 damage.</content>
+  <content contentuid="h979ee42dg25b6g6c7egee25geba6896003a4" version="1">Striking (Greater)</content>
+  <content contentuid="he969f409g6cdeg6988g55a4ga174da5d27d8" version="1">A greater striking rune stores destructive magic in the weapon, increasing the weapon damage dice it deals to three instead of one. For instance, a +2 greater striking dagger would deal 3d4 damage instead of 1d4 damage.</content>
+  <content contentuid="hf7dac209g4773g7fceg80b0g2d31f0d6b90a" version="1">Striking Technical</content>
+  <content contentuid="h20c41dafg0a36gcf7bge2d1gc35a12d67b98" version="1">Striking (Greater) Technical</content>
+  <content contentuid="hacde8593gd3ecg46d5gbd96g16306adfba42" version="1">Armor Potency +1</content>
+  <content contentuid="hdf1e866dg45aag8077g0fdag49e9b7ed5165" version="1">Magic wards deflect attacks. Increase the armor's item bonus to AC by 1. The armor can be etched with one property rune.</content>
+  <content contentuid="h3d8ba1e7g26b7gfa4dga7e4ga10382fc34f7" version="1">Armor Potency +2</content>
+  <content contentuid="h61f74d03g31e2gd184g382cg564628837bb2" version="1">Magic wards deflect attacks. Increase the armor's item bonus to AC by 2. The armor can be etched with two property runes.</content>
+  <content contentuid="hd2462d78g961fg7cfcg6fb5g5d3183bc5f10" version="1">Resilient</content>
+  <content contentuid="h11842522gf567gdad6g7e90g237be0a95d12" version="1">Resilient runes imbue armor with additional protective magic. This grants the wearer a +1 item bonus to saving throws.</content>
+  <content contentuid="he23036e2geb56gd16bg61b1g88af0ff65af5" version="1">Reinforcing</content>
+  <content contentuid="h23778a81g252fg5230g0914ge0ffe5114b51" version="1">Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.&lt;BR&gt;The shield’s hardness increases by 3 to a maximum of 8 (most shields have a hardness of 5).&lt;BR&gt;Can not be applied to sturdy shields.</content>
+  <content contentuid="h9fe27943gf39egf53ag8424ga225588f00fb" version="1">Reinforcing (Lesser)</content>
+  <content contentuid="h0cb28bcdg4b04gee82g07b9g43a6f0bf536e" version="1">Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.&lt;BR&gt;The shield’s hardness increases by 3 to a maximum of 10 (most shields have a hardness of 5).</content>
+  <content contentuid="h3f7271c6gf243gb02dgcc6bg600cb17c1220" version="1">Reinforcing (Moderate)</content>
+  <content contentuid="h5a538054g1584gfaadgbca8ga6e149ab7cc6" version="1">Reinforcing runes make a shield significantly more durable, allowing it to effectively block more powerful attacks.&lt;BR&gt;The shield’s hardness increases by 3 to a maximum of 13 (most shields have a hardness of 5).</content>
+  <content contentuid="h15221d3cg227eg8414g19f3g4181f6e99594" version="1">Property rune base</content>
+  <content contentuid="ha093c4d4g6872g7524g513cg75cf389787fe" version="1">Crushing</content>
+  <content contentuid="h4ced1c95gdaa2gaa27g065dgae5ad579c360" version="1">Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes clumsy 1 and enfeebled 1 until the end of your next turn.</content>
+  <content contentuid="h9dbaa378gac9fg2cdegcbebg71775f217bbb" version="1">Crushing (Greater)</content>
+  <content contentuid="h1998b204gd7a3g8e9cg1b35g41926aee97a0" version="1">Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes clumsy 2 and enfeebled 2 until the end of your next turn.</content>
+  <content contentuid="h0287dbebge2e4g24abgedc6g7d804ca8e6d9" version="1">Returning</content>
+  <content contentuid="haf56e466g5bbbg6b35g9a34g1b6a55838be7" version="1">When you make a thrown Strike with this weapon, it flies back to your hand after the Strike is complete.</content>
+  <content contentuid="h8953dc0dg99d9g8405g8750g073beba88d63" version="1">Bane (Aberration)</content>
+  <content contentuid="h500885b9g1580g32cag80d0gaa64d05c7c5f" version="1">A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="hb572cc91g42e8gb501g4c1eg6a25d18eb41c" version="1">Bane (Beast)</content>
+  <content contentuid="hd2cbb8acg8a24g748cgb609g55c3c4311d14" version="1">A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="hdfddae94g2abdg91e0gf7dfg163ca22b79e1" version="1">Bane (Construct)</content>
+  <content contentuid="hf8de38a8g4911gac63gede3g8e6362da95d1" version="1">A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="h4b20450agf48dgf29ag7ed2g381d41a63570" version="1">Bane (Dragon)</content>
+  <content contentuid="hfd0c1af4g8d27g3e3bg4026gd25fbc467109" version="1">A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="h309b0c84g07eag5faegab0bga8c5341b633a" version="1">Bane (Elemental)</content>
+  <content contentuid="h3570e8fcg2007g480fg391eg795831efe0ee" version="1">A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="h569b136bgfeadgb9e0g70e1gaf829dc7070e" version="1">Bane (Fiend)</content>
+  <content contentuid="h306cb334gbb70gc9a0g3852g2e1b4a66a7bd" version="1">A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="hf775e87cg8226g447agc8bcgb68889614b90" version="1">Bane (Monstrosity)</content>
+  <content contentuid="h7c3e33b2g5c29ge268g05b0g8a55ae7316c5" version="1">A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures.&amp;lt;br&amp;gt;The weapon deals 1d6 additional damage of the weapon's damage type to [1] creatures.</content>
+  <content contentuid="hca8a0e93g748eg1cbeg74dag589ef8291304" version="1">Fearsome</content>
+  <content contentuid="h80ba4e01gd289gbcc4g9062g1a691aac966c" version="1">When you critically hit with this weapon, the target becomes frightened [1].</content>
+  <content contentuid="h4dcbf357g3cedgc0d0gcc02g8dd943634995" version="1">Fearsome (Greater)</content>
+  <content contentuid="hdaa296a0ged06g6afbgb908gcbd55ba11b6a" version="1">Vitalizing</content>
+  <content contentuid="hc74b53d3gec90gfa2cg082ege03df86114d2" version="1">A vitalizing weapon pulses with vital energy, dealing an extra 1d6 persistent vitality damage to undead. On a critical hit, the undead is also enfeebled 1 until the end of your next turn.</content>
+  <content contentuid="h89b57b6dgc969g7cc3g439eg4ee9a0a956a9" version="1">Persistent vitality</content>
+  <content contentuid="hb489d0edgac1bg947bgfb83gab0d3d31f31e" version="1">Takes 1d6 persistent vitality damage.</content>
+  <content contentuid="h2cfcf30fgbee8g39d2ga3c5g680cc7e53cb8" version="1">Persistent vitality (Critical)</content>
+  <content contentuid="hb4d642b4gffbcg4cd6g0eceg46344d562b77" version="1">Takes 1d6 x 2 persistent vitality damage.</content>
+  <content contentuid="h9abc8d94ge097gdf88g2ee9g465ded4eecc1" version="1">Wounding</content>
+  <content contentuid="hea4aa007g3827gedb9g3d29g1142e72fe086" version="1">Weapons with wounding runes are said to thirst for blood. When you hit a creature with a wounding weapon, you deal an extra 1d6 persistent bleed damage.</content>
+  <content contentuid="h183ae8b5g52b8gdc0cg7b16gea3c58e12041" version="1">Bleeding</content>
+  <content contentuid="hfe7dd613gbe54g45a4g3adfg802506370679" version="1">Takes 1d6 persistent bleed damage.</content>
+  <content contentuid="hb2e8b472gc5a5gc1bcgab01g24f1eca42c12" version="1">Bleeding (Critical)</content>
+  <content contentuid="h4c703010g3283g3ff7g884dgcb02fd802ade" version="1">Takes 1d6 x 2 persistent bleed damage.</content>
+  <content contentuid="h63738c02g8365g41bag3ebdg67c6ae5dbc22" version="1">Corrosive</content>
+  <content contentuid="hc9edafc5g9712gf100g0308ge17823d7488b" version="1">Acid sizzles across the surface of the weapon etched with this rune. When you hit with the weapon, add 1d6 acid damage to the damage dealt. In addition, on a critical hit, the target takes 1d4 persistent acid damage and its armor class is reduced by 1 for the duration.</content>
+  <content contentuid="h32ee1ff7g5282g8145g4582g3e8a805fd4b9" version="1">Persistent acid</content>
+  <content contentuid="h27c7a895g29d1g0bb0g11e5gafc6bff84f22" version="1">Takes 1d4 persistent acid damage and its armor class is reduced by 1 for the duration.</content>
+  <content contentuid="h8cc04ae8g1ef2g8ae8g0f4ageb5822b544c9" version="1">Flaming</content>
+  <content contentuid="hed49624bgeb98g177cg4f0bga9b25cd6f6ce" version="1">A weapon with this rune is empowered by flickering flame. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 1d10 persistent fire damage on a critical hit.</content>
+  <content contentuid="hf112418fg0906g1075g8fe2g7275899767e8" version="1">Persistent fire</content>
+  <content contentuid="h801940e1gde87g67b0g30d6gbfcd1d12f3a0" version="1">Takes 1d10 persistent fire damage.</content>
+  <content contentuid="hcacb4f04gded9g306ag09aeg5cdffeb541b1" version="1">Frost</content>
+  <content contentuid="h90b9562bg317agdc72g9d13g772e778ccf2f" version="1">This weapon is empowered with freezing ice. It deals an additional 1d6 cold damage on a successful Strike. On a critical hit, the target is also slowed 1 until the end of your next turn unless it succeeds at a DC 16 Fortitude save.</content>
+  <content contentuid="hdb4d8f33g6fd8g0ed1g32c9g01d96363167c" version="1">Frost (Critical)</content>
+  <content contentuid="h80f69c95g5178gdfabgd512g88bd554c1387" version="1">Succeed at a DC 16 Fortitude save or be slowed 1 until the end of your next turn.</content>
+  <content contentuid="hda37db1cg4d06gf75dg980dg421a5f5899bd" version="1">Shock</content>
+  <content contentuid="hfaa5a93eg614eg03d8gaf97g1446603130f1" version="1">Electric arcs crisscross shock weapons, dealing an extra 1d6 electricity damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target.</content>
+  <content contentuid="hb09bb895g9376gd581g0ee9g7fc9045be1e8" version="1">Shock Target</content>
+  <content contentuid="h0eea9b41gd17eg9fe4g8619gcb63b09bcd16" version="1">Original target</content>
+  <content contentuid="h67115c3bg43d3g4280gf0d5gbb22db8bb5e4" version="1">Shock Technical</content>
+  <content contentuid="hae1890f9gac4cg9f3dg9f6bga0ddac451c39" version="1">Shock (Critical)</content>
+  <content contentuid="h7270b5f8ga339g5f26g2403g1e73ebade326" version="1">Deal 1d6 electricity damage to up to two other creatures of your choice within 10 feet of the target.</content>
+  <content contentuid="heb8f629egd306gc2c6ge386g2e3e791abeec" version="1">Thundering</content>
+  <content contentuid="h6daab907gf9c5gf16fg765ege83cafb00fe4" version="1">A thundering weapon lets out a peal of thunder when it hits, dealing an extra 1d6 sonic damage on a successful Strike. On a critical hit, the target must succeed at a DC 16 Fortitude save or be deafened for 1 minute.</content>
+  <content contentuid="h58291568gee3eg31e7g4922g9b16cfd8bc12" version="1">Thundering (Critical)</content>
+  <content contentuid="h793c4505g17dag05d0g10fag4654175c883b" version="1">Succeed at a DC 16 Fortitude save or be deafened for 1 minute.</content>
+  <content contentuid="h7372b339g1c37gaa89ge3bcg546962bfc963" version="1">Extending</content>
+  <content contentuid="he9223f60gb530g5b57gecbdgdaf505c85670" version="1">An extending rune allows you to extend your weapon to impossible lengths.&lt;br&gt;You extend your weapon, giving you an impossible reach. You Strike with the weapon, and you have reach 60 feet for the Strike.&lt;br&gt;Adds a toggle to enable/disable Extending on all eligible attacks.</content>
+  <content contentuid="h136bda2dg4129g755age481gc15defb7961f" version="1">Extending Toggle</content>
+  <content contentuid="h292f4e5dge099g9d61g43f6gc9dfc5deb6ab" version="1">Extending Autotoggle Off</content>
+  <content contentuid="h19cb1ac5g3b8bg9ff9g000cg4e42be37f5c7" version="1">Impactful</content>
+  <content contentuid="h7336fb33g3d00g802eg32c6gd8cbf24870fc" version="1">This rune thrums with pure magical energy. Weapons with the rune deal an additional 1d6 force damage on a successful Strike. On a critical hit, you can choose to force the target to succeed at a DC 17 Fortitude save or be pushed 5 feet away from you.</content>
+  <content contentuid="h13d377bcgbac0gd202gaee9g67615e1d76a9" version="1">Impactful Push</content>
+  <content contentuid="hdbb3f2bdg54ecgc519gc57egbdd1a66e71d7" version="1">Serrating</content>
+  <content contentuid="h56e631e4g4950g3377gf1eag58672f5c6204" version="1">A serrating weapon’s bladed edge separates into jagged, swirling shards that spin along the blade. When dealing slashing damage, the weapon deals an additional 1d4 damage.&lt;br&gt;&lt;br&gt;Activate [one-action] Interact; Effect You brandish the weapon and focus its power, causing the serrated shards to buzz as they spin at a dizzying speed. On your next hit with the weapon this turn that deals slashing damage, the serrating rune adds an additional 1d12 damage instead of the additional 1d4 damage, and then the shards return to their usual speed.</content>
+  <content contentuid="hb9327546g1b8fg2efcg3eadg9ac8ca090040" version="1">Serrating Activated</content>
+  <content contentuid="h90b19fcfg0606g7a5bgaba2g8456dc456ea0" version="1">On your next hit with the weapon this turn that deals slashing damage, the serrating rune adds an additional 1d12 damage instead of the additional 1d4 damage, and then the shards return to their usual speed.</content>
+  <content contentuid="h14f0a5a6g3628gc83cge56bgee9936bfd257" version="1">Holy</content>
+  <content contentuid="h4ef3380fg94d3g33c2g8a6egdb171fcd9e22" version="1">A holy weapon commands powerful celestial energy. Strikes made with it deal an extra 1d4 spirit damage, or an extra 2d4 against a fiend or undead target.&lt;br&gt;&lt;br&gt;Activate—Holy Healing [reaction]; Frequency once per day; Trigger You critically succeed at a Strike against a fiend or undead creature with the weapon; Effect You regain HP equal to double the fiend or undead creature's level.</content>
+  <content contentuid="h90a12053g20b1g1607g2929g758f1f3ba2d3" version="1">Holy Healing</content>
+  <content contentuid="hbbfde030g84ffga741ga017gc3f24acddd43" version="1">You regain HP equal to double the fiend or undead creature's level.</content>
+  <content contentuid="h0ab96118gabe6g64e3g004bgec3e2afe985e" version="1">Hopeful</content>
+  <content contentuid="hfc8a28aagf373gb41eg1faeg25e3b103e4c8" version="1">A weapon with a hopeful rune exudes positivity. On a critical hit with this weapon, you inspire your comrades, pushing them to fight harder and stand for your shared convictions. Allies within 30 feet gain a +1 status bonus to attack rolls until the end of your next turn.</content>
+  <content contentuid="haf98d916g4663gd98eg6f47gc92a4865dac6" version="1">Hopeful Aura</content>
+  <content contentuid="h59fd671fg21ecgbe50g53e6g08fd04e2630e" version="1">Allies within 30 feet gain a +1 status bonus to attack rolls until the end of your next turn.</content>
+  <content contentuid="h83f5eaaaga233gcc69ge5bdgfb92a03f796c" version="1">Hopeful</content>
+  <content contentuid="h81fd1593g7d17gef7eg19d3gaff6ab98f7e2" version="1">You gain a +1 status bonus to attack rolls until the end of your next turn.</content>
+  <content contentuid="hb81488a4g6524g31c8g2f2fg15007e6755ea" version="1">Select one weapon or handwraps of mighty blows. You gain that armament's critical specialization effect, and you grant the armament a property rune of your choice from the following list: fearsome, returning, or vitalizing. During your daily preparations, you can change the spirit to inhabit a different armament, grant a different rune, or both.</content>
+  <content contentuid="h79c4c5e7gcae5gdba3gd4f2g5b509b236495" version="1">You cannot be forced to drop the trident. When thrown, the weapon creates an explosion that deals [1] in a [2] blast centred on the target. </content>
+  <content contentuid="h5883ed43g783bga4f2g5566g351936dcaadc" version="1">One Inch Punch (Fist)</content>
+  <content contentuid="h08efd137gb5deg62fcga753ga5490c19c375" version="1">One Inch Punch (Fist, 2 Actions)</content>
+  <content contentuid="h30949a84g5c3eg26a7g65f6g20f7ca11cb4d" version="1">One Inch Punch (Fist, 3 Actions)</content>
+  <content contentuid="he9cc04efg43a3g6da8g2474gb4a5de1b7c0d" version="1">One Inch Punch (Shadow Grasp)</content>
+  <content contentuid="hc800f7dag9d25g067eg83cag525d31999419" version="1">One Inch Punch (Shadow Grasp, 2 Actions)</content>
+  <content contentuid="hd225c1b5g56bbgf46dgef68g53ea8862f54e" version="1">One Inch Punch (Shadow Grasp, 3 Actions)</content>
+  <content contentuid="h91525af9g4602g74cdg09dfg61abdb89d35a" version="1">One Inch Punch (Cobra Fang)</content>
+  <content contentuid="h56c2c27dg2f85g9809g8980g30cd87bfe7ca" version="1">One Inch Punch (Cobra Fang, 2 Actions)</content>
+  <content contentuid="h6dcb36beg46c1ge3d8gb23eg9105432ee5de" version="1">One Inch Punch (Cobra Fang, 3 Actions)</content>
+  <content contentuid="hdf18afdagd460g50edg47ffg38bf012887cc" version="1">One Inch Punch (Crane Wing)</content>
+  <content contentuid="h8027f2dbg83d3gfe42g51fbg7fbf3bac35b4" version="1">One Inch Punch (Crane Wing, 2 Actions)</content>
+  <content contentuid="h8a443884g40e1gcc46gfedbg7ed743a40a61" version="1">One Inch Punch (Crane Wing, 3 Actions)</content>
+  <content contentuid="h065cbfe5g2f7bgffcag5b75g029940a6cb74" version="1">One Inch Punch (Dragon Tail)</content>
+  <content contentuid="h9fd9f00eg1d3dg4ab4g348dg79c991763007" version="1">One Inch Punch (Dragon Tail, 2 Actions)</content>
+  <content contentuid="h82382b1dga8d9gbcd0g0eebg6c39bde471d2" version="1">One Inch Punch (Dragon Tail, 3 Actions)</content>
+  <content contentuid="he24901f8g3ebdgfa33g7708g86e3925c9eae" version="1">One Inch Punch (Iron Sweep)</content>
+  <content contentuid="hfc805b98g9239g4d38gf0a5gf7016176f205" version="1">One Inch Punch (Iron Sweep, 2 Actions)</content>
+  <content contentuid="h9863a64bgfc7eg2907gc94fg13cd83457cf6" version="1">One Inch Punch (Iron Sweep, 3 Actions)</content>
+  <content contentuid="hf10147acga491g2563g4448g7009c5da71d2" version="1">One Inch Punch (Falling Stone)</content>
+  <content contentuid="h7a3d3bc3gd343gd236ge652g217e8ba50ee8" version="1">One Inch Punch (Falling Stone, 2 Actions)</content>
+  <content contentuid="h0fd41e8ag5a47g73d8g2f64g35c017c23b77" version="1">One Inch Punch (Falling Stone, 3 Actions)</content>
+  <content contentuid="h2ca8c8f1g7445ga4c0g0465ga0c75cd7a8a0" version="1">One Inch Punch (Lashing Branch)</content>
+  <content contentuid="h2cc75a72gbaabg3ec5g2472ge2fbd738326b" version="1">One Inch Punch (Lashing Branch, 2 Actions)</content>
+  <content contentuid="h8e8f8d5fga448g2f95gd784gec1b5c3b30df" version="1">One Inch Punch (Lashing Branch, 3 Actions)</content>
+  <content contentuid="h114d612dgb717gd832g2ebage81d7bb54ecd" version="1">One Inch Punch (Tiger Claw)</content>
+  <content contentuid="h47add024gd34dg1095ga697g8392a66412eb" version="1">One Inch Punch (Tiger Claw, 2 Actions)</content>
+  <content contentuid="hb6788e17g7a67g506fg4c9cg228c72367e23" version="1">One Inch Punch (Tiger Claw, 3 Actions)</content>
+  <content contentuid="he4ce64cfgaf27g783dg9bdegfd7e31c576e0" version="1">One Inch Punch (Wind Crash)</content>
+  <content contentuid="h0aedce32g37e5g41abg690cgf2fa23040380" version="1">One Inch Punch (Wind Crash, 2 Actions)</content>
+  <content contentuid="hc7921a80g2d04g68ffga2b9g4fa4ddda93e4" version="1">One Inch Punch (Wind Crash, 3 Actions)</content>
+  <content contentuid="h58290eabg9b6dg7bd6gbc84g8ee4af3d45a0" version="1">One Inch Punch (Wolf Jaw)</content>
+  <content contentuid="he83a8316ge9acgd844g5e56gf14f28423b6c" version="1">One Inch Punch (Wolf Jaw, 2 Actions)</content>
+  <content contentuid="h00ae981bgc37cgf891gcdc8gccee4048ffe1" version="1">One Inch Punch (Wolf Jaw, 3 Actions)</content>
 </contentList>

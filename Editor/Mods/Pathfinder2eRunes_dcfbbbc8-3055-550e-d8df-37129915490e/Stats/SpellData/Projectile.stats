@@ -6,7 +6,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a779a562-1bbc-40e4-b190-13d25fb69606" />
         <field name="Name" type="NameTableFieldDefinition" value="Rune_Shock_Critical" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RUNE_SHOCK_TECHNICAL,100,1);" />
-        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="4" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not HasStatus('RUNE_SHOCK_TARGET');" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="4af71ae2-8ee7-422e-adcb-bafbdcdbf489" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />

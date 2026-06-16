@@ -114,7 +114,7 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="6994e8dc-14ac-48a5-9c8e-c1925031e852" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(STRIKING_TECHNICAL,100,-1)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WPN_RUNE_STRIKING);WeaponProperty(Magical);IF(IsWeaponDamageDieD4(context.Source)):WeaponDamageDieOverride(2d4);IF(IsWeaponDamageDieD6(context.Source)):WeaponDamageDieOverride(2d6);IF(IsWeaponDamageDieD8(context.Source)):WeaponDamageDieOverride(2d8);IF(IsWeaponDamageDieD10(context.Source)):WeaponDamageDieOverride(2d10);IF(IsWeaponDamageDieD12(context.Source)):WeaponDamageDieOverride(2d12);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(WPN_RUNE_STRIKING);WeaponProperty(Magical);IF(IsWeaponDamageDieD4(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d4);IF(IsWeaponDamageDieD6(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d6);IF(IsWeaponDamageDieD8(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d8);IF(IsWeaponDamageDieD10(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d10);IF(IsWeaponDamageDieD12(context.Source) and not HasWeaponDamageDice3(context.Source)):WeaponDamageDieOverride(2d12);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

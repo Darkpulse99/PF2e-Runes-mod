@@ -312,6 +312,11 @@ using "CobraStance"
 data "ExtraDescription" ""
 data "StatsFunctors" "IF(not UnarmedDice(3)):ApplyStatus(PersistentPoisonDamage_1,100,-1);IF(UnarmedDice(3)):ApplyStatus(PersistentPoisonDamage_2,100,-1);"
 
+new entry "Stance_DeadlyD10"
+type "PassiveData"
+using "Stance_DeadlyD10"
+data "StatsFunctors" "IF(not UnarmedDice(3)):ApplyStatus(DEADLYD10,100,0);IF(UnarmedDice(3)):ApplyStatus(DEADLYD10_GS,100,0)"
+
 new entry "BlessedArmament"
 type "PassiveData"
 data "DisplayName" "hd7cc93adgd49agc55bg42cbga10e9a1b987f;1"
@@ -324,9 +329,4 @@ type "PassiveData"
 data "DisplayName" "h9ea16f35g7f25gb1f9gd6b2g26eab5c77421;1"
 data "Description" "he6e3439dg7ce8g8b2dg9b0eg552d6bf33e4a;2"
 data "Icon" "PassiveFeature_ShieldMaster_Block"
-
-new entry "MAG_TheThorns_ExplosiveThrowing_Passive"
-type "PassiveData"
-using "MAG_TheThorns_ExplosiveThrowing_Passive"
-data "Description" "h74fe4b14gc3b3g8caag8a53g1a0d2703633e;1"
 
