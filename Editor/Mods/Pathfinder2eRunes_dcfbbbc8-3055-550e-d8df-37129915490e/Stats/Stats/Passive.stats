@@ -68,7 +68,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Striking" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e48d56egb3d3gafd2gcf1ag14b2c6bc74f4" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnInventoryChanged" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WieldingWeapon('Versatile', false, false, context.Source) and not WieldingWeapon('Thrown', false, false, context.Source)):ApplyEquipmentStatus(MeleeMainHand,STRIKING_TECHNICAL,100,-1);IF(WieldingWeapon('Versatile', false, false, context.Source) and not WieldingWeapon('Thrown', false, false, context.Source)):ApplyEquipmentStatus(MeleeOffHand,STRIKING_TECHNICAL,100,-1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('STRIKING',GetActiveWeapon(context.Source)) and WieldingWeapon('Versatile', false, false, context.Source) and not WieldingWeapon('Thrown', false, false, context.Source)):ApplyEquipmentStatus(MeleeMainHand,STRIKING_TECHNICAL,100,-1);IF(HasStatus('STRIKING',GetActiveWeapon(context.Source)) and WieldingWeapon('Versatile', false, false, context.Source) and not WieldingWeapon('Thrown', false, false, context.Source)):ApplyEquipmentStatus(MeleeOffHand,STRIKING_TECHNICAL,100,-1)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
@@ -78,7 +78,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Striking_Greater" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ff204a5g17b0g1687g3112g529234bf87bd" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnInventoryChanged" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WieldingWeapon('Versatile', false, false, context.Source) and not WieldingWeapon('Thrown', false, false, context.Source)):ApplyEquipmentStatus(MeleeMainHand,STRIKING_GREATER_TECHNICAL,100,-1);IF(WieldingWeapon('Versatile', false, false, context.Source) and not WieldingWeapon('Thrown', false, false, context.Source)):ApplyEquipmentStatus(MeleeOffHand,STRIKING_GREATER_TECHNICAL,100,-1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('STRIKING_GREATER',GetActiveWeapon(context.Source)) and WieldingWeapon('Versatile', false, false, context.Source) and not WieldingWeapon('Thrown', false, false, context.Source)):ApplyEquipmentStatus(MeleeMainHand,STRIKING_GREATER_TECHNICAL,100,-1);IF(HasStatus('STRIKING_GREATER',GetActiveWeapon(context.Source)) and WieldingWeapon('Versatile', false, false, context.Source) and not WieldingWeapon('Thrown', false, false, context.Source)):ApplyEquipmentStatus(MeleeOffHand,STRIKING_GREATER_TECHNICAL,100,-1)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>

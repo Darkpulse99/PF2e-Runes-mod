@@ -5,33 +5,14 @@
         <node id="root">
             <children>
                 <node id="GoldValue">
-                    <attribute id="Level1" type="uint32" value="51"/>
-                    <attribute id="Level2" type="uint32" value="75"/>
-                    <attribute id="Level3" type="uint32" value="85"/>
-                    <attribute id="Level4" type="uint32" value="100"/>
-                    <attribute id="Name" type="FixedString" value="Weapon_1_Override"/>
-                    <attribute id="ParentScale" type="double" value="1"/>
-                    <attribute id="ParentUUID" type="guid" value="4cd41c74-9c86-4233-922e-4db5bc750df5"/>
-                    <attribute id="UUID" type="guid" value="a688444a-3845-4a44-9ec5-6756b068b1b2"/>
-                </node>
-                <node id="GoldValue">
                     <attribute id="Level1" type="uint32" value="116"/>
                     <attribute id="Level2" type="uint32" value="140"/>
                     <attribute id="Level3" type="uint32" value="150"/>
                     <attribute id="Level4" type="uint32" value="165"/>
                     <attribute id="Name" type="FixedString" value="Weapon_1S"/>
                     <attribute id="ParentScale" type="double" value="1"/>
-                    <attribute id="ParentUUID" type="guid" value="71191c11-966f-4c19-b4ee-eb36d31c4944"/>
+                    <attribute id="ParentUUID" type="guid" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6"/>
                     <attribute id="UUID" type="guid" value="593031f7-3c82-458b-8ad1-80c0ed5b5a7f"/>
-                </node>
-                <node id="GoldValue">
-                    <attribute id="Level1" type="uint32" value="1016"/>
-                    <attribute id="Level2" type="uint32" value="1040"/>
-                    <attribute id="Level3" type="uint32" value="1050"/>
-                    <attribute id="Level4" type="uint32" value="1065"/>
-                    <attribute id="Name" type="FixedString" value="Weapon_2S"/>
-                    <attribute id="ParentScale" type="double" value="1"/>
-                    <attribute id="UUID" type="guid" value="f479703b-e905-49a3-889a-f285ac95e094"/>
                 </node>
                 <node id="GoldValue">
                     <attribute id="Level1" type="uint32" value="2016"/>
@@ -40,7 +21,28 @@
                     <attribute id="Level4" type="uint32" value="2045"/>
                     <attribute id="Name" type="FixedString" value="Weapon_2GS"/>
                     <attribute id="ParentScale" type="double" value="1"/>
+                    <attribute id="ParentUUID" type="guid" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6"/>
                     <attribute id="UUID" type="guid" value="da078020-17bb-4c37-a75b-c51de72ab51a"/>
+                </node>
+                <node id="GoldValue">
+                    <attribute id="Level1" type="uint32" value="51"/>
+                    <attribute id="Level2" type="uint32" value="75"/>
+                    <attribute id="Level3" type="uint32" value="85"/>
+                    <attribute id="Level4" type="uint32" value="100"/>
+                    <attribute id="Name" type="FixedString" value="Weapon_1"/>
+                    <attribute id="ParentScale" type="double" value="1"/>
+                    <attribute id="ParentUUID" type="guid" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6"/>
+                    <attribute id="UUID" type="guid" value="4cd41c74-9c86-4233-922e-4db5bc750df5"/>
+                </node>
+                <node id="GoldValue">
+                    <attribute id="Level1" type="uint32" value="1016"/>
+                    <attribute id="Level2" type="uint32" value="1040"/>
+                    <attribute id="Level3" type="uint32" value="1050"/>
+                    <attribute id="Level4" type="uint32" value="1065"/>
+                    <attribute id="Name" type="FixedString" value="Weapon_2"/>
+                    <attribute id="ParentScale" type="double" value="1"/>
+                    <attribute id="ParentUUID" type="guid" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6"/>
+                    <attribute id="UUID" type="guid" value="71191c11-966f-4c19-b4ee-eb36d31c4944"/>
                 </node>
             </children>
         </node>
